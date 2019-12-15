@@ -1,11 +1,8 @@
 from bs4 import BeautifulSoup
-#from csharp.title_filtering.SVM import SVM
 import ast
-import os
 import re
-import pickle
 import json
-import sys
+#from csharp.title_filtering.SVM import SVM
 
 params = {
     "langXmlFile" : "Posts.python.xml",
@@ -19,106 +16,71 @@ params = {
 #os.system('grep "python" Posts.xml > ' + params['langXmlFile'])
 #os.system('grep "PostTypeId=\"2\"" Posts.xml > ' + params['xmlFile'])
 
-
-
-
 # #   Title filtering using SVM
 # s = SVM()
 # s.train("../csharp/title_filtering/balanced/pos_train.txt", "../csharp/title_filtering/balanced/neg_train.txt")
 # s.test("../csharp/title_filtering/balanced/pos_test.txt", "../csharp/title_filtering/balanced/neg_test.txt")
 
-
-def getParam(row, p):
-  try:
-    return row[p]
-    output = ""
-    try:
-      output = row[p]
-    except:
-      output = row[p]
-    return output
-  except KeyError:
-    return -1000000
-
 # Two pass algorithm
 acceptedAnswers = {}
 
-
-i = 0
 # First pass. Get the posts tagged with C#. Filter the input using a grep on c# so that this is faster
-f = open(params["langXmlFile"], 'r')
-for line in f:
-  i += 1
-  if i % 100000 == 0:
-    print(i)
-  y = BeautifulSoup(line, 'html.parser').row
-  if getParam(y, "acceptedanswerid") != -1000000 and "python" in getParam(y, "tags"):
-      acceptedAnswers[int(getParam(y, "acceptedanswerid"))] = {"id": int(getParam(y, "id")), "title": getParam(y, "title") }
-
-f.close()
-print('Done with fetching Code posts\n')
+with open(params["langXmlFile"], 'r') as f:
+  for line in f:
+    y = BeautifulSoup(line, 'html.parser').row
+    if y.get("acceptedanswerid") is not None and "python" in y["tags"]:
+        acceptedAnswers[int(y["acceptedanswerid"])] = {"id": int(y["id"]), "title": y["title"] }
 
 # Pass 2, find the corresponding accepted answer
-i = 0
-f = open(params["xmlFile"], 'r')
-print(params["xmlFile"])
-for line in f:
-  i += 1
-  if i % 100000 == 0:
-    print(i)
-  id1 = line.find("\"")              # Find the first attribute enclosed in "" It should be the Id
-  id2 = line.find("\"", id1 + 1)
-  qid = int(line[(id1 + 1):id2])
-  if qid in acceptedAnswers:
-    y = BeautifulSoup(line).row
-    acceptedAnswers[qid]["code"] = getParam(y, "body")     # Store the body
-
-
-f.close()
+with open(params["xmlFile"], 'r') as f:
+  for line in f:
+    # Find the first attribute enclosed in "" It should be the Id
+    id1 = line.find("\"")              
+    id2 = line.find("\"", id1 + 1)
+    qid = int(line[(id1 + 1):id2])
+    if qid in acceptedAnswers:
+      y = BeautifulSoup(line, 'html.parser').row
+      acceptedAnswers[qid]["code"] = y["body"]
 
 code_pairs = []
 for rid in acceptedAnswers:
-  if "pre" in acceptedAnswers[rid]["code"]:                                # Post contains an accepted answer
-    #titleFilter = s.filter(acceptedAnswers[rid]['title'])           # Title is good
+  # Post contains an accepted answer
+  if "pre" in acceptedAnswers[rid]["code"]:                                
+    # Title is good
+    #titleFilter = s.filter(acceptedAnswers[rid]['title'])           
     if True:#titleFilter == 0:
 
-      soup = BeautifulSoup(acceptedAnswers[rid]["code"])
+      soup = BeautifulSoup(acceptedAnswers[rid]["code"], 'html.parser')
       codeTag = soup.find_all('pre')
-      if len(codeTag) == 1:                                         # Contains exactly one piece of code
+      # Contains exactly one piece of code
+      if len(codeTag) == 1:                                         
         code = codeTag[0].get_text().strip()
 
+        # Code must be at most 1000 chars
+        if (len(code) > 6 and len(code) <= 1000):                   
 
-        if (len(code) > 6 and len(code) <= 1000):                   # Code must be at most 1000 chars
-
-          # Filter out these weird code snippets
+          # Filter out weird code snippets
           if code[0] == "<" or code[0] == "=" or code[0] == "@" or code[0] == "$" or \
             code[0:7].lower() == "select " or code[0:7].lower() == "update " or code[0:6].lower() == "alter " or \
             code[0:2].lower() == "c:" or code[0:4].lower() == "http" or code[0:4].lower() == "hkey" or \
-                  re.match(r"^[a-zA-Z0-9_]*$", code) is not None: # last one is single word answers
+                  re.match(r"^[a-zA-Z0-9_]*$", code) is not None:
             pass
           else:
-          
-            # Now also make sure it passes the lexer
+            # Now also make sure it parses
             try:
               code = code.replace('>>>','')
               ast.parse(code)
 
-              try:
-                code_pairs.append({
-                    "question_id": rid,
-                    "parent_answer_post_id": acceptedAnswers[rid]['id'],
-                    "intent": acceptedAnswers[rid]['title'],
-                    "snippet": code})
-              except:
-                print("error")
-            except Exception as e:
-              print(e)
+              code_pairs.append({
+                  "question_id": rid,
+                  "parent_answer_post_id": acceptedAnswers[rid]['id'],
+                  "intent": acceptedAnswers[rid]['title'],
+                  "snippet": code})
+            except:
               pass
 
-f = open(params["outputFile"], 'w')
-json.dump(code_pairs, f)
-
-f.close()
+with open(params["outputFile"], 'w') as f:
+  json.dump(code_pairs, f)
 
 # Create training and validation and test sets
 #os.system('shuf python_all.txt > python_shuffled.txt')
