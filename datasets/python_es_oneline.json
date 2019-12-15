@@ -1,0 +1,566 @@
+[
+  {
+    "question_id": 1473,
+    "parent_answer_post_id": 1470,
+    "intent": "¿Cómo puedo hacer para poner por defecto un valor en una tabla que referencia de otra tabla?",
+    "snippet": "Field('moneda', 'reference monedas', requires=IS_EMPTY_OR(IS_IN_DB(db, db.monedas, '%(nombre)s', zero='Elegir Opcion'))),"
+  },
+  {
+    "question_id": 3102,
+    "parent_answer_post_id": 3100,
+    "intent": "¿Cómo usar django_select2 con python 3?",
+    "snippet": "from django_select2.forms import Select2MultipleWidget, Select2Widget"
+  },
+  {
+    "question_id": 4071,
+    "parent_answer_post_id": 4065,
+    "intent": "SQLite al desplegar un proyecto hecho en Django",
+    "snippet": "filter(name__contains=\"aa\")"
+  },
+  {
+    "question_id": 4835,
+    "parent_answer_post_id": 4819,
+    "intent": "¿Cuál es el uso y significado de _nombre __nombre o __nombre__ en python?",
+    "snippet": "Tkinter.Toplevel(master, class_='ClassName')"
+  },
+  {
+    "question_id": 6722,
+    "parent_answer_post_id": 6073,
+    "intent": "Error en consulta sql Interbase/Firebird con python",
+    "snippet": "con = kinterbasdb.connect(dsn=rute,user='user', password='password', dialect=3,charset='DOS437')"
+  },
+  {
+    "question_id": 7631,
+    "parent_answer_post_id": 7630,
+    "intent": "Importar el módulo python-dateutil en web2py",
+    "snippet": "from dateutil.relativedelta import relativedelta"
+  },
+  {
+    "question_id": 8147,
+    "parent_answer_post_id": 8143,
+    "intent": "¿Cómo personalizar el mensaje de error al ingresar un dato repetido?",
+    "snippet": "db.registro.numero_documento.requires = IS_NOT_IN_DB(db, 'registro.numero_documento', error_message='Ya existe en la base de datos')"
+  },
+  {
+    "question_id": 8298,
+    "parent_answer_post_id": 8295,
+    "intent": "Abrir y cerrar un plot dentro de un while",
+    "snippet": "plt.show(block=False)"
+  },
+  {
+    "question_id": 9135,
+    "parent_answer_post_id": 9125,
+    "intent": "Formatear Fecha para Guardar Formulario",
+    "snippet": "self.fields['fecha_inicio'].input_formats = ['%d/%m/%Y']"
+  },
+  {
+    "question_id": 10369,
+    "parent_answer_post_id": 10366,
+    "intent": "¿Como capturar parametros enviado por el metodo GET?",
+    "snippet": "a = request.GET.get('user')"
+  },
+  {
+    "question_id": 15798,
+    "parent_answer_post_id": 15770,
+    "intent": "¿Se puede incluir código CSS en Jupyter?",
+    "snippet": "jupyter_core.paths.jupyter_config_dir()"
+  },
+  {
+    "question_id": 17290,
+    "parent_answer_post_id": 16881,
+    "intent": "Django optimización de Querys",
+    "snippet": "Personas.objects.filter(nombre__in = nombres)"
+  },
+  {
+    "question_id": 29407,
+    "parent_answer_post_id": 29405,
+    "intent": "Insertar salto de línea escribiendo en un txt (Python)",
+    "snippet": "archi.write(svnombreRP.get() +'\\n')"
+  },
+  {
+    "question_id": 33584,
+    "parent_answer_post_id": 33583,
+    "intent": "Lista de datos. Python",
+    "snippet": "year = list(range(1050, 2101))"
+  },
+  {
+    "question_id": 34863,
+    "parent_answer_post_id": 34858,
+    "intent": "¿Por qué en Python no se pueden declarar variables que empiezen con un número?",
+    "snippet": "x = y + 20  # qué tal si hay una variable llamada \"20\" ?"
+  },
+  {
+    "question_id": 36397,
+    "parent_answer_post_id": 36394,
+    "intent": "¿Cómo pausar un script de Python por unos segundos?",
+    "snippet": "time.sleep(30)"
+  },
+  {
+    "question_id": 42694,
+    "parent_answer_post_id": 42685,
+    "intent": "¿Qué significa el error \"Bad file descriptor\" en python3?",
+    "snippet": "serverd.bind((\"0.0.0.0\", 80))"
+  },
+  {
+    "question_id": 47931,
+    "parent_answer_post_id": 47855,
+    "intent": "cv2.calcHist provoca error “pythonw.exe ha dejado de funcionar”",
+    "snippet": "hist = np.bincount(th3.ravel(), minlength=256)"
+  },
+  {
+    "question_id": 60156,
+    "parent_answer_post_id": 60154,
+    "intent": "Quitar comillas de la salida de una lista",
+    "snippet": "i.replace('\"', '');"
+  },
+  {
+    "question_id": 67368,
+    "parent_answer_post_id": 67072,
+    "intent": "Problemas con consulta en django",
+    "snippet": "ing = ingresos.objects.filter(instalacion_id=id_jovenclub).values('jovenclub_id').annotate(sum=Sum('natural'))"
+  },
+  {
+    "question_id": 69007,
+    "parent_answer_post_id": 67828,
+    "intent": "Error al Guardar Formulario",
+    "snippet": "return HttpResponseRedirect(reverse('patient_details', pk=patient.pk))"
+  },
+  {
+    "question_id": 71013,
+    "parent_answer_post_id": 70978,
+    "intent": "Obtener registros de una hora específica todos los días Python",
+    "snippet": "df_resultado = df[(df.index.hour >= 11) & (df.index.hour <= 12)]"
+  },
+  {
+    "question_id": 84095,
+    "parent_answer_post_id": 84019,
+    "intent": "Considerar columnas vacías al cargar CSV con Python",
+    "snippet": "csv = np.genfromtxt('MMRExport.csv',delimiter=\",\", comments=None, dtype=str)"
+  },
+  {
+    "question_id": 86536,
+    "parent_answer_post_id": 86493,
+    "intent": "Error con Sorted Python 3",
+    "snippet": "[(1, 2), (3, None), (None, 4)]"
+  },
+  {
+    "question_id": 88451,
+    "parent_answer_post_id": 88444,
+    "intent": "Comparar 2 diccionarios en python para crear otro diccionario con claves coincidentes",
+    "snippet": "dic3 = {k:v for (k,v) in dic2.items() if k in dic1}"
+  },
+  {
+    "question_id": 91981,
+    "parent_answer_post_id": 91975,
+    "intent": "Generar números aleatorios con decimales Python",
+    "snippet": "np.random.rand(9)*2"
+  },
+  {
+    "question_id": 94194,
+    "parent_answer_post_id": 94182,
+    "intent": "Pandas escribe nombre de campos al exportar CSV Python",
+    "snippet": "df.to_csv('your_array.csv', header=False, index=False)"
+  },
+  {
+    "question_id": 103934,
+    "parent_answer_post_id": 102922,
+    "intent": "Error al graficar valores de fecha con matplotlib",
+    "snippet": "#!/usr/bin/env python"
+  },
+  {
+    "question_id": 103770,
+    "parent_answer_post_id": 103768,
+    "intent": "Eliminar un fichero con todo su contenido en Python",
+    "snippet": "shutil.rmtree(\"carpeta\")"
+  },
+  {
+    "question_id": 109272,
+    "parent_answer_post_id": 109269,
+    "intent": "Filtrar varias palabras de búsqueda en Tweepy en Python",
+    "snippet": "myStream.filter(languages=['es'], track=[\"Madrid Londres\"])"
+  },
+  {
+    "question_id": 110732,
+    "parent_answer_post_id": 110429,
+    "intent": "Bakcup Base de datos Django",
+    "snippet": "subprocess.Popen(\"mysqldump -u root -p12345 victimas > /home/proyecto/backup.sql\", shell=True)"
+  },
+  {
+    "question_id": 120978,
+    "parent_answer_post_id": 120963,
+    "intent": "Obtener informacion de un div sin id con BeautifulSoup Python",
+    "snippet": "codigo= soup.find(\"div\", {\"class\":\"controls\"}).div"
+  },
+  {
+    "question_id": 122218,
+    "parent_answer_post_id": 122216,
+    "intent": "Como meter una lista dentro de una cadena",
+    "snippet": "alumnos.append([\"Otro\", \"Nombre\"])"
+  },
+  {
+    "question_id": 123368,
+    "parent_answer_post_id": 123319,
+    "intent": "¿Por qué tengo un error al importar loader de Django 1.11 y python 2.7.13?",
+    "snippet": "from django.template import RequestContext"
+  },
+  {
+    "question_id": 131381,
+    "parent_answer_post_id": 131145,
+    "intent": "Duda sobre float y int",
+    "snippet": "f.write(('%g' % dato) + ... + '\\n')"
+  },
+  {
+    "question_id": 170283,
+    "parent_answer_post_id": 131566,
+    "intent": "Regresion Lineal y calculo del R2 para variable cualitativa vs cuantitatva",
+    "snippet": "pd.get_dummies(muestra.Clas_slp_1)"
+  },
+  {
+    "question_id": 131988,
+    "parent_answer_post_id": 131919,
+    "intent": "obtener la suma de un atributo django models",
+    "snippet": "pedidos = Pedido.objects.filter(fecha_pedido__range = [año + '-' + mes +'-'+ ini, anno + '-' + mes +'-' + fin]).aggregate(Sum('campo a sumar'))"
+  },
+  {
+    "question_id": 132756,
+    "parent_answer_post_id": 132661,
+    "intent": "orderBy múltiple usando pyspark python 3.x",
+    "snippet": "training=training.orderBy(['col1','col2','col3'], ascending=[1, 1, 0])"
+  },
+  {
+    "question_id": 132998,
+    "parent_answer_post_id": 132969,
+    "intent": "Como posicionar el texto de un label a la izquierda en tkinter",
+    "snippet": "display = tk.Label(ventana, bg=\"white\", textvariable=var, width=20, anchor=\"e\")"
+  },
+  {
+    "question_id": 133945,
+    "parent_answer_post_id": 133147,
+    "intent": "AttributeError: 'NoneType' object has no attribute 'group'",
+    "snippet": "lista_A_menor45 = [ x for x in ficheros if int(re.match('.*?([0-9]+).txt', x).group(1)) < 45 ]"
+  },
+  {
+    "question_id": 135079,
+    "parent_answer_post_id": 134767,
+    "intent": "Abrir archivo desde otra ubicacion mediante ruta relativa",
+    "snippet": "result = open(\"../ISV1/testing/log/testResult.log\")"
+  },
+  {
+    "question_id": 141740,
+    "parent_answer_post_id": 141738,
+    "intent": "Como referirse a un div que contenga este tag? [BeautifulSoup4]",
+    "snippet": "movie.find_all('div', attrs={'style': 'color:#000000; padding-left:55px; padding-bottom:1px; background-image:url(http://caribbeancinemas.com/VIP_bg.fw.png); background-repeat:no-repeat; \\n     background-position: right; min-height:127px;'})"
+  },
+  {
+    "question_id": 151323,
+    "parent_answer_post_id": 151319,
+    "intent": "Leer varias lineas con Stdin.readlines",
+    "snippet": "palabras = sys.stdin.read().split()"
+  },
+  {
+    "question_id": 154091,
+    "parent_answer_post_id": 154090,
+    "intent": "Obtener la key correspondiente al valor mínimo dentro de un diccionario",
+    "snippet": "min(d, key=d.get)"
+  },
+  {
+    "question_id": 237869,
+    "parent_answer_post_id": 161944,
+    "intent": "Insertar una terminal distinta de xterm en un Frame de una GUI construida en Tkinter",
+    "snippet": "os.system('xterm -into %d -hold -geometry 300x10 -sb &' % wid)"
+  },
+  {
+    "question_id": 163332,
+    "parent_answer_post_id": 163268,
+    "intent": "¿Cómo evito que el frame se ajuste al contenido, dejarlo de un tamaño fijo?",
+    "snippet": "frmBotones.grid_propagate(False)"
+  },
+  {
+    "question_id": 172245,
+    "parent_answer_post_id": 172224,
+    "intent": "¿Qué hace \"palabra.split(\" \")\" en Python?",
+    "snippet": "[\"la\", \"lluvia\",\"en\",\"Sevilla\" ]"
+  },
+  {
+    "question_id": 173807,
+    "parent_answer_post_id": 173629,
+    "intent": "problema con selector con espacio, selenium python",
+    "snippet": "driver.find_elements_by_xpath(\".//div[normalize-space(@class)='_xyz']\")"
+  },
+  {
+    "question_id": 175756,
+    "parent_answer_post_id": 175754,
+    "intent": "¿Cómo saco un request de un formulario con prefijo?",
+    "snippet": "email = request.POST.get(\"signin-email\")"
+  },
+  {
+    "question_id": 180296,
+    "parent_answer_post_id": 178945,
+    "intent": "Consultas con firebase y python",
+    "snippet": "firebase.put('/Usuarios/Administradores', 'User3', {'Nombre': 'Nery', 'Descripcion':'El mas mero macizo'})"
+  },
+  {
+    "question_id": 179243,
+    "parent_answer_post_id": 178990,
+    "intent": "¿Cómo puedo dar formato de números en Python, con separador de miles y de decimales?",
+    "snippet": "print(f'El area es: {area:,.2f}')"
+  },
+  {
+    "question_id": 179070,
+    "parent_answer_post_id": 179056,
+    "intent": "Problema en urls.py",
+    "snippet": "path('actualice/', CoinsPageView.actualice, name=\"actualice\")"
+  },
+  {
+    "question_id": 179133,
+    "parent_answer_post_id": 179086,
+    "intent": "Cambiar variable ID en firebase con la libreria Python Firebase",
+    "snippet": "result = firebase.put('/usuarios/administradores/javier', {'nombre': 'Javier'})"
+  },
+  {
+    "question_id": 182103,
+    "parent_answer_post_id": 182068,
+    "intent": "Eliminar una row seleccionada en un QTableWidget",
+    "snippet": "self.check.clicked.connect(lambda:self.tabla.removeRow(self.tabla.currentRow()))"
+  },
+  {
+    "question_id": 182102,
+    "parent_answer_post_id": 182090,
+    "intent": "Agregar acción a un QMenu",
+    "snippet": "self.menuRegistro.aboutToShow.connect(lambda : self.stacked.setCurrentIndex(2))"
+  },
+  {
+    "question_id": 183438,
+    "parent_answer_post_id": 183228,
+    "intent": "Cómo llamar a la funcion de un script desde otro script en python?",
+    "snippet": "from .model_get import get"
+  },
+  {
+    "question_id": 188652,
+    "parent_answer_post_id": 188641,
+    "intent": "Añadir márgenes a un widget en pyqt5",
+    "snippet": "self.mainLayout.setSpacing(100)"
+  },
+  {
+    "question_id": 189067,
+    "parent_answer_post_id": 189064,
+    "intent": "Formato incorrecto en salida de lista",
+    "snippet": "print([x[0] for x in cursorUsuario])"
+  },
+  {
+    "question_id": 189784,
+    "parent_answer_post_id": 189742,
+    "intent": "abrir winword.exe desde python con el modulo OS",
+    "snippet": "r = os.system(\"C:\\\\Program Files (x86)\\\\Microsoft Office\\\\root\\\\Office16\\\\WINWORD.EXE\")"
+  },
+  {
+    "question_id": 191057,
+    "parent_answer_post_id": 190907,
+    "intent": "¿Por que me aparece ERR_TOO_MANY_REDIRECTS?",
+    "snippet": "header('location: edicion.php')"
+  },
+  {
+    "question_id": 199419,
+    "parent_answer_post_id": 199360,
+    "intent": "Filtrar fecha mínima de un modelo en DJango",
+    "snippet": "[QuerySet].aggregate(lowest=Min('created'), highest=Max('created'))"
+  },
+  {
+    "question_id": 202856,
+    "parent_answer_post_id": 202847,
+    "intent": "Conseguir un string que se repita sin saltos de líneas ni espacios",
+    "snippet": "'Carlos' * 5"
+  },
+  {
+    "question_id": 204924,
+    "parent_answer_post_id": 204907,
+    "intent": "Filtrar una palabra exacta en un dataframe (Pandas)",
+    "snippet": "filtro = data[data['palabra'].str.match(palabra+ r'\\b', case=False )]"
+  },
+  {
+    "question_id": 207573,
+    "parent_answer_post_id": 207142,
+    "intent": "Ayuda con Query en django",
+    "snippet": "comision = comisiones_pagadas.objects.values('codigo_proceso','fecha_pago','doctor_id', 'doctor_name').order_by('-fecha_pago').distinct()"
+  },
+  {
+    "question_id": 207843,
+    "parent_answer_post_id": 207821,
+    "intent": "Separación de palabras espaciadas en máximo de 2 grupos",
+    "snippet": "a, *b = \"1 2 3\".split()"
+  },
+  {
+    "question_id": 208651,
+    "parent_answer_post_id": 208648,
+    "intent": "Cálculos erróneos de tangente y volumen de una esfera",
+    "snippet": "vol_esf = (4.0/3.0) * math.pi * 1.2**3"
+  },
+  {
+    "question_id": 213293,
+    "parent_answer_post_id": 212750,
+    "intent": "Intento reemplazar unos bytes de un fichero binario, pero no lo hace correctamente, en Python",
+    "snippet": "archivo_texto=open(\"archivo.txt\", \"r+b\") # En modo binario"
+  },
+  {
+    "question_id": 217825,
+    "parent_answer_post_id": 217819,
+    "intent": "Que es [::-1] en Python?",
+    "snippet": "iterable[inicio:fin:paso]"
+  },
+  {
+    "question_id": 220782,
+    "parent_answer_post_id": 220531,
+    "intent": "Error en deploy con NameError: name 'static' is not defined",
+    "snippet": "STATIC_ROOT = '/home/nombreUser/nombreProyecto/static'"
+  },
+  {
+    "question_id": 227731,
+    "parent_answer_post_id": 227653,
+    "intent": "Fallo al recoger string desde urlopen()",
+    "snippet": "request.urlopen(tu_direccion).read().decode('utf8')"
+  },
+  {
+    "question_id": 229486,
+    "parent_answer_post_id": 229320,
+    "intent": "Trabajar columna de tipo string con acentos en pandas",
+    "snippet": "data = pd.read_csv('datos.csv', encoding='utf-8')"
+  },
+  {
+    "question_id": 230678,
+    "parent_answer_post_id": 230622,
+    "intent": "¿Cómo puedo traer un campo de otra tabla relacionada a mi queryset de Django?",
+    "snippet": "query = PedidosProductos.objects.select_related()"
+  },
+  {
+    "question_id": 233036,
+    "parent_answer_post_id": 233021,
+    "intent": "Obtener color en una imagen y pintarlo",
+    "snippet": "matches = np.all(abs(img-L1)<3, axis=2)"
+  },
+  {
+    "question_id": 234504,
+    "parent_answer_post_id": 234153,
+    "intent": "Cambio de formato de fecha (12 horas) a formato de fecha de elasticsearch(24 horas) con Python",
+    "snippet": "new_time = result.strftime(\"%Y-%m-%dT%H:%M:%S.%f-0500\")"
+  },
+  {
+    "question_id": 234340,
+    "parent_answer_post_id": 234331,
+    "intent": "Conversión de decimal a entero en python",
+    "snippet": "print ( int( float(data.firstChild.data) ) )"
+  },
+  {
+    "question_id": 235679,
+    "parent_answer_post_id": 235077,
+    "intent": "extraer dato en especifico de xml?",
+    "snippet": "tree.findall('DATABASE[basedatos=\"control\"]/data')"
+  },
+  {
+    "question_id": 235242,
+    "parent_answer_post_id": 235173,
+    "intent": ".write() en una sola linea Python",
+    "snippet": "contenido = archivo.read().strip('\\n').split('|')"
+  },
+  {
+    "question_id": 235518,
+    "parent_answer_post_id": 235469,
+    "intent": "[Web Scrapping][python] ¿Cómo puedo extraer la URL de cada pagina junto con los otros datos extraídos?",
+    "snippet": "item[\"url\"] = response.url"
+  },
+  {
+    "question_id": 237525,
+    "parent_answer_post_id": 237511,
+    "intent": "Indice no válido numpy ndarray python",
+    "snippet": "py[i - int(stockpy[i][1])][7]"
+  },
+  {
+    "question_id": 240079,
+    "parent_answer_post_id": 240063,
+    "intent": "can't convert complex to float?",
+    "snippet": "PHI = np.zeros((MMM,MMM),dtype=np.complex_)"
+  },
+  {
+    "question_id": 240978,
+    "parent_answer_post_id": 240970,
+    "intent": "Como llamar a una variable desde template django?",
+    "snippet": "{{request.user.profile.lab.nombre}}"
+  },
+  {
+    "question_id": 241805,
+    "parent_answer_post_id": 241801,
+    "intent": "¿Cómo puedo hacer lo mismo que random.randint pero con números reales?",
+    "snippet": "random.random() * 20 - 10"
+  },
+  {
+    "question_id": 250771,
+    "parent_answer_post_id": 250653,
+    "intent": "DataFrame: Filtrar columna a partir de datos de referencia",
+    "snippet": "df.Ticker.srt.strip().isin(combinacion)"
+  },
+  {
+    "question_id": 250941,
+    "parent_answer_post_id": 250935,
+    "intent": "¿Cómo hacer que el día introducido se añada al UPDATE?",
+    "snippet": "cursor.execute (\"UPDATE dias_registrado SET %s=%s WHERE id='%s' \" % (campo_dia, dia, id))"
+  },
+  {
+    "question_id": 252489,
+    "parent_answer_post_id": 252481,
+    "intent": "Aumentar la resolución de una gráfica exportada en Spyder",
+    "snippet": "plt.savefig(\"nombre_imagen.png\")"
+  },
+  {
+    "question_id": 253097,
+    "parent_answer_post_id": 253084,
+    "intent": "SettingWithCopyWarning Python pandas",
+    "snippet": "df.loc[:, \"nueva columna\"] = 0"
+  },
+  {
+    "question_id": 255329,
+    "parent_answer_post_id": 255307,
+    "intent": "¿Error de sintaxis en definición de función?",
+    "snippet": "print (str(self.horas) + \":\" + str(self.minutos) + \":\" + str(self.segundos))"
+  },
+  {
+    "question_id": 260639,
+    "parent_answer_post_id": 260636,
+    "intent": "Separar info de un String (python)",
+    "snippet": "final = split[0].split('(')"
+  },
+  {
+    "question_id": 274434,
+    "parent_answer_post_id": 274432,
+    "intent": "Como resuelvo error de sintaxis en sentecia Mysql (python)",
+    "snippet": "sql = \"INSERT INTO direccion_1 (categoria, nombre, direccion) VALUES(%s, %s, %s)\""
+  },
+  {
+    "question_id": 277174,
+    "parent_answer_post_id": 277167,
+    "intent": "if corto en Python",
+    "snippet": "text = \"\".join(letter if (letter not in punct_signs) and (letter not in names) and (letter.isdigit()==False) else \" \" for letter in text)"
+  },
+  {
+    "question_id": 277434,
+    "parent_answer_post_id": 277428,
+    "intent": "Por que este if no funciona?",
+    "snippet": "choices = {a: 'Print A', b: 'Print B', c: 'Print C'}"
+  },
+  {
+    "question_id": 279485,
+    "parent_answer_post_id": 279474,
+    "intent": "Agregar espacio entre párrafos",
+    "snippet": "w = \"hola mundo \\n\"+\"\\n\""
+  },
+  {
+    "question_id": 284857,
+    "parent_answer_post_id": 284846,
+    "intent": "Error en encapsulamiento de clase",
+    "snippet": "print(\"El coche tiene\", miCoche._Coche__ruedas, \"ruedas\")"
+  },
+  {
+    "question_id": 285497,
+    "parent_answer_post_id": 285495,
+    "intent": "Problema al guardar un archivo en Python",
+    "snippet": "fecha = time.strftime(\"%d.%m.%y\")"
+  }
+]
