@@ -1,0 +1,1100 @@
+[
+  {
+    "question_id": 5057,
+    "parent_answer_post_id": 4773,
+    "intent": "Criação de menu usando Web2Py?",
+    "snippet": "reponse.menu = [(T('Home'), False, URL('default','index')), (T('About'),False,URL('default','what')), (T('Download'),False,URL('default','download'))]"
+  },
+  {
+    "question_id": 15742,
+    "parent_answer_post_id": 15728,
+    "intent": "Django - Erro ao salvar no Banco de dados",
+    "snippet": "return unicode((self.titulo, self.autor))"
+  },
+  {
+    "question_id": 16438,
+    "parent_answer_post_id": 16431,
+    "intent": "Erro em os.system() python",
+    "snippet": "subprocess.call(['Notepad.exe', 'C:\\\\temp\\\\test.txt'])"
+  },
+  {
+    "question_id": 23127,
+    "parent_answer_post_id": 23116,
+    "intent": "Manipulação de xml tratar strings como se fossem arquivos",
+    "snippet": "tree = ET.parse(StringIO(response))"
+  },
+  {
+    "question_id": 26368,
+    "parent_answer_post_id": 26367,
+    "intent": "Usar &quot;ping&quot; em um site com Python",
+    "snippet": "check_output(\"ping www.facebook.com\", shell=True)"
+  },
+  {
+    "question_id": 29604,
+    "parent_answer_post_id": 29321,
+    "intent": "Como Direcionar comandos para o terminal Linux com Python",
+    "snippet": "processo = subprocess.call([\"ls\", \"-la\"], shell=True)"
+  },
+  {
+    "question_id": 29847,
+    "parent_answer_post_id": 29846,
+    "intent": "Como chamar comando externo com Python?",
+    "snippet": "os.system(\"ls\")"
+  },
+  {
+    "question_id": 40013,
+    "parent_answer_post_id": 39907,
+    "intent": "Erro na leitura do JSON",
+    "snippet": "json_data = json.loads(fd.read())"
+  },
+  {
+    "question_id": 49945,
+    "parent_answer_post_id": 49082,
+    "intent": "Erro no modulo Python-docx no Windows",
+    "snippet": "f = open(arquivo,'rb')"
+  },
+  {
+    "question_id": 51612,
+    "parent_answer_post_id": 51574,
+    "intent": "TypeError: not all arguments converted during string formatting (Python 3.4)",
+    "snippet": "'O preço da ligação foi de %.2f reais.'"
+  },
+  {
+    "question_id": 56551,
+    "parent_answer_post_id": 56547,
+    "intent": "Trocar o primeiro caractere de uma string pelo último caractere em python",
+    "snippet": "return s[-1] + s[1:-1] + s[0] if len(s) > 1 else s"
+  },
+  {
+    "question_id": 61356,
+    "parent_answer_post_id": 61081,
+    "intent": "Error ao tentar instalar yowsup: Unable to find vcvarsall.bat",
+    "snippet": "vcvarsall.bat"
+  },
+  {
+    "question_id": 64239,
+    "parent_answer_post_id": 64231,
+    "intent": "Programar em Python",
+    "snippet": "print (\"Alô mundo!\")"
+  },
+  {
+    "question_id": 69853,
+    "parent_answer_post_id": 69847,
+    "intent": "Como se faz para exibir o &quot;Pressione ENTER para continuar&quot; em Python 3.4?",
+    "snippet": "input(\"Pressione ENTER para continuar\")"
+  },
+  {
+    "question_id": 87953,
+    "parent_answer_post_id": 72386,
+    "intent": "Encoding, conversão bytes - strings",
+    "snippet": "print(str(page, 'iso-8859-1'))"
+  },
+  {
+    "question_id": 72679,
+    "parent_answer_post_id": 72678,
+    "intent": "Como limpar o console no Python?",
+    "snippet": "os.system('cls' if os.name == 'nt' else 'clear')"
+  },
+  {
+    "question_id": 80548,
+    "parent_answer_post_id": 80545,
+    "intent": "Qual é a diferença entre 'string' e r'string' em Python?",
+    "snippet": "r'^articles\\2003'"
+  },
+  {
+    "question_id": 80630,
+    "parent_answer_post_id": 80598,
+    "intent": "Como abrir um conteúdo remoto com python?",
+    "snippet": "return urllib2.urlopen(url).read()"
+  },
+  {
+    "question_id": 80814,
+    "parent_answer_post_id": 80813,
+    "intent": "Como fazer atribuição de variáveis em massa no Python?",
+    "snippet": "(a, b, c) = 1, 2, 3"
+  },
+  {
+    "question_id": 83382,
+    "parent_answer_post_id": 83381,
+    "intent": "Dúvida com método str.replace() do Python",
+    "snippet": "print(texto.replace('caixa 1 ', 'pacote 2 '))"
+  },
+  {
+    "question_id": 83850,
+    "parent_answer_post_id": 83816,
+    "intent": "Como obter o conteúdo da célula selecionada no Grid QTableView em Python?",
+    "snippet": "connect(ui.tableWidget, SIGNAL(cellClicked(int,int)), this, SLOT(myCellClicked(int,int)));"
+  },
+  {
+    "question_id": 93137,
+    "parent_answer_post_id": 92386,
+    "intent": "Usando python e django, problema com querys",
+    "snippet": "Model.objects.filter(banca2__in=projetos)"
+  },
+  {
+    "question_id": 96127,
+    "parent_answer_post_id": 96126,
+    "intent": "Como criar um link simbólico para um código em Python no Linux?",
+    "snippet": "ln -s /home/usuario/codigo.py /usb/bin/script"
+  },
+  {
+    "question_id": 96650,
+    "parent_answer_post_id": 96611,
+    "intent": "Como ver os métodos ou atributos de um objeto em Python?",
+    "snippet": "dir(objeto)"
+  },
+  {
+    "question_id": 99188,
+    "parent_answer_post_id": 99184,
+    "intent": "O que significa %=?",
+    "snippet": "id = id % 1000"
+  },
+  {
+    "question_id": 99716,
+    "parent_answer_post_id": 99704,
+    "intent": "Produtório de uma função",
+    "snippet": "reduce(operator.mul, (2, 3, 4), 1)"
+  },
+  {
+    "question_id": 101161,
+    "parent_answer_post_id": 101159,
+    "intent": "Ordernar lista de listas",
+    "snippet": "listaOrdenada = sorted(lista, key = lambda x: x[1])"
+  },
+  {
+    "question_id": 101183,
+    "parent_answer_post_id": 101180,
+    "intent": "Ordenar listas de listas com dois critérios de ordenação",
+    "snippet": "listaOrdenada = sorted(lista, key = lambda x: (x[1], x[0]))"
+  },
+  {
+    "question_id": 102042,
+    "parent_answer_post_id": 101954,
+    "intent": "SyntaxError ao descompactar elementos de iteráveis",
+    "snippet": "print(\"A resposta é:\", 2*2)"
+  },
+  {
+    "question_id": 106511,
+    "parent_answer_post_id": 106465,
+    "intent": "NameError no get_special_folder_path",
+    "snippet": "startup = winshell.startup()"
+  },
+  {
+    "question_id": 109831,
+    "parent_answer_post_id": 109389,
+    "intent": "Erro ao interpretar caracteres especiais",
+    "snippet": "driver.find_element_by_partial_link_text('Conf').click()"
+  },
+  {
+    "question_id": 113292,
+    "parent_answer_post_id": 113283,
+    "intent": "list assignment index out of range",
+    "snippet": "Tsup.append(Tsup_i)"
+  },
+  {
+    "question_id": 124089,
+    "parent_answer_post_id": 124088,
+    "intent": "Remover pontuação e símbolos em Python",
+    "snippet": "string_nova = re.sub(u'[^a-zA-Z0-9áéíóúÁÉÍÓÚâêîôÂÊÎÔãõÃÕçÇ: ]', '', string_velha.decode('utf-8'))"
+  },
+  {
+    "question_id": 134528,
+    "parent_answer_post_id": 134521,
+    "intent": "problema ao inserir valor unicode em banco de dados",
+    "snippet": "db = MySQLdb.connect(\"localhost\", \"devel\", \"********\", \"Ditados\", charset='utf8')"
+  },
+  {
+    "question_id": 145986,
+    "parent_answer_post_id": 145985,
+    "intent": "Como ler duas variáveis inteiras na mesma linha?",
+    "snippet": "N, M = [int(x) for x in input().split(\" \")]"
+  },
+  {
+    "question_id": 153037,
+    "parent_answer_post_id": 153023,
+    "intent": "List Comprehension para esse caso",
+    "snippet": "novalista = [a] + [num for num in lista if num%2 == 0]"
+  },
+  {
+    "question_id": 154887,
+    "parent_answer_post_id": 154871,
+    "intent": "Python: Como importar corretamente um método que depende de outro?",
+    "snippet": "objeto = self.existe(arquivo)"
+  },
+  {
+    "question_id": 156734,
+    "parent_answer_post_id": 156244,
+    "intent": "Concurrent.futures e Class object",
+    "snippet": "res = executor.map(run_single, states)"
+  },
+  {
+    "question_id": 158885,
+    "parent_answer_post_id": 158876,
+    "intent": "AttributeError: 'QString' object has no attribute 'strip'",
+    "snippet": "self.line.toPlainText().trimmed();"
+  },
+  {
+    "question_id": 161057,
+    "parent_answer_post_id": 161053,
+    "intent": "Capturar data do QDateEdit",
+    "snippet": "data = self.dlg.data.date().toPyDate()"
+  },
+  {
+    "question_id": 162879,
+    "parent_answer_post_id": 162878,
+    "intent": "Redirect e Render no Django",
+    "snippet": "return HttpResponseRedirect(reverse('listar', kwargs={'cliente': 5}))"
+  },
+  {
+    "question_id": 173254,
+    "parent_answer_post_id": 173252,
+    "intent": "Adicionar um novo valor à uma lista",
+    "snippet": "lista.append(Entrada)"
+  },
+  {
+    "question_id": 174515,
+    "parent_answer_post_id": 174508,
+    "intent": "Como declarar um input de senha(password)?",
+    "snippet": "senha = getpass.getpass(\"Digite sua senha: \")"
+  },
+  {
+    "question_id": 174882,
+    "parent_answer_post_id": 174880,
+    "intent": "Conversão de valores incorreta em python",
+    "snippet": "float(price[2:].replace('.', ''))"
+  },
+  {
+    "question_id": 179130,
+    "parent_answer_post_id": 179125,
+    "intent": "Como posso usar dois métodos em uma mesma linha em python?",
+    "snippet": "print(sorted(pontuações))"
+  },
+  {
+    "question_id": 179496,
+    "parent_answer_post_id": 179488,
+    "intent": "Classe retornar chave e valor dos meus atributos",
+    "snippet": "return self.__dict__"
+  },
+  {
+    "question_id": 185226,
+    "parent_answer_post_id": 185109,
+    "intent": "Como acessar dados de um imput dinamico de um formulario com django?",
+    "snippet": "criterios = request.POST.get('criterio')"
+  },
+  {
+    "question_id": 188594,
+    "parent_answer_post_id": 188590,
+    "intent": "Ignorar determinados indices em uma lista Python",
+    "snippet": "[lista[i:i+2] for i in range(0, len(lista), 4)]"
+  },
+  {
+    "question_id": 192195,
+    "parent_answer_post_id": 192175,
+    "intent": "Qual diferença entre type e dtype?",
+    "snippet": "y = np.zeros((1000,))"
+  },
+  {
+    "question_id": 193000,
+    "parent_answer_post_id": 192987,
+    "intent": "Problema no entendimento dessa estrutura em uma string python",
+    "snippet": "print(\"import base64, bz2, os\", file=open('tests.txt', 'w'))"
+  },
+  {
+    "question_id": 194254,
+    "parent_answer_post_id": 194252,
+    "intent": "Regex para validação de float em python",
+    "snippet": "r\"^([+-]?\\d+)(\\.\\d+)?$\""
+  },
+  {
+    "question_id": 198381,
+    "parent_answer_post_id": 198379,
+    "intent": "python - Eliminar caracteres do final de uma string",
+    "snippet": "a_cortado = a[:len(b)]"
+  },
+  {
+    "question_id": 202451,
+    "parent_answer_post_id": 201577,
+    "intent": "Regex para pegar texto entre &lt;&gt; em python?",
+    "snippet": "m=re.search(r'<(.*)>','abevbv envvrhwkv <eiwbv> ebvi <wieunv> ajhbsvhj')"
+  },
+  {
+    "question_id": 205053,
+    "parent_answer_post_id": 205050,
+    "intent": "Django collectstatic não atualiza aquivos modificados no s3",
+    "snippet": "TIME_ZONE = 'UTC'"
+  },
+  {
+    "question_id": 207498,
+    "parent_answer_post_id": 207493,
+    "intent": "Métodos __str__ e __unicode__",
+    "snippet": "return unicode(self).encode('utf-8')"
+  },
+  {
+    "question_id": 210357,
+    "parent_answer_post_id": 210311,
+    "intent": "Como redirecionar url com argumento para outra pagina no Django? (UpdateView, GenericView)",
+    "snippet": "success_url = reverse_lazy('accounts:detail', kwargs={'id': 10})"
+  },
+  {
+    "question_id": 211163,
+    "parent_answer_post_id": 210759,
+    "intent": "Dados se sobrepondo no eixo x do gráfico",
+    "snippet": "plt.xticks(rotation=20)"
+  },
+  {
+    "question_id": 212105,
+    "parent_answer_post_id": 212086,
+    "intent": "erro ao conver string para float em python",
+    "snippet": "print(\"Com Desconto:\",float(price.replace(\",\",\".\")))"
+  },
+  {
+    "question_id": 220044,
+    "parent_answer_post_id": 219968,
+    "intent": "Enviando arquivos através de sockets - Python",
+    "snippet": "fyle = open(flname,'wb')"
+  },
+  {
+    "question_id": 246220,
+    "parent_answer_post_id": 222054,
+    "intent": "Como tokenizar palavras em português utilizando NLTK?",
+    "snippet": "palavras_tokenize = tokenize.word_tokenize(text, language='portuguese')"
+  },
+  {
+    "question_id": 227094,
+    "parent_answer_post_id": 227088,
+    "intent": "Filtrar dados de uma string com expressão regular",
+    "snippet": "cnpj = re.search(\"\\d{2}.\\d{3}.\\d{3}/\\d{4}-\\d{2}\", variavel).group()"
+  },
+  {
+    "question_id": 232673,
+    "parent_answer_post_id": 232670,
+    "intent": "Pandas não encontra arquivo",
+    "snippet": "reclamacoes = pd.read_csv(\"C:/Users/Reinaldo/Documents/Jornalismo_de_dados/Justica/reclamacoes/2017-1sem1.csv\",sep=';')"
+  },
+  {
+    "question_id": 235787,
+    "parent_answer_post_id": 235312,
+    "intent": "Baixar um arquivo criptografado de uma url",
+    "snippet": "refkey = base64.b64decode(refkey)"
+  },
+  {
+    "question_id": 238834,
+    "parent_answer_post_id": 238831,
+    "intent": "Adicionar 0 depois da vírgula",
+    "snippet": "str(\"%0.2f\" % (owner.Vr_real)).replace('.',',')"
+  },
+  {
+    "question_id": 239754,
+    "parent_answer_post_id": 239700,
+    "intent": "Como salvar informações igual o pprint em um arquivo txt",
+    "snippet": "saida = pformat(valor).encode('utf-8');"
+  },
+  {
+    "question_id": 244301,
+    "parent_answer_post_id": 244298,
+    "intent": "Lista de objetos em Python",
+    "snippet": "return str(self.__dict__)"
+  },
+  {
+    "question_id": 246107,
+    "parent_answer_post_id": 246085,
+    "intent": "Como reproduzir uma lista que pule os números de acordo com o número digitado",
+    "snippet": "[ i**2 for i in range(5) ]"
+  },
+  {
+    "question_id": 249673,
+    "parent_answer_post_id": 249668,
+    "intent": "Erro no pyhon, pyautogui",
+    "snippet": "pyautogui.FAILSAFE = False"
+  },
+  {
+    "question_id": 250834,
+    "parent_answer_post_id": 250827,
+    "intent": "Minha String está dando erro &quot;unicodeescape&quot;",
+    "snippet": "arq = open(r'C:\\Users\\Cintia\\Documents\\Python\\Dados\\lbe.txt', 'r')"
+  },
+  {
+    "question_id": 313758,
+    "parent_answer_post_id": 257028,
+    "intent": "Como selecionar códigos com diferentes tamanhos em pandas?",
+    "snippet": "df[df['CPF_CNPJ_doador'].apply(lambda x: len(str(x)) == 13 or len(str(x)) == 14)]"
+  },
+  {
+    "question_id": 259872,
+    "parent_answer_post_id": 259371,
+    "intent": "can only concatenate list (not &quot;str&quot;) to list",
+    "snippet": "re.sub(r\"\\D\",\"\",name3)"
+  },
+  {
+    "question_id": 259540,
+    "parent_answer_post_id": 259398,
+    "intent": "Como usar variaveis de um models em uma view no Django",
+    "snippet": "Cadastro_Boletim.objects.aggregate(media_bimestres=AVG(F('MB1')*F('MB2')))"
+  },
+  {
+    "question_id": 265170,
+    "parent_answer_post_id": 263727,
+    "intent": "Método find do BeautifulSoup retorna vazio",
+    "snippet": "soup.find_all(\"div\", class_=\"info\")"
+  },
+  {
+    "question_id": 268995,
+    "parent_answer_post_id": 268994,
+    "intent": "Exercicio ordenação lista",
+    "snippet": "return sorted(set(lista)) # <--- ordena lista"
+  },
+  {
+    "question_id": 270003,
+    "parent_answer_post_id": 269998,
+    "intent": "Significado do % em strings!",
+    "snippet": "\"Uso do percent %d\" % 30"
+  },
+  {
+    "question_id": 270441,
+    "parent_answer_post_id": 270435,
+    "intent": "Como verificar o tipo dos elementos de uma lista em Python?",
+    "snippet": "all(isinstance(n, int) for n in lista)"
+  },
+  {
+    "question_id": 273289,
+    "parent_answer_post_id": 273216,
+    "intent": "Concatenar pandas dataframes com diferentes nomes de colunas",
+    "snippet": "df1=df1.append(df2)"
+  },
+  {
+    "question_id": 274217,
+    "parent_answer_post_id": 274216,
+    "intent": "Erro na hora de procurar uma string",
+    "snippet": "codPro = str(input('NOME DO PRODUTO: ')).upper().strip()"
+  },
+  {
+    "question_id": 275268,
+    "parent_answer_post_id": 275263,
+    "intent": "Como obter o diretório do local onde um arquivo .py está sendo executado?",
+    "snippet": "print(os.path.dirname(os.path.realpath(__file__)))"
+  },
+  {
+    "question_id": 276288,
+    "parent_answer_post_id": 275743,
+    "intent": "Alterando um valor com a biblioteca pandas",
+    "snippet": "df['coluna']=pd.to_numeric(df['coluna'], errors='coerce')"
+  },
+  {
+    "question_id": 280942,
+    "parent_answer_post_id": 279034,
+    "intent": "Inserções no mongo como fazer?",
+    "snippet": "db.posts.save({'_id':uid,'recs':recs});"
+  },
+  {
+    "question_id": 280287,
+    "parent_answer_post_id": 279781,
+    "intent": "Passar um parâmetro GET através da view em Django",
+    "snippet": "return redirect(reverse('search_view') + '?date=2018-03-01')"
+  },
+  {
+    "question_id": 280102,
+    "parent_answer_post_id": 280095,
+    "intent": "Pra que serve if __name__ == '__main__': se o kivy consegue executar o aplicativo sem essa linha de código?",
+    "snippet": "__name__ == \"__main__\""
+  },
+  {
+    "question_id": 280829,
+    "parent_answer_post_id": 280827,
+    "intent": "Como iniciar a janela em tela cheia com tkinter?",
+    "snippet": "windows.attributes('-fullscreen',True)"
+  },
+  {
+    "question_id": 287136,
+    "parent_answer_post_id": 286858,
+    "intent": "Alterar o Delimitador do arquivo CSV em Python",
+    "snippet": "escritor.writerow(linhas)"
+  },
+  {
+    "question_id": 289896,
+    "parent_answer_post_id": 289758,
+    "intent": "Python: Serialização de classes namedtuple em json",
+    "snippet": "Emp.tojson = lambda self: json.dumps(self._asdict())"
+  },
+  {
+    "question_id": 294945,
+    "parent_answer_post_id": 294944,
+    "intent": "Lista separada por &quot;-&quot;",
+    "snippet": "print(*lista, sep = '-')"
+  },
+  {
+    "question_id": 296829,
+    "parent_answer_post_id": 296321,
+    "intent": "Parse Xpath from Int",
+    "snippet": "int(0 if a is None else t_day)"
+  },
+  {
+    "question_id": 300074,
+    "parent_answer_post_id": 300067,
+    "intent": "Ordenar vetor 2D em ordem decrescente",
+    "snippet": "a.sort(key=lambda l: l[2], reverse=True)"
+  },
+  {
+    "question_id": 300802,
+    "parent_answer_post_id": 300552,
+    "intent": "Python: Execução do código lenta e outros problemas",
+    "snippet": "novo_arquivo.save('loto_python.xlsx')"
+  },
+  {
+    "question_id": 305024,
+    "parent_answer_post_id": 304943,
+    "intent": "Pandas: comparação de informações em DataFrame",
+    "snippet": "df_join = pd.merge(df_acervo1, df_acervo3, how ='inner', on = ['num'])"
+  },
+  {
+    "question_id": 307635,
+    "parent_answer_post_id": 307624,
+    "intent": "Como delimitar área de plotagem no python?",
+    "snippet": "plt.savefig('meuGrafico.png', dpi=300, bbox_inches='tight')"
+  },
+  {
+    "question_id": 310984,
+    "parent_answer_post_id": 310829,
+    "intent": "Script que recebe uma lista de números inteiros, ordena e retira duplicados",
+    "snippet": "return sorted(set(lista))"
+  },
+  {
+    "question_id": 311296,
+    "parent_answer_post_id": 311047,
+    "intent": "AttributeError: __enter__ em implementação de gerenciador de contexto",
+    "snippet": "return self.__enter__()"
+  },
+  {
+    "question_id": 311685,
+    "parent_answer_post_id": 311669,
+    "intent": "Como criar uma rede local(intranet) com django?",
+    "snippet": "ALLOWED_HOSTS = ['192.168.15.14']"
+  },
+  {
+    "question_id": 316429,
+    "parent_answer_post_id": 316425,
+    "intent": "Como criar uma instanciar uma classe usando variáveis provenientes de um retorno de função em Python 3?",
+    "snippet": "a = Sala(*choose_sala())"
+  },
+  {
+    "question_id": 316455,
+    "parent_answer_post_id": 316448,
+    "intent": "É possivel manipular os numeros de um randint?",
+    "snippet": "valor = random.randrange(350,501,50)"
+  },
+  {
+    "question_id": 317157,
+    "parent_answer_post_id": 317121,
+    "intent": "Como saber de qual origem estou executando o Python?",
+    "snippet": "print(sys.executable)"
+  },
+  {
+    "question_id": 317753,
+    "parent_answer_post_id": 317750,
+    "intent": "erro em progama",
+    "snippet": "resultado = trianguloPascal(int(n))"
+  },
+  {
+    "question_id": 319842,
+    "parent_answer_post_id": 319717,
+    "intent": "Por que está tocando o som de erro do Windows ao invés do arquivo especificado?",
+    "snippet": "winsound.PlaySound('teste.wav', winsound.SND_FILENAME | winsound.SND_PURGE | winsound.SND_NODEFAULT)"
+  },
+  {
+    "question_id": 320082,
+    "parent_answer_post_id": 320080,
+    "intent": "Como eu faço a soma dos valores guardados na lista: pares?",
+    "snippet": "soma = sum(pares)"
+  },
+  {
+    "question_id": 325620,
+    "parent_answer_post_id": 325592,
+    "intent": "Como clonar uma lista com Python 3?",
+    "snippet": "mb = deepcopy(m)"
+  },
+  {
+    "question_id": 333645,
+    "parent_answer_post_id": 333594,
+    "intent": "Python - KeyError",
+    "snippet": "input_file = csv.DictReader(open(\"teste.csv\", encoding='utf-8'), delimiter=';')"
+  },
+  {
+    "question_id": 335490,
+    "parent_answer_post_id": 335312,
+    "intent": "Selecionar valores de uma coluna a partir de outras colunas",
+    "snippet": "KeyError: \"None of [['FlightID']] are in the [columns]\""
+  },
+  {
+    "question_id": 335516,
+    "parent_answer_post_id": 335425,
+    "intent": "Obter diretório Documents com python automaticamente",
+    "snippet": "main_folder = path.join(path.expanduser(\"~\"), \"Documents/myEBpy_Files\")"
+  },
+  {
+    "question_id": 338921,
+    "parent_answer_post_id": 338912,
+    "intent": "É possível utilizar o Sqlite3 no Android usando o aplicativo QPython3?",
+    "snippet": "conexao = sqlite3.connect(\"/storage/emulated/0/Download/banco.contato\")"
+  },
+  {
+    "question_id": 339926,
+    "parent_answer_post_id": 339164,
+    "intent": "RabbitMq rodando num servidor externo",
+    "snippet": "__all__ = ('celery_app',)"
+  },
+  {
+    "question_id": 341277,
+    "parent_answer_post_id": 341268,
+    "intent": "Regex palavras em minúsculo",
+    "snippet": "var = re.sub('[^a-zA-Z \\\\\\]', '', \"string\").lower()"
+  },
+  {
+    "question_id": 341554,
+    "parent_answer_post_id": 341548,
+    "intent": "Fatia uma array",
+    "snippet": "x2 = x2[0]"
+  },
+  {
+    "question_id": 343682,
+    "parent_answer_post_id": 343680,
+    "intent": "Erro ao dividir imagem ao meio usando Python",
+    "snippet": "_, width, _ = img.shape"
+  },
+  {
+    "question_id": 344808,
+    "parent_answer_post_id": 344801,
+    "intent": "Duvida sobre Apis do Python",
+    "snippet": "win32api.MessageBox(0, 'hello', 'title')"
+  },
+  {
+    "question_id": 345123,
+    "parent_answer_post_id": 345120,
+    "intent": "Como concatenar strings em uma lista?",
+    "snippet": "line1 = '|'.join(row1)"
+  },
+  {
+    "question_id": 345378,
+    "parent_answer_post_id": 345368,
+    "intent": "Gerar valores float entre -1 e 1",
+    "snippet": "print([random.uniform(-1, 1) for _ in range(20)])"
+  },
+  {
+    "question_id": 347515,
+    "parent_answer_post_id": 346028,
+    "intent": "Gerar arquivo com nome dinâmico Python",
+    "snippet": "arquivo = open(\"log_\" + str(msg) + \".txt\",'a+')"
+  },
+  {
+    "question_id": 351949,
+    "parent_answer_post_id": 347887,
+    "intent": "Trocar Valores de String de um Dataset para valores 'Float'",
+    "snippet": "DF['NomeDaColuna'] = DF['NomeDaColuna'].astype(float)   # converte para float, neste caso"
+  },
+  {
+    "question_id": 349624,
+    "parent_answer_post_id": 349590,
+    "intent": "UTF8 codec inválido em python",
+    "snippet": "db = MySQLdb.connect(host=\"xxx.xxx.x.xx\", user=\"xxxxx\", passwd=\"xxxxxxx\", db=\"xxxxxxx\", charset='utf8')"
+  },
+  {
+    "question_id": 349716,
+    "parent_answer_post_id": 349709,
+    "intent": "Models em Django fica tudo em um arquivo?",
+    "snippet": "..."
+  },
+  {
+    "question_id": 351971,
+    "parent_answer_post_id": 351970,
+    "intent": "Erro de codificação utf-8 Python",
+    "snippet": "file = open(r'Query.txt','r',encoding='latin-1')"
+  },
+  {
+    "question_id": 352090,
+    "parent_answer_post_id": 352054,
+    "intent": "module 'cv2.cv2' has no attribute 'COLOR_BRG2GRAY'",
+    "snippet": "gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)"
+  },
+  {
+    "question_id": 386621,
+    "parent_answer_post_id": 354423,
+    "intent": "ValueError: Cannot assign &quot;'1'&quot;: &quot;User.campus&quot; must be a &quot;Campus&quot; instance. Erro no cadastro de Super Usuário no Django",
+    "snippet": "campus = Campus.objects.get(pk=1)"
+  },
+  {
+    "question_id": 357872,
+    "parent_answer_post_id": 357863,
+    "intent": "django.contrib.auth import views || Autenticação de Login e redirecionamento de url",
+    "snippet": "path('login/', auth_views.LoginView.as_view(),name='login'),"
+  },
+  {
+    "question_id": 359301,
+    "parent_answer_post_id": 359298,
+    "intent": "Média entre posições de dois vetores",
+    "snippet": "res = [mean(values) for values in zip(*vet)]"
+  },
+  {
+    "question_id": 359781,
+    "parent_answer_post_id": 359742,
+    "intent": "Como resolver o problema do None no PYTHON",
+    "snippet": "bissexto(inicio,fim)"
+  },
+  {
+    "question_id": 360277,
+    "parent_answer_post_id": 360159,
+    "intent": "Filtrar objetos no DJANGO - published_date__lte",
+    "snippet": "[p.published_date for p in Post.objects.all()]"
+  },
+  {
+    "question_id": 360607,
+    "parent_answer_post_id": 360605,
+    "intent": "Mostrar o valor, e não o ID de um form",
+    "snippet": "oportunidade.get_situacao_display()"
+  },
+  {
+    "question_id": 362028,
+    "parent_answer_post_id": 362026,
+    "intent": "Salvar uma imagem em um banco de dados MySQL usando Python",
+    "snippet": "cursor.execute(\"INSERT INTO william (entrada, foto) VALUES (%s, %s)\", (hora, foto))"
+  },
+  {
+    "question_id": 364096,
+    "parent_answer_post_id": 364068,
+    "intent": "DataFrame Python",
+    "snippet": "df = pd.read_sql(\"SELECT * FROM dw.dbo.vW_Vendas\", connection)"
+  },
+  {
+    "question_id": 366129,
+    "parent_answer_post_id": 366107,
+    "intent": "Erro ao importar base de dados do Mnist",
+    "snippet": "mnist = fetch_openml('mnist_784')"
+  },
+  {
+    "question_id": 367209,
+    "parent_answer_post_id": 367179,
+    "intent": "Python Pandas inserir registros em uma coluna de acordo com os dados presentes em um DataFrame",
+    "snippet": "plan['Nomes Cidades'] = plan['Cod'].map(resultado['Cidades'])"
+  },
+  {
+    "question_id": 367448,
+    "parent_answer_post_id": 367418,
+    "intent": "declaração if - uso de parenteses",
+    "snippet": "print(1 + 1 * 2, (1 + 1) * 2)  # print 3 4"
+  },
+  {
+    "question_id": 367590,
+    "parent_answer_post_id": 367571,
+    "intent": "Erro na chamada do método Python (list)",
+    "snippet": "return [self.month(execution_times, month) for month in range(1, 13)]"
+  },
+  {
+    "question_id": 367737,
+    "parent_answer_post_id": 367610,
+    "intent": "Python - Como construir uma boa função para verificar se há internet?",
+    "snippet": "is_connected = (os.system('nc -z 8.8.8.8 53') == 0)"
+  },
+  {
+    "question_id": 368023,
+    "parent_answer_post_id": 367977,
+    "intent": "Como posso remover a primeira coluna de numeros pandas",
+    "snippet": "print(out.to_string(index=False, header=False))"
+  },
+  {
+    "question_id": 368073,
+    "parent_answer_post_id": 368008,
+    "intent": "Problema na Criação de Arrays com Numpy em Código Python",
+    "snippet": "pesos = np.array([0.0, 0.0], dtype=object)"
+  },
+  {
+    "question_id": 368141,
+    "parent_answer_post_id": 368107,
+    "intent": "Exportar tabela Postgre SQL para texto (csv) via psycopg2",
+    "snippet": "cur.copy_to(f, 'wphd.empresa', sep=';', null='')"
+  },
+  {
+    "question_id": 369198,
+    "parent_answer_post_id": 369069,
+    "intent": "Ola, no tkinter como pegar o valor da soma gerada por numeros eleatorios e comparar com a entrada do usuario?",
+    "snippet": "global soma"
+  },
+  {
+    "question_id": 369300,
+    "parent_answer_post_id": 369299,
+    "intent": "python (Logging) arquivo de log diario",
+    "snippet": "log_file = path.join(path.dirname(path.realpath(__file__)), f\"{date.today()}.txt\")"
+  },
+  {
+    "question_id": 370923,
+    "parent_answer_post_id": 370917,
+    "intent": "Mostrar atributo específico no Select usando Python e Django",
+    "snippet": "return this.quantidade"
+  },
+  {
+    "question_id": 374709,
+    "parent_answer_post_id": 371589,
+    "intent": "Mudar distancia no eixo x - Matplotlib",
+    "snippet": "plt.xticks(rotation=30)"
+  },
+  {
+    "question_id": 373216,
+    "parent_answer_post_id": 372877,
+    "intent": "Update no Campo TimeField Django 2.0",
+    "snippet": "TIME_INPUT_FORMATS = [ '%H:%M', ]"
+  },
+  {
+    "question_id": 374662,
+    "parent_answer_post_id": 374649,
+    "intent": "Pegar a probabilidade de pertencer a cada classe",
+    "snippet": "predictions = cart.predict_proba(valid_x)"
+  },
+  {
+    "question_id": 375966,
+    "parent_answer_post_id": 375758,
+    "intent": "Erro &quot;ValueError: Length of value does not match length of index&quot;",
+    "snippet": "dEnd[sChave] = pd.Series([])"
+  },
+  {
+    "question_id": 376266,
+    "parent_answer_post_id": 376265,
+    "intent": "Trasformar DatraFrame em Dicionario",
+    "snippet": "df.to_dict()"
+  },
+  {
+    "question_id": 377419,
+    "parent_answer_post_id": 377342,
+    "intent": "Ajuda com kivy (erro: AttributeError: 'weakref' object has no attribute 'cline_in_traceback')",
+    "snippet": "Builder.load_file('test.kv')"
+  },
+  {
+    "question_id": 379902,
+    "parent_answer_post_id": 379901,
+    "intent": "Como transformar letras maiúsculas em minúsculas e minúsculas em maiúsculas no Python?",
+    "snippet": "texto.swapcase()"
+  },
+  {
+    "question_id": 380002,
+    "parent_answer_post_id": 379953,
+    "intent": "Transformar coluna do dataframe em horas, minutos e segundos",
+    "snippet": "df[\"A\"] = pd.to_timedelta(df[\"A\"], unit=\"S\")"
+  },
+  {
+    "question_id": 381087,
+    "parent_answer_post_id": 381083,
+    "intent": "Erro ao executar um código de &quot;módulo&quot;",
+    "snippet": "num = int(input(\"Digite um número: \"))"
+  },
+  {
+    "question_id": 382759,
+    "parent_answer_post_id": 382757,
+    "intent": "os.path modulo python",
+    "snippet": "[expressão for item in list if condição]"
+  },
+  {
+    "question_id": 383079,
+    "parent_answer_post_id": 383008,
+    "intent": "Kivy FileChooser como selecionar um diretório",
+    "snippet": "fc1 = FileChooserIconView(size_hint=(1, .9), pos_hint={'x':0, 'y':.12}, dirselect=True)"
+  },
+  {
+    "question_id": 383697,
+    "parent_answer_post_id": 383671,
+    "intent": "Não consigo ler coluna no pandas",
+    "snippet": "pessoas_frame['Idade ']"
+  },
+  {
+    "question_id": 388345,
+    "parent_answer_post_id": 385108,
+    "intent": "Python - valor gravado no banco está zerado",
+    "snippet": "serialValue = serialValue[2:]"
+  },
+  {
+    "question_id": 386440,
+    "parent_answer_post_id": 386438,
+    "intent": "Erro &quot;IndexError: list assignment index out of range&quot; ao setar &quot;l[0] =&quot;",
+    "snippet": "l.append(Lutador(\"Pretty Boy\", \"França\", 31, 1.75, 68.9, 11, 2, 1))"
+  },
+  {
+    "question_id": 386562,
+    "parent_answer_post_id": 386512,
+    "intent": "Como concatenar dados iguais de uma coluna em linhas no Python",
+    "snippet": "df.groupby('Categoria').agg({'Descricao':lambda col: ', '.join(col)}).reset_index()"
+  },
+  {
+    "question_id": 386691,
+    "parent_answer_post_id": 386528,
+    "intent": "Limitar tamanho do array na tela",
+    "snippet": "pd.options.display.max_rows = ..."
+  },
+  {
+    "question_id": 387233,
+    "parent_answer_post_id": 387205,
+    "intent": "Configurar tabela HTML, usando a estrutura 'for' do python django",
+    "snippet": "{{ passar|safe }}"
+  },
+  {
+    "question_id": 387395,
+    "parent_answer_post_id": 387389,
+    "intent": "Como fazer um arquivo python executar comandos no cmd?",
+    "snippet": "os.system('netsh wlan show profile')"
+  },
+  {
+    "question_id": 387563,
+    "parent_answer_post_id": 387554,
+    "intent": "Erro ao conectar Python ao BD Oracle",
+    "snippet": "os.chdir(\"C:\\\\Oracle\\\\instantclient_12_1\")"
+  },
+  {
+    "question_id": 388643,
+    "parent_answer_post_id": 388578,
+    "intent": "Não consigo listar os valores exclusivos do dataframe",
+    "snippet": "pd.options.display.max_rows = 1000000"
+  },
+  {
+    "question_id": 389926,
+    "parent_answer_post_id": 389654,
+    "intent": "Python pandas: Drop linhas com coluna duplicada e outra coluna com valor nulo",
+    "snippet": "df2 = df[df.duplicated('Col1', keep=False) & df['Col2'].isnull()]"
+  },
+  {
+    "question_id": 391487,
+    "parent_answer_post_id": 391484,
+    "intent": "Como obter somente os registros não duplicados com pandas",
+    "snippet": "df2 = DF.drop_duplicates('userId', keep=False)"
+  },
+  {
+    "question_id": 393284,
+    "parent_answer_post_id": 393282,
+    "intent": "Chamar ficheiro CSV com 3 colunas no Python",
+    "snippet": "df = pd.read_csv('file.csv', sep=';', encoding=\"ISO-8859-1\", header=None)"
+  },
+  {
+    "question_id": 393320,
+    "parent_answer_post_id": 393311,
+    "intent": "Como clicar em links com Selenium Python",
+    "snippet": "driver.find_element_by_xpath('//*[@id=\"tsf\"]/div[2]/div/div[3]/center/input[2]').click()"
+  },
+  {
+    "question_id": 393435,
+    "parent_answer_post_id": 393427,
+    "intent": "consultas na views e template do django",
+    "snippet": "Cliente.objects.filter(animal__isnull=True).all()"
+  },
+  {
+    "question_id": 394490,
+    "parent_answer_post_id": 394341,
+    "intent": "Como adicionar as linhas de uma matriz em outra?",
+    "snippet": "np.concatenate((new_output, new_output_test), axis=0)"
+  },
+  {
+    "question_id": 394671,
+    "parent_answer_post_id": 394624,
+    "intent": "Select randômico mysql com Django",
+    "snippet": "User.objects.all().order_by('?').first()"
+  },
+  {
+    "question_id": 395930,
+    "parent_answer_post_id": 395925,
+    "intent": "DELIMITADOR PYTHON",
+    "snippet": "df_bonus = pd.read_csv('bonus.txt', delimiter=';')"
+  },
+  {
+    "question_id": 397506,
+    "parent_answer_post_id": 397503,
+    "intent": "O Pytesseract não reconhece apenas uma letra",
+    "snippet": "text = pytesseract.image_to_string(img_new, lang='eng', config='--psm 10')"
+  },
+  {
+    "question_id": 399331,
+    "parent_answer_post_id": 399251,
+    "intent": "Como exercer print na interface gráfica?",
+    "snippet": "interface.label.setText(str(randint(0,700)))"
+  },
+  {
+    "question_id": 399792,
+    "parent_answer_post_id": 399774,
+    "intent": "Retorno falso ao comparar duas strings identicas em python",
+    "snippet": "print(string, string2, sep='\\n')"
+  },
+  {
+    "question_id": 401193,
+    "parent_answer_post_id": 401086,
+    "intent": "Manipular arquivos do cmd usando python",
+    "snippet": "S(\"ipconfig\")"
+  },
+  {
+    "question_id": 401439,
+    "parent_answer_post_id": 401430,
+    "intent": "Executar &quot;Procv&quot; em um Dataframe Pandas",
+    "snippet": "nova_df = df[['e','r']].drop_duplicates('e').sort_values('e')"
+  },
+  {
+    "question_id": 403225,
+    "parent_answer_post_id": 403213,
+    "intent": "Django request.GET",
+    "snippet": "id_parada = request.GET.get(\"id_parada\", \"\")"
+  },
+  {
+    "question_id": 403999,
+    "parent_answer_post_id": 403996,
+    "intent": "Array salvando apenas o último valor inserido (PYTHON)",
+    "snippet": "process.append( [''+str(pid)+'',''+str(name)+'',''+str(cpu_percent)+'',''+str(mem_percent)+'',''+str(datetime.datetime.fromtimestamp(create_time).strftime(\"%Y-%m-%d %H:%M:%S\"))+'',''+str(time)+'',''+str(status)+''])"
+  },
+  {
+    "question_id": 410945,
+    "parent_answer_post_id": 410934,
+    "intent": "Django: ModuleNotFoundError: No module named",
+    "snippet": "objeto_x = ObjetoX(parm=1)"
+  },
+  {
+    "question_id": 411286,
+    "parent_answer_post_id": 411275,
+    "intent": "Como remover valores repetidos de um dicionário?",
+    "snippet": "B = {k: A[k] for k in A if Counter(A.values())[A[k]] == 1}"
+  },
+  {
+    "question_id": 413572,
+    "parent_answer_post_id": 413562,
+    "intent": "Vetor não imprime completamente - Python, OpenCV",
+    "snippet": "np.set_printoptions(threshold=sys.maxsize)"
+  },
+  {
+    "question_id": 414794,
+    "parent_answer_post_id": 414788,
+    "intent": "Pular linha no XML com Python",
+    "snippet": "arquivo.write(\"meu_xml.xml\", pretty_print=True)"
+  },
+  {
+    "question_id": 414832,
+    "parent_answer_post_id": 414830,
+    "intent": "Repetição no for equivalente a um segundo",
+    "snippet": "time.sleep(1)"
+  },
+  {
+    "question_id": 418448,
+    "parent_answer_post_id": 418446,
+    "intent": "Formato de data em python",
+    "snippet": "print(datetime.today().strftime('%d/%m/%Y'))"
+  },
+  {
+    "question_id": 419286,
+    "parent_answer_post_id": 419270,
+    "intent": "Python os.mkdir, arquivo existe",
+    "snippet": "os.makedirs(video_name[:3], exist_ok=True)"
+  },
+  {
+    "question_id": 422931,
+    "parent_answer_post_id": 422922,
+    "intent": "Interseção entre colunas pandas",
+    "snippet": "df.loc[df['id'].isin(df1['id'])]"
+  },
+  {
+    "question_id": 423920,
+    "parent_answer_post_id": 423784,
+    "intent": "Separar colunas de um dataset",
+    "snippet": "new_df = df.select_dtypes(include=np.number)"
+  },
+  {
+    "question_id": 424051,
+    "parent_answer_post_id": 424040,
+    "intent": "Substituir letra pela posição",
+    "snippet": "s = s[0:5] + c + s[6:]"
+  }
+]
