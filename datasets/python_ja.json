@@ -1,0 +1,386 @@
+[
+  {
+    "question_id": 5671,
+    "parent_answer_post_id": 5655,
+    "intent": "Python3のインタラクティブシェル上での補完を有効にする",
+    "snippet": "gnureadline.parse_and_bind('tab: complete')"
+  },
+  {
+    "question_id": 6226,
+    "parent_answer_post_id": 6225,
+    "intent": "python でテキストの行数を取得したい",
+    "snippet": "num_lines = sum(1 for line in open('myfile.txt'))"
+  },
+  {
+    "question_id": 9085,
+    "parent_answer_post_id": 8881,
+    "intent": "c, b = a, c + 1でNameError例外が送出される理由は？",
+    "snippet": "expr3, expr4 = expr1, expr2"
+  },
+  {
+    "question_id": 9819,
+    "parent_answer_post_id": 9816,
+    "intent": "pythonのグローバル変数を関数内で操作して保持する方法を教えてください",
+    "snippet": "number = int(input())"
+  },
+  {
+    "question_id": 11191,
+    "parent_answer_post_id": 10786,
+    "intent": "tkinterでFrameを入れ子構造にしたい",
+    "snippet": "Tk.Frame.__init__(self, master, width=500, height=500)"
+  },
+  {
+    "question_id": 19116,
+    "parent_answer_post_id": 19113,
+    "intent": "Pylabのfigure()が使えなくなりました",
+    "snippet": "print(pylab.__file__)"
+  },
+  {
+    "question_id": 20840,
+    "parent_answer_post_id": 20839,
+    "intent": "ChainerによるDeep-Learning",
+    "snippet": "dataset.load_data_target()"
+  },
+  {
+    "question_id": 23670,
+    "parent_answer_post_id": 23375,
+    "intent": "PythonのフレームワークBottleを使用するとUnicodeDecodeErrorが出てしまいます。解決策を教えてください。",
+    "snippet": "print(socket.getfqdn())"
+  },
+  {
+    "question_id": 29818,
+    "parent_answer_post_id": 27525,
+    "intent": "Python2でunicode型をISO-8859-1に変換したい",
+    "snippet": "u'象'.encode('utf-8').decode('ISO-8859-1')"
+  },
+  {
+    "question_id": 32654,
+    "parent_answer_post_id": 30343,
+    "intent": "Django メール機能、ロリポップとの連携",
+    "snippet": "EMAIL_USE_SSL=True"
+  },
+  {
+    "question_id": 32238,
+    "parent_answer_post_id": 32236,
+    "intent": "sympyのsolveで答えに出てくる'e'と'I'って何なのでしょうか？",
+    "snippet": "x = Symbol('x', real=True)"
+  },
+  {
+    "question_id": 32662,
+    "parent_answer_post_id": 32601,
+    "intent": "Pandasを使った計算の実行時間短縮のためにはどうすればいいでしょうか？",
+    "snippet": "df2 = pd.crosstab(df1.CustomerID, df1.ProductID, values=df1.Quantity, aggfunc=numpy.sum)"
+  },
+  {
+    "question_id": 33035,
+    "parent_answer_post_id": 33034,
+    "intent": "pandasのデータフレームから積み上げ棒グラフを作りたい",
+    "snippet": "pandas.crosstab(df['class'], df['label']).plot(kind='bar',stacked=True)"
+  },
+  {
+    "question_id": 33510,
+    "parent_answer_post_id": 33506,
+    "intent": "Python3.6.0でGmailのUTF-8メールのデコードに失敗",
+    "snippet": "msg = email.message_from_string(raw_email.decode(msg_encoding))"
+  },
+  {
+    "question_id": 33977,
+    "parent_answer_post_id": 33970,
+    "intent": "Djangoのデータベース設定について",
+    "snippet": "print(settings.DATABASES)"
+  },
+  {
+    "question_id": 34761,
+    "parent_answer_post_id": 34734,
+    "intent": "graphviz,pythonでdot言語のedgeのlabelの使い方を教えて下さい。",
+    "snippet": "c.edge('1', 'A', label='A to 1')"
+  },
+  {
+    "question_id": 35032,
+    "parent_answer_post_id": 35031,
+    "intent": "使用しているdjangoの中に、そのバージョンより新しいdjangoがインストールされても大丈夫ですか？",
+    "snippet": "install_requires=[\"Django>=1.4.2\"],"
+  },
+  {
+    "question_id": 35163,
+    "parent_answer_post_id": 35161,
+    "intent": "Django管理サイトで別テーブルの情報にフィルタをかけたい。",
+    "snippet": "list_filter  = ['id', 'shop__name', 'user___name']"
+  },
+  {
+    "question_id": 37042,
+    "parent_answer_post_id": 37019,
+    "intent": "gitフックで対話的処理を行うにはどうすればよいですか？",
+    "snippet": "sys.stdin = open(\"/dev/tty\", \"r\")"
+  },
+  {
+    "question_id": 37529,
+    "parent_answer_post_id": 37528,
+    "intent": "scikit-learn ライブラリを継承した自作クラスのオブジェクト生成時にエラー : TypeError: 'module' object is not callable が発生してしまう。又、自身のオブジェクトを表す self が 意図に反して None となってしまう。",
+    "snippet": "EnsembleLearningClassifier(class_labels=None, classifiers=None, vote=None, weights=None)"
+  },
+  {
+    "question_id": 37597,
+    "parent_answer_post_id": 37591,
+    "intent": "変数に値が入っていなければ値を代入し、入っていれば何もしない処理をスマートにできないでしょうか。",
+    "snippet": "variable = value if variable is None else v"
+  },
+  {
+    "question_id": 38150,
+    "parent_answer_post_id": 38146,
+    "intent": "自分のパソコンで、python検索エンジンを動かしたい！",
+    "snippet": "MONGO_URL = 'mongodb://localhost:27017/test'"
+  },
+  {
+    "question_id": 38936,
+    "parent_answer_post_id": 38935,
+    "intent": "リスト内の数字だけをint型にしたい",
+    "snippet": "s = [int(c) if c.isdecimal() else c for c in '1 + 5 * 5'.split()]"
+  },
+  {
+    "question_id": 39234,
+    "parent_answer_post_id": 39219,
+    "intent": "どのように配列計算されているのか分からない",
+    "snippet": "img[j*h:j*h+h, i*w:i*w+w, :] = image"
+  },
+  {
+    "question_id": 39590,
+    "parent_answer_post_id": 39589,
+    "intent": "os.walk()、shutilcopy()でエラーが発生する",
+    "snippet": "shutil.copy(os.path.join(foldername, filename), '..\\\\foo')"
+  },
+  {
+    "question_id": 40371,
+    "parent_answer_post_id": 40370,
+    "intent": "pyqt5 でサブウィンドウだけを閉じるボタンを作りたい",
+    "snippet": "button.clicked.connect(self.w.close)"
+  },
+  {
+    "question_id": 40500,
+    "parent_answer_post_id": 40458,
+    "intent": "pyqt5でのmatplotlibによるグラフ表示がうまくいかない",
+    "snippet": "self.axes.hold(False)"
+  },
+  {
+    "question_id": 40499,
+    "parent_answer_post_id": 40483,
+    "intent": "pyqt5でmatplotlibを使ってグラフを書きたいが、一つのキャンパスに複数のグラフを書けない",
+    "snippet": "self.axes.hold(False)"
+  },
+  {
+    "question_id": 41056,
+    "parent_answer_post_id": 41054,
+    "intent": "特定のフォルダの中にあるファイルの拡張子を一気に書き換えたい。",
+    "snippet": "[os.rename(f, f.replace('.dat', '.gui')) for f in os.listdir('.') if not f.startswith('.')]"
+  },
+  {
+    "question_id": 41097,
+    "parent_answer_post_id": 41096,
+    "intent": "python -vを実行した時のエラーっぽい標準出力について",
+    "snippet": "python -V"
+  },
+  {
+    "question_id": 42121,
+    "parent_answer_post_id": 42111,
+    "intent": "Qtで新しいウィジェットを表示した後でも、フォーカスが移らないようにしたい。",
+    "snippet": "self.listwidget.setAttribute(QtCore.Qt.WA_ShowWithoutActivating)"
+  },
+  {
+    "question_id": 42524,
+    "parent_answer_post_id": 42516,
+    "intent": "matplotlibで描画した図の軸ラベルが表示されない",
+    "snippet": "plt.savefig(fnameF, dpi=200, bbox_inches=\"tight\", pad_inches=0.1)"
+  },
+  {
+    "question_id": 43258,
+    "parent_answer_post_id": 43255,
+    "intent": "pyqt5でボタンを押せないようにしたい",
+    "snippet": "btn1.setEnabled(False)"
+  },
+  {
+    "question_id": 43459,
+    "parent_answer_post_id": 43456,
+    "intent": "CentOS7 と uWSGI で、Hello world",
+    "snippet": "return b'<html><body>Hello, world</body></html>'"
+  },
+  {
+    "question_id": 43600,
+    "parent_answer_post_id": 43599,
+    "intent": "ファイルに最後の変数しか書き込めない",
+    "snippet": "f = open('data.txt', 'a')"
+  },
+  {
+    "question_id": 43991,
+    "parent_answer_post_id": 43970,
+    "intent": "pyqt5でボタンの間のスペースが残ってしまう",
+    "snippet": "layout4.addStretch(0)"
+  },
+  {
+    "question_id": 44215,
+    "parent_answer_post_id": 44212,
+    "intent": "Pythonのargparseで特定のオプションが指定されている時はrequiredを抑制したい",
+    "snippet": "argparser.add_argument('--version', action='version', version='%(prog)s 2.0')"
+  },
+  {
+    "question_id": 44452,
+    "parent_answer_post_id": 44440,
+    "intent": "SASでのkeepはRやPythonではどのように書くのか",
+    "snippet": "df[['q1'] + ['q22_' + format(i, '02d') for i in range(1,16)] + ['q25', 'q28'] + ['q33_' + str(i) for i in range(3,22)]]"
+  },
+  {
+    "question_id": 44659,
+    "parent_answer_post_id": 44658,
+    "intent": "時間的に連続した複数のデータファイルを使って、スペクトログラムの図を作りたい",
+    "snippet": "Pxx, freqs, bins, im = plt.specgram(y, Fs=1,scale='dB', xextent=(i, i+1))"
+  },
+  {
+    "question_id": 45237,
+    "parent_answer_post_id": 45236,
+    "intent": "string型から文字列へ変換",
+    "snippet": "bytes.fromhex('e38184e38184e381adefbc8100000000000000000000000000000000').decode('utf-8')"
+  },
+  {
+    "question_id": 45463,
+    "parent_answer_post_id": 45461,
+    "intent": "クラスの引数・変数・変数の参照についての質問です。",
+    "snippet": "win = self.winner(self.p1, self.p2)"
+  },
+  {
+    "question_id": 46613,
+    "parent_answer_post_id": 45613,
+    "intent": "QApplication,QClipboard,mimedataで、貼り付けをした後にデータを復元すると、必ずテキストが黒くなる。",
+    "snippet": "html = html.replace(\"background-color: transparent;\",\"background-color: rgb(255, 255, 255);\")"
+  },
+  {
+    "question_id": 46931,
+    "parent_answer_post_id": 46927,
+    "intent": "エラーの意味を教えてください: module 'ecdsa' has no attribute 'SigningKey'",
+    "snippet": "print(ecdsa.__path__)"
+  },
+  {
+    "question_id": 47573,
+    "parent_answer_post_id": 47571,
+    "intent": "Pandasで小数点以下の桁を保持したままdataframeに読み込むには？",
+    "snippet": "print(df0['fX'] - 140)"
+  },
+  {
+    "question_id": 47614,
+    "parent_answer_post_id": 47588,
+    "intent": "pythonでffprobeのアウトプットを表示させない方法",
+    "snippet": "res = subprocess.run(['/usr/local/bin/ffprobe',target_file], capture_output=True)"
+  },
+  {
+    "question_id": 47964,
+    "parent_answer_post_id": 47953,
+    "intent": "文字列の数字への置き換え",
+    "snippet": "df['y'] = df['x'].map(line_names)"
+  },
+  {
+    "question_id": 48403,
+    "parent_answer_post_id": 48401,
+    "intent": "pyqt5で矢印をショートカットキーに使いたい",
+    "snippet": "btn2.setShortcut(Qt.Key_Right)"
+  },
+  {
+    "question_id": 48774,
+    "parent_answer_post_id": 48764,
+    "intent": "pycryptoを使ったデータの暗号化に失敗する",
+    "snippet": "iv = \"L3f4mlTJtCIPV9af\".encode('utf-8')"
+  },
+  {
+    "question_id": 49305,
+    "parent_answer_post_id": 49304,
+    "intent": "DataFrame.plot() で作図した場合のax.set_label()について質問です。デフォルト表示のラベルを上書きできない・・",
+    "snippet": "ax.set_xlabel('X [RAD]')"
+  },
+  {
+    "question_id": 50922,
+    "parent_answer_post_id": 50914,
+    "intent": "PhantomJSで収集したデータのcsvへの格納",
+    "snippet": "df = pandas.DataFrame()"
+  },
+  {
+    "question_id": 51254,
+    "parent_answer_post_id": 51253,
+    "intent": "pythonでplot画像の表示がうまくいかない。",
+    "snippet": "plt.plot([0, len(monk_fish_team) - 1], [monk_mean, monk_mean], color='red')"
+  },
+  {
+    "question_id": 51292,
+    "parent_answer_post_id": 51291,
+    "intent": "pd.io.sql.read_sqlで2つのコードの出力結果を同じにしたい",
+    "snippet": "query = \"select * from {} WHERE test_code = '{}'\".format(table_name, name)"
+  },
+  {
+    "question_id": 52586,
+    "parent_answer_post_id": 52572,
+    "intent": "Pythonでconcatで連番のデータフレームを縦結合",
+    "snippet": "pd.concat([globals()[x] for x in globals() if x.startswith(\"df\")])"
+  },
+  {
+    "question_id": 54005,
+    "parent_answer_post_id": 53818,
+    "intent": "Pythonの正規表現で特定のURLにマッチさせるには？",
+    "snippet": "pattern = 'https:\\/\\/www\\.pinterest\\.\\w+\\/pin\\/\\d+\\/'"
+  },
+  {
+    "question_id": 54116,
+    "parent_answer_post_id": 54110,
+    "intent": "np.ndarrayに変換できる条件がわかりません",
+    "snippet": "df = pd.DataFrame(a2+b)"
+  },
+  {
+    "question_id": 54280,
+    "parent_answer_post_id": 54275,
+    "intent": "python の NamedTuple で一部のフィールドだけ変更した値を作成したい",
+    "snippet": "rare_slime = slime._replace(defense=slime.defense * 10)"
+  },
+  {
+    "question_id": 54810,
+    "parent_answer_post_id": 54674,
+    "intent": "型ヒントで`Dict[str, Any]`をエイリアスにする場合、どんな名前が良いでしょうか？",
+    "snippet": "Param = Dict[str, Any]"
+  },
+  {
+    "question_id": 55232,
+    "parent_answer_post_id": 55231,
+    "intent": "python 上でsqlite の alter table文でカラム名を変数定義できない",
+    "snippet": "cur2.execute(\"alter table 各号機の時系列 add column %s char(50)\" % new_col)"
+  },
+  {
+    "question_id": 55425,
+    "parent_answer_post_id": 55375,
+    "intent": "Python3.6にアップデートしたら、Python2.7で使えてたものが動作しなくなった",
+    "snippet": "print(mathml(sympify(\"1/6\")))"
+  },
+  {
+    "question_id": 56020,
+    "parent_answer_post_id": 56019,
+    "intent": "python3.7でTypeError: an integer is requiredが解決しません",
+    "snippet": "sample=population.rvs(size==size)"
+  },
+  {
+    "question_id": 57269,
+    "parent_answer_post_id": 56351,
+    "intent": "自作Widgetが配置されたAppインスタンスを取得したい",
+    "snippet": "App.get_running_app()"
+  },
+  {
+    "question_id": 56718,
+    "parent_answer_post_id": 56701,
+    "intent": "Pythonで開いたファイルの種別を判断したい",
+    "snippet": "ret = mimetypes.guess_type(path, strict=True)"
+  },
+  {
+    "question_id": 57309,
+    "parent_answer_post_id": 57305,
+    "intent": "pandas DataFrameで特定条件で選択した行から指定のカラムだけ取得したい",
+    "snippet": "df.loc[df[\"two\"] > 10, \"three\"]"
+  },
+  {
+    "question_id": 59924,
+    "parent_answer_post_id": 59920,
+    "intent": "MeCab 形態素解析の結果が意図した通り表示されない",
+    "snippet": "s_parsed = t.parse(s[0])"
+  }
+]
