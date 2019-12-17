@@ -1,0 +1,3164 @@
+[
+  {
+    "question_id": 2660,
+    "parent_answer_post_id": 2653,
+    "intent": "Фильтр в Джанго",
+    "snippet": "objects.filter(children__isnull=True, children__point=0)"
+  },
+  {
+    "question_id": 5468,
+    "parent_answer_post_id": 5467,
+    "intent": "Как посмотреть global default timeout setting?",
+    "snippet": "socket._GLOBAL_DEFAULT_TIMEOUT"
+  },
+  {
+    "question_id": 6527,
+    "parent_answer_post_id": 6512,
+    "intent": "Арифметические операции в шаблонах Django",
+    "snippet": "{{ first|add:second }}"
+  },
+  {
+    "question_id": 7436,
+    "parent_answer_post_id": 7294,
+    "intent": "Русские названия полей базы данных в админке",
+    "snippet": "user = models.ForeignKey( User, verbose_name=u\"Пользователь\" )"
+  },
+  {
+    "question_id": 8524,
+    "parent_answer_post_id": 8303,
+    "intent": "Механизм сообщений в сервере",
+    "snippet": "reactor.callLater(3600, createBuilding)"
+  },
+  {
+    "question_id": 18091,
+    "parent_answer_post_id": 18083,
+    "intent": "Количество элементов в таблице",
+    "snippet": "u_count = User.objects.all().distinct().count()"
+  },
+  {
+    "question_id": 21333,
+    "parent_answer_post_id": 21321,
+    "intent": "Django simple captcha",
+    "snippet": "CAPTCHA_CHALLENGE_FUNCT = 'path.to.myrandom_char_challenge'"
+  },
+  {
+    "question_id": 37601,
+    "parent_answer_post_id": 37572,
+    "intent": "Вывод результата.",
+    "snippet": "([res[0], GetInHMS(res[0].utime-res[0].ctime), datetime.fromtimestamp(res[0].ctime)], [...], ...)"
+  },
+  {
+    "question_id": 39095,
+    "parent_answer_post_id": 39092,
+    "intent": "Как сделать ссылку на модель, которая ещё не объявлена?",
+    "snippet": "capital = models.ForeignKey('City', related_name='capitals') # Код страны"
+  },
+  {
+    "question_id": 50260,
+    "parent_answer_post_id": 50259,
+    "intent": "Точность чисел",
+    "snippet": "f.write(\"%.20f\" % item)"
+  },
+  {
+    "question_id": 51568,
+    "parent_answer_post_id": 51563,
+    "intent": "Функция для ввода строк в Python",
+    "snippet": "raw_input()"
+  },
+  {
+    "question_id": 52926,
+    "parent_answer_post_id": 52873,
+    "intent": "Как разбить строку на отдельные символы?",
+    "snippet": "list(str)"
+  },
+  {
+    "question_id": 62544,
+    "parent_answer_post_id": 62533,
+    "intent": "Как перевести строку в bytes в Python 3.2?",
+    "snippet": "'some string'.encode()"
+  },
+  {
+    "question_id": 65365,
+    "parent_answer_post_id": 65316,
+    "intent": "Обработка ошибок, функция",
+    "snippet": "list(bin(n).split('b', 1)[1])"
+  },
+  {
+    "question_id": 76349,
+    "parent_answer_post_id": 76348,
+    "intent": "Не могу изменить переменную PYTHONPATH",
+    "snippet": "sys.path.append('C:\\\\DjangoPJ\\\\Acosta')"
+  },
+  {
+    "question_id": 84928,
+    "parent_answer_post_id": 84901,
+    "intent": "Преобразовать файл в string или buffer",
+    "snippet": "eyeD3.Mp3AudioFile(file.temporary_file_path())"
+  },
+  {
+    "question_id": 101084,
+    "parent_answer_post_id": 101081,
+    "intent": "Отображение картинки веб-сервером python",
+    "snippet": "f = open(curdir+sep+self.path, 'rb')"
+  },
+  {
+    "question_id": 115134,
+    "parent_answer_post_id": 115065,
+    "intent": "Ошибка при конвертации, проблема не решена",
+    "snippet": "f.write(s.encode(\"utf-8\"))"
+  },
+  {
+    "question_id": 118929,
+    "parent_answer_post_id": 118927,
+    "intent": "Как скопировать кортеж в список",
+    "snippet": "new_list = list(arg_list)"
+  },
+  {
+    "question_id": 141161,
+    "parent_answer_post_id": 141157,
+    "intent": "Присваивание переменной результата функции",
+    "snippet": "a = f()"
+  },
+  {
+    "question_id": 157654,
+    "parent_answer_post_id": 157647,
+    "intent": "Замена текста python",
+    "snippet": "text = text.replace('word', some_function(), 1)"
+  },
+  {
+    "question_id": 157679,
+    "parent_answer_post_id": 157675,
+    "intent": "Как найти число в строке python?",
+    "snippet": "re.findall('(\\d+)', '2BNKLOPY5T')"
+  },
+  {
+    "question_id": 163245,
+    "parent_answer_post_id": 163215,
+    "intent": "UnicodeDecodeError: 'utf8' codec can't decode byte",
+    "snippet": "message = unicode(message, 'cp1251')"
+  },
+  {
+    "question_id": 167260,
+    "parent_answer_post_id": 167259,
+    "intent": "Извлечение элемента массива",
+    "snippet": "i = arr[0][1]"
+  },
+  {
+    "question_id": 187915,
+    "parent_answer_post_id": 187912,
+    "intent": "Python 3 и командная строка",
+    "snippet": "result = subprocess.check_output([\"command\", \"parameters\"]);"
+  },
+  {
+    "question_id": 189174,
+    "parent_answer_post_id": 189166,
+    "intent": "Python запуск консольной программы",
+    "snippet": "cmd = r'/home/user/prog/tool/bin/resample -p /home/user/prog/tool/bin/param.prm  '"
+  },
+  {
+    "question_id": 190504,
+    "parent_answer_post_id": 190500,
+    "intent": "object has no attribute 'get'",
+    "snippet": "HouseAddForm(get_house)"
+  },
+  {
+    "question_id": 209062,
+    "parent_answer_post_id": 209059,
+    "intent": "Регулярка для замены пробелов на запятую",
+    "snippet": "re.sub(' +', ',', your_string)"
+  },
+  {
+    "question_id": 230437,
+    "parent_answer_post_id": 230436,
+    "intent": "Таймер на Python",
+    "snippet": "currentTime = time.time()"
+  },
+  {
+    "question_id": 240288,
+    "parent_answer_post_id": 240287,
+    "intent": "Словарь из кортежа кортежей в Python",
+    "snippet": "dict(кортеж)"
+  },
+  {
+    "question_id": 247981,
+    "parent_answer_post_id": 247679,
+    "intent": "Добавить поле к каждому объекту итерируемой коллекции",
+    "snippet": "set_of_obj = map(lambda x: x.__setattr__('zet', x.get_zet()) or x, set_of_obj)"
+  },
+  {
+    "question_id": 280571,
+    "parent_answer_post_id": 280539,
+    "intent": "Сокрытие ввода в консоли Python 3",
+    "snippet": "pw = getpass.getpass()"
+  },
+  {
+    "question_id": 280739,
+    "parent_answer_post_id": 280734,
+    "intent": "Разбор dbf-файлов при помощи Python",
+    "snippet": "struct.unpack('<I', data[4:8])"
+  },
+  {
+    "question_id": 288598,
+    "parent_answer_post_id": 288595,
+    "intent": "Python3: DCOM в Thread",
+    "snippet": "pythoncom.CoInitializeEx(0)"
+  },
+  {
+    "question_id": 295295,
+    "parent_answer_post_id": 295293,
+    "intent": "Разделение строки на отдельные строки",
+    "snippet": "'example@gmail.com'.split('@')"
+  },
+  {
+    "question_id": 298285,
+    "parent_answer_post_id": 298270,
+    "intent": "Как экранировать спецсимволы при создании каталога?",
+    "snippet": "name.encode('string-escape')"
+  },
+  {
+    "question_id": 300781,
+    "parent_answer_post_id": 300777,
+    "intent": "Вывести на экран xml с отступами",
+    "snippet": "print(lxml.etree.tostring(rt, pretty_print=True, encoding='utf-8'))"
+  },
+  {
+    "question_id": 301532,
+    "parent_answer_post_id": 301494,
+    "intent": "Как извлечь содержимое тега kbd?",
+    "snippet": "re.findall(r'<kbd>(.*?)</kbd>', src, re.S)"
+  },
+  {
+    "question_id": 301791,
+    "parent_answer_post_id": 301790,
+    "intent": "Django игнорирует settings.py, лежащий в проекте и вместо него использует свой global_settings.py",
+    "snippet": "os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"<projectname>.settings\")"
+  },
+  {
+    "question_id": 302561,
+    "parent_answer_post_id": 302432,
+    "intent": "Почему append добавляет элемент ко всем спискам в списке [[], [], []]?",
+    "snippet": "b = a[:]"
+  },
+  {
+    "question_id": 314377,
+    "parent_answer_post_id": 314372,
+    "intent": "Проблема с foreignKey",
+    "snippet": "status = models.ForeignKey(UserStatus)"
+  },
+  {
+    "question_id": 318686,
+    "parent_answer_post_id": 318685,
+    "intent": "Переменное количество переменных в VarArgs",
+    "snippet": "return initial + sum(args) + sum(kwargs.values())"
+  },
+  {
+    "question_id": 318880,
+    "parent_answer_post_id": 318726,
+    "intent": "Предотвращение безмерного роста списка",
+    "snippet": "obj.setPos( Point3( pos.getX( ), depth, pos.getY( ) ) )"
+  },
+  {
+    "question_id": 320466,
+    "parent_answer_post_id": 320461,
+    "intent": "Проблема с foreignKey",
+    "snippet": "{{ entries_user_profile.gender.gender }}"
+  },
+  {
+    "question_id": 321176,
+    "parent_answer_post_id": 321089,
+    "intent": "Как заполнить форму начальными данными?",
+    "snippet": "status = UserProfile._meta.get_field('status').formfield(empty_label=u'Не указан', required=False)"
+  },
+  {
+    "question_id": 352838,
+    "parent_answer_post_id": 352794,
+    "intent": "Вывод UTF-8 CGI-скриптом на Python 3",
+    "snippet": "sys.stdout = codecs.getwriter(\"utf-8\")(sys.stdout.detach())"
+  },
+  {
+    "question_id": 359111,
+    "parent_answer_post_id": 359110,
+    "intent": "Как удалить все пробелы из строки в Python?",
+    "snippet": "a.replace(' ', '')"
+  },
+  {
+    "question_id": 366171,
+    "parent_answer_post_id": 366145,
+    "intent": "Python url и переменная из random",
+    "snippet": "f = urllib2.urlopen('http://site.com/analytics/' + str(mood) + '.html')"
+  },
+  {
+    "question_id": 379222,
+    "parent_answer_post_id": 378887,
+    "intent": "Создание списков и словарей",
+    "snippet": "item = your_list_proxy[index]"
+  },
+  {
+    "question_id": 384233,
+    "parent_answer_post_id": 384228,
+    "intent": "Djando UNIQUE constraint failed: rec.id",
+    "snippet": "super(Post, self).save(*args, **kwargs)"
+  },
+  {
+    "question_id": 386792,
+    "parent_answer_post_id": 386790,
+    "intent": "Ошибка TypeError: 'bytes' object is not callable",
+    "snippet": "result = json.loads(requests.get(url, params=params).content.decode(encoding='utf-8'))"
+  },
+  {
+    "question_id": 386872,
+    "parent_answer_post_id": 386829,
+    "intent": "Не сериализуется JSON строка",
+    "snippet": "json_text = json.dumps(obj)"
+  },
+  {
+    "question_id": 389216,
+    "parent_answer_post_id": 389180,
+    "intent": "Как сравнить две даты на выявление более поздней или более ранней?",
+    "snippet": "datetime.datetime.fromtimestamp(st_mtime)"
+  },
+  {
+    "question_id": 392378,
+    "parent_answer_post_id": 392375,
+    "intent": "Работа со строкой",
+    "snippet": "re.findall(r'tick=(\\d{10})', str)"
+  },
+  {
+    "question_id": 404039,
+    "parent_answer_post_id": 404015,
+    "intent": "Как сделать пустое действие при обработке исключения в Python?",
+    "snippet": "pass"
+  },
+  {
+    "question_id": 409836,
+    "parent_answer_post_id": 409754,
+    "intent": "Изменение заголовка при перетаскивании формы",
+    "snippet": "root.title(\"Title\")"
+  },
+  {
+    "question_id": 418161,
+    "parent_answer_post_id": 418160,
+    "intent": "Слияние вложенных списков в словаре",
+    "snippet": "chain( *( item['subitems'] for item in data['items'] ) )"
+  },
+  {
+    "question_id": 422331,
+    "parent_answer_post_id": 422329,
+    "intent": "Ошибка при получении запроса GET в Django",
+    "snippet": "\"Ты пытаешься найти: {0}\".format(request.GET.get('q'))"
+  },
+  {
+    "question_id": 423174,
+    "parent_answer_post_id": 423163,
+    "intent": "Что такое ret в данном случае? ( ret, frame = cap.read() )",
+    "snippet": "ret, frame = cap.read()"
+  },
+  {
+    "question_id": 427609,
+    "parent_answer_post_id": 427604,
+    "intent": "Python. Подмена библиотеки из site-packages",
+    "snippet": "sys.path.insert(0,'catalog_with_your_pygments')"
+  },
+  {
+    "question_id": 428550,
+    "parent_answer_post_id": 428549,
+    "intent": "Нахождение меньшего числа из трех",
+    "snippet": "a,b,c=map(int, f.readline().split())"
+  },
+  {
+    "question_id": 428983,
+    "parent_answer_post_id": 428976,
+    "intent": "Как python считает стандартную функцию stdev из statistics?",
+    "snippet": "help(statistics.variance)"
+  },
+  {
+    "question_id": 429429,
+    "parent_answer_post_id": 429422,
+    "intent": "Проверка строки на палиндром",
+    "snippet": "signs = \"?!. \\'\\\"`,:;-_/()[]~\\n\""
+  },
+  {
+    "question_id": 430492,
+    "parent_answer_post_id": 430475,
+    "intent": "urllib и русский текст",
+    "snippet": "respData = resp.read().decode(resp.headers.get_content_charset())"
+  },
+  {
+    "question_id": 432082,
+    "parent_answer_post_id": 431128,
+    "intent": "Получение элемента массива",
+    "snippet": "myList[2][3][1]"
+  },
+  {
+    "question_id": 431814,
+    "parent_answer_post_id": 431803,
+    "intent": "ipscanner на python3 (модуль ipaddress). вывод - все хосты в оффлайне",
+    "snippet": "hostname_response = os.system(\"ping -c 1 -w 2\" + str(hostname_start)+ \"> /dev/null 2>&1\")"
+  },
+  {
+    "question_id": 433905,
+    "parent_answer_post_id": 433876,
+    "intent": "Как правильно вызвать BAT файл в Python?",
+    "snippet": "p = subprocess.Popen('D:\\YandexDisc\\AndroidApps\\Build_DrawProjects\\DrawOwls\\gradlew.bat assembleRelease', cwd='D:\\YandexDisc\\AndroidApps\\Build_DrawProjects\\DrawOwls', creationflags=subprocess.CREATE_NEW_CONSOLE)"
+  },
+  {
+    "question_id": 436665,
+    "parent_answer_post_id": 436663,
+    "intent": "Page not found! The current URL, polls/, didn't match any of ... patterns",
+    "snippet": "url(r'^S', views.index, name='index'),"
+  },
+  {
+    "question_id": 437525,
+    "parent_answer_post_id": 437242,
+    "intent": "Извлечение href при помощи grab",
+    "snippet": "g.doc.tree.xpath('//a[contains(@class, \"serp-item__title-link\")]//@href')"
+  },
+  {
+    "question_id": 446810,
+    "parent_answer_post_id": 446444,
+    "intent": "Форма обратной связи Django не передается в feedback.html, что не так?",
+    "snippet": "return render_to_response('feedback.html')"
+  },
+  {
+    "question_id": 462305,
+    "parent_answer_post_id": 462247,
+    "intent": "Число в двоичной системе счисления с лидирующими нулями",
+    "snippet": "bin(n)[2:].zfill(8)"
+  },
+  {
+    "question_id": 465352,
+    "parent_answer_post_id": 465184,
+    "intent": "Django - order_by по функции",
+    "snippet": "top_users = User.objects.annotate(Sum('task__points')).order_by('-task__points__sum')[:10]"
+  },
+  {
+    "question_id": 466222,
+    "parent_answer_post_id": 466218,
+    "intent": "Python. Лямбда в словаре. Не работает print()",
+    "snippet": "l[\"1\"]()"
+  },
+  {
+    "question_id": 514484,
+    "parent_answer_post_id": 472454,
+    "intent": "Превращение repr-представления строки в нормальную строку",
+    "snippet": "text = ast.literal_eval(text_repr) # where text_repr = '\"Привет!\\\\n\"'"
+  },
+  {
+    "question_id": 476887,
+    "parent_answer_post_id": 476875,
+    "intent": "Как получить QuerySet по списку возможных параметров?",
+    "snippet": "foreign_key__in=list_of_foreign_keys"
+  },
+  {
+    "question_id": 480976,
+    "parent_answer_post_id": 480975,
+    "intent": "Почему условия не работает?",
+    "snippet": "type(coin)"
+  },
+  {
+    "question_id": 481141,
+    "parent_answer_post_id": 481133,
+    "intent": "Разделить двумерный массив на два вектора",
+    "snippet": "id, names = list(zip(*my_array))[:2]"
+  },
+  {
+    "question_id": 481448,
+    "parent_answer_post_id": 481441,
+    "intent": "python BeautifulSoup",
+    "snippet": "print([e.string for e in soup.select(\"div.b-comment__user a span\")])"
+  },
+  {
+    "question_id": 483301,
+    "parent_answer_post_id": 483296,
+    "intent": "Почему программа завершается, не дожидаясь выполнения потока?",
+    "snippet": "t.join()"
+  },
+  {
+    "question_id": 490121,
+    "parent_answer_post_id": 490018,
+    "intent": "Анимация кнопки после привязки обработчика события tkintter python3",
+    "snippet": "event.widget.config(relief = 'SUNKEN')"
+  },
+  {
+    "question_id": 490449,
+    "parent_answer_post_id": 490448,
+    "intent": "Удалить элемент из списка",
+    "snippet": "UserCard.remove(randBoch)"
+  },
+  {
+    "question_id": 490530,
+    "parent_answer_post_id": 490525,
+    "intent": "Передать значение переменной из Python в bash скрипт",
+    "snippet": "subprocess.Popen('/path/script.sh 123 {0}'.format(Python_arg), shell=True)"
+  },
+  {
+    "question_id": 491302,
+    "parent_answer_post_id": 491196,
+    "intent": "Не срабатывает os.listdir(path=&quot;.&quot;)",
+    "snippet": "print(os.listdir('.'))"
+  },
+  {
+    "question_id": 495670,
+    "parent_answer_post_id": 493594,
+    "intent": "Пагинация с использованием MultipleObjectMixin в Django ( AttributeError: object has no attribute 'object_list' )",
+    "snippet": "self.object_list = self.get_queryset()"
+  },
+  {
+    "question_id": 493652,
+    "parent_answer_post_id": 493611,
+    "intent": "Обновление slug в django",
+    "snippet": "slug = AutoSlugField(populate_from='category_name', unique=True, db_index=True, always_update=True)"
+  },
+  {
+    "question_id": 494137,
+    "parent_answer_post_id": 494092,
+    "intent": "запрос в базу данных при помощи django объекта Q к одному полю с оператором &amp;",
+    "snippet": "Artikul_cabinets.objects.filter(glass_cabinets=artgen['perf']).filter(glass_cabinets=artgen['glass'])"
+  },
+  {
+    "question_id": 495079,
+    "parent_answer_post_id": 495072,
+    "intent": "Подключаюсь к бд Оракл, пытаюсь выгрзуить данные, но вместо этого выгружается None по полю Gender",
+    "snippet": "os.environ[\"NLS_LANG\"] = \".AL32UTF8\""
+  },
+  {
+    "question_id": 496136,
+    "parent_answer_post_id": 496135,
+    "intent": "Python, разделение строки по символам через метод re.split",
+    "snippet": "['', 'k', '10', 'Z', '18', 'i', '13', 'Q', '19', 'u', '']"
+  },
+  {
+    "question_id": 501252,
+    "parent_answer_post_id": 501245,
+    "intent": "Python - ConfigParser TypeError: unsupported operand type(s) for %: 'NoneType' and 'int'",
+    "snippet": "config.set('INFO', 'version', '%d' % version)"
+  },
+  {
+    "question_id": 501630,
+    "parent_answer_post_id": 501556,
+    "intent": "Как получить информацию из строки json, которая указана в Javascript коде внутри html страницы, используя python3.x?",
+    "snippet": "card_sum = int(re.search(r'\"CardSum\"\\s*:\\s*(\\d+)', html).group(1))"
+  },
+  {
+    "question_id": 502615,
+    "parent_answer_post_id": 502605,
+    "intent": "Нахождение строки между символом",
+    "snippet": "comp = re.compile(r'¬([^¬]*)')"
+  },
+  {
+    "question_id": 508813,
+    "parent_answer_post_id": 508806,
+    "intent": "Как добавить окно в mdiArea d PyQt5?",
+    "snippet": "dialog1 = Dialog()"
+  },
+  {
+    "question_id": 514888,
+    "parent_answer_post_id": 514872,
+    "intent": "Как получить доступ к полю JSON (python, django)",
+    "snippet": "response[0]['message']['chat']['first_name']"
+  },
+  {
+    "question_id": 516791,
+    "parent_answer_post_id": 516784,
+    "intent": "Python. Regular Expression: &quot;выбросить&quot; текст между символами",
+    "snippet": "re.sub(r';.*;', ';;', 'h1;some text in h1;h1')"
+  },
+  {
+    "question_id": 517692,
+    "parent_answer_post_id": 517691,
+    "intent": "Кириллица в django HttpResponse",
+    "snippet": "return HttpResponse(u'Проверьте введённые данные: ошибка ввода')"
+  },
+  {
+    "question_id": 519584,
+    "parent_answer_post_id": 519583,
+    "intent": "Django - выборка из раздела и подразделов",
+    "snippet": "object_list = object_list.filter(category__in=categories)"
+  },
+  {
+    "question_id": 521321,
+    "parent_answer_post_id": 521295,
+    "intent": "Свойство атрибута класса",
+    "snippet": "readonly = getattr(v, 'readonly', False)"
+  },
+  {
+    "question_id": 521401,
+    "parent_answer_post_id": 521397,
+    "intent": "Python, регулярные выражения. Удалить из строки блоки в скобках",
+    "snippet": "string = re.sub(r'\\([^\\)]+\\)', '', string)"
+  },
+  {
+    "question_id": 526949,
+    "parent_answer_post_id": 526380,
+    "intent": "Не срабатывает поиск по базе",
+    "snippet": "return self.marka"
+  },
+  {
+    "question_id": 532626,
+    "parent_answer_post_id": 532619,
+    "intent": "Python 3.4 и MySQL. Почему запрос выполняется с ошибкой?",
+    "snippet": "cursor.execute(query, (clientToken,))"
+  },
+  {
+    "question_id": 540988,
+    "parent_answer_post_id": 540972,
+    "intent": "Работа с json в python",
+    "snippet": "id = parsed_json[\"response\"][0][\"id\"]"
+  },
+  {
+    "question_id": 542408,
+    "parent_answer_post_id": 542406,
+    "intent": "Как получить сумму цифр числа с учётом знака: -35 -&gt; -3 + 5 -&gt; 2?",
+    "snippet": "return sum([int(i) for i in str(abs(number))])"
+  },
+  {
+    "question_id": 545069,
+    "parent_answer_post_id": 544880,
+    "intent": "ReportLab. int object has no attribute decode",
+    "snippet": "c.drawString(395, 765, str(sp.number_1))"
+  },
+  {
+    "question_id": 547338,
+    "parent_answer_post_id": 544929,
+    "intent": "Как сохранить изменения в дата сете в одну матрицу используя scipy.sparse.hstack в python?",
+    "snippet": "df['FullDescription'] = df['FullDescription'].str.lower()"
+  },
+  {
+    "question_id": 546012,
+    "parent_answer_post_id": 546009,
+    "intent": "Почему не получается заменить часть изменённых данных в pandas python?",
+    "snippet": "df['FullDescription'] = df['FullDescription'].str.lower()"
+  },
+  {
+    "question_id": 548727,
+    "parent_answer_post_id": 548698,
+    "intent": "Достать из Tuple данные",
+    "snippet": "value = tpl[3][0][1].prettyPrint()"
+  },
+  {
+    "question_id": 550902,
+    "parent_answer_post_id": 550899,
+    "intent": "ограничение регистрации по домену в почте",
+    "snippet": "\"^.*@(.*?)\\\\.ua$\""
+  },
+  {
+    "question_id": 552843,
+    "parent_answer_post_id": 551901,
+    "intent": "Взаимодействие по usb с vkp80",
+    "snippet": "printer.write(0x2, \"\\x1B\\x69\\x1D\\x65\\x03\\x0C\")"
+  },
+  {
+    "question_id": 555279,
+    "parent_answer_post_id": 555276,
+    "intent": "Почему в результате работы программы добавляется None",
+    "snippet": "print(max(x, y))"
+  },
+  {
+    "question_id": 561401,
+    "parent_answer_post_id": 561397,
+    "intent": "Обработать строку с помощью регулярного выражения на Python",
+    "snippet": "re.sub(r'^[^а-яА-ЯёЁ]+', '', s)"
+  },
+  {
+    "question_id": 563251,
+    "parent_answer_post_id": 562612,
+    "intent": "Не работает запрос в sqlite: LIKE '%?%'—ProgrammingError: Incorrect number of bindings supplied",
+    "snippet": "c.execute(\"SELECT * FROM foods WHERE food_names LIKE ?\", (\"%пиво%\",))"
+  },
+  {
+    "question_id": 564690,
+    "parent_answer_post_id": 563088,
+    "intent": "Знаки вопроса вместо кириллицы при выводе данных из БД",
+    "snippet": "os.environ[\"NLS_LANG\"] = \"AMERICAN.AL32UTF8\""
+  },
+  {
+    "question_id": 566257,
+    "parent_answer_post_id": 566243,
+    "intent": "Python информация из строки",
+    "snippet": "results = re.findall(r'(\\d+)x(\\d+)p(\\d+)', port.read(9999))"
+  },
+  {
+    "question_id": 570336,
+    "parent_answer_post_id": 568677,
+    "intent": "Мультизадачность на Python: выполнить две долгие функции одновременно, не блокируя GUI",
+    "snippet": "pool = ProcessPoolExecutor()"
+  },
+  {
+    "question_id": 590886,
+    "parent_answer_post_id": 568820,
+    "intent": "Django, как отправить аргумент в handler404?",
+    "snippet": "raise Http404('custom error message')"
+  },
+  {
+    "question_id": 571393,
+    "parent_answer_post_id": 570168,
+    "intent": "Почему argv[0] выдаёт полный путь к скрипту? (Python)",
+    "snippet": "progname = os.path.basename(sys.argv[0])"
+  },
+  {
+    "question_id": 570198,
+    "parent_answer_post_id": 570189,
+    "intent": "TypeError: 'str' does not support the buffer interface",
+    "snippet": "string = str(res.read())"
+  },
+  {
+    "question_id": 571339,
+    "parent_answer_post_id": 570200,
+    "intent": "TypeError: __init__() takes 2 positional arguments but 3 were given в Django",
+    "snippet": "t = Tag(caption=\"ПроВеРка ТэГа\")"
+  },
+  {
+    "question_id": 570741,
+    "parent_answer_post_id": 570629,
+    "intent": "Как правильно распарсить xml?",
+    "snippet": "level4 = subroot.findtext('Level4', default='')"
+  },
+  {
+    "question_id": 571572,
+    "parent_answer_post_id": 571563,
+    "intent": "сравнение файлов: Как не выводить в результат одинаковые данные в обоих файлах",
+    "snippet": "print(''.join([line for line in diff if not line.startswith('  ')]))"
+  },
+  {
+    "question_id": 591954,
+    "parent_answer_post_id": 591952,
+    "intent": "Ошибка TypeError: not all arguments converted during string formatting",
+    "snippet": "cursor.execute(query, (tmatch,))"
+  },
+  {
+    "question_id": 593468,
+    "parent_answer_post_id": 593465,
+    "intent": "Проверка нескольких условий одновременно Python",
+    "snippet": "\"Имя\" in line and \"Фамилия\" in line"
+  },
+  {
+    "question_id": 594467,
+    "parent_answer_post_id": 594460,
+    "intent": "Не могу выложить Django приложение на Pythonanywhere",
+    "snippet": "ALLOWED_HOSTS = ('hatsunami.pythonanywhere.com', )"
+  },
+  {
+    "question_id": 596340,
+    "parent_answer_post_id": 596328,
+    "intent": "Python Запись из файла в 2-ух мерный массив",
+    "snippet": "data = np.loadtxt(fname)"
+  },
+  {
+    "question_id": 597080,
+    "parent_answer_post_id": 597062,
+    "intent": "Почему у меня вместо фамилии записывается пол при добавление записей в словарь",
+    "snippet": "'surname'[i]"
+  },
+  {
+    "question_id": 597234,
+    "parent_answer_post_id": 597229,
+    "intent": "Вычисление значения математического выражения из строки",
+    "snippet": "eval('1/3+2/3')"
+  },
+  {
+    "question_id": 602682,
+    "parent_answer_post_id": 601416,
+    "intent": "sqlalchemy.exc.IntegrityError при добавление копии данных в таблицу БД в цикле for",
+    "snippet": "copy_project.create_default_groups(current_user, tenant=tenant)"
+  },
+  {
+    "question_id": 601601,
+    "parent_answer_post_id": 601598,
+    "intent": "Как в питоне уменьшить расстояние между элементами в строке?",
+    "snippet": "' '.join(i for i in 'I am    good       boy'.split(' ') if i != '')"
+  },
+  {
+    "question_id": 604571,
+    "parent_answer_post_id": 604565,
+    "intent": "Как передать переменную в format?",
+    "snippet": "print(\"{:.{precision}f}\".format(7.18345, precision=2))"
+  },
+  {
+    "question_id": 607318,
+    "parent_answer_post_id": 607210,
+    "intent": "Вызов метода в отдельном потоке, python-telegram-bot API.",
+    "snippet": "CommandHandler('sign_up', lambda *a, **kw: Thread(target=self.sign_up, args=a, kwargs=kw).start())"
+  },
+  {
+    "question_id": 611646,
+    "parent_answer_post_id": 611533,
+    "intent": "Добавить кнопку в таблице Джанго администратора для отображения информации в шаблоне",
+    "snippet": "reverse('admin:{{ app_name }}_{{ model_name }}_change', args=(object.id,))"
+  },
+  {
+    "question_id": 611804,
+    "parent_answer_post_id": 611778,
+    "intent": "Python3 - tar - Добавить все файлы в тек.директории в архив",
+    "snippet": "shutil.make_archive('tar/sample', 'gztar')"
+  },
+  {
+    "question_id": 615701,
+    "parent_answer_post_id": 615681,
+    "intent": "разные значения при каждой итерации",
+    "snippet": "a['tags'] = random.choice(['te', 'rara','tete']) if i % 10 != 0 else \" \""
+  },
+  {
+    "question_id": 616334,
+    "parent_answer_post_id": 616239,
+    "intent": "django: NoReverseMatch для нового объекта",
+    "snippet": "url(r'^(?P<pk>[0-9]+)/$', StreamDetail.as_view(), name='detail_stream`')"
+  },
+  {
+    "question_id": 618705,
+    "parent_answer_post_id": 618699,
+    "intent": "по кодировкам utf-8 выдает результат по-разному при печати строк по отдельности и списка целиком",
+    "snippet": "print('[%s]' % ','.join(path_f))"
+  },
+  {
+    "question_id": 619232,
+    "parent_answer_post_id": 619227,
+    "intent": "Запуск copy команды Windows в консоле из-под Python",
+    "snippet": "path = ['cmd', '/c', 'copy', r'\\\\example.com\\lvl0\\lvl2\\lvl3', 'Windows']"
+  },
+  {
+    "question_id": 620967,
+    "parent_answer_post_id": 620962,
+    "intent": "Как вывести результат деления двух столбцов в третий в DataFrame",
+    "snippet": "df['rate'] = df['is_goal'] / df['shot_outcome']"
+  },
+  {
+    "question_id": 622720,
+    "parent_answer_post_id": 622594,
+    "intent": "Как из manytomany field получить связанные объекты",
+    "snippet": "players_1_list = instance.players_1.all()"
+  },
+  {
+    "question_id": 625363,
+    "parent_answer_post_id": 625160,
+    "intent": "Ошибка UnicodeEncodeError: 'ascii' codec can't encode characters in position 23-25: ordinal not in range(128)",
+    "snippet": "df = pd.read_csv(input_1, sep=';', encoding='utf-8')"
+  },
+  {
+    "question_id": 635067,
+    "parent_answer_post_id": 635002,
+    "intent": "python -V centos7 пытается запустить /usr/local/bin/python вместо /usr/bin/python в bash",
+    "snippet": "alternatives --list"
+  },
+  {
+    "question_id": 635502,
+    "parent_answer_post_id": 635448,
+    "intent": "Создние toolbar из списка",
+    "snippet": "lambda item=item: print(item[0])"
+  },
+  {
+    "question_id": 638464,
+    "parent_answer_post_id": 638460,
+    "intent": "RE - regex - как изменить порядок поиска",
+    "snippet": "t=re.findall(r'start(.*?)stop', stroka)"
+  },
+  {
+    "question_id": 640672,
+    "parent_answer_post_id": 640631,
+    "intent": "UTF в Python WSGI",
+    "snippet": "return [template_content.encode('utf-8')]"
+  },
+  {
+    "question_id": 642225,
+    "parent_answer_post_id": 642224,
+    "intent": "__init__() takes 1 positional argument but 2 were given",
+    "snippet": "url(r'^$', views.HeaderLinks.as_view(), name='header' ),"
+  },
+  {
+    "question_id": 644546,
+    "parent_answer_post_id": 644468,
+    "intent": "Проблема с списком кнопок PyQt5: все кнопки ссылаются на одну программу вместо разных",
+    "snippet": "temp.clicked.connect(lambda i=i: call([\"{}\".format(self.btn_path[i])]))"
+  },
+  {
+    "question_id": 645006,
+    "parent_answer_post_id": 645000,
+    "intent": "Сделать один список длинною другого",
+    "snippet": "b = b * (len(a) // len(b)) + b[:len(a) % len(b)]"
+  },
+  {
+    "question_id": 645449,
+    "parent_answer_post_id": 645037,
+    "intent": "Tkinter Значение чекбоксов",
+    "snippet": "s = int(self.number.get())"
+  },
+  {
+    "question_id": 645529,
+    "parent_answer_post_id": 645527,
+    "intent": "Как вытащить 15% от суммы заказа в python?",
+    "snippet": "lunch / 100 * 15"
+  },
+  {
+    "question_id": 646445,
+    "parent_answer_post_id": 646437,
+    "intent": "Как соединить две ячейки Python GUI(Tkinter)",
+    "snippet": "entry1.grid(row=0,column=0,columnspan=3)"
+  },
+  {
+    "question_id": 649844,
+    "parent_answer_post_id": 649828,
+    "intent": "Ввести список через пробел",
+    "snippet": "a = list(map(int, input().split()))"
+  },
+  {
+    "question_id": 654609,
+    "parent_answer_post_id": 654076,
+    "intent": "python scrapy сбор данных с нескольких страниц в один словарь",
+    "snippet": "item = SxtlItem()"
+  },
+  {
+    "question_id": 655226,
+    "parent_answer_post_id": 655222,
+    "intent": "python socketIO_client не получается подключиться к namespace",
+    "snippet": "socketIO.on('chat', test, path='/my_chat')"
+  },
+  {
+    "question_id": 659017,
+    "parent_answer_post_id": 656771,
+    "intent": "Запуск нескольких команд в одном процессе",
+    "snippet": "rc = subprocess.call(\"a && b && c\", shell=True)"
+  },
+  {
+    "question_id": 660710,
+    "parent_answer_post_id": 657406,
+    "intent": "Как найти местоположение модуля Python?",
+    "snippet": "module.__file__"
+  },
+  {
+    "question_id": 660391,
+    "parent_answer_post_id": 660096,
+    "intent": "Привязка FloatField к SlugField и его сортировка",
+    "snippet": "products = Items.objects.order_by('-rating')"
+  },
+  {
+    "question_id": 660197,
+    "parent_answer_post_id": 660195,
+    "intent": "Как поставить случайный выбор в Python для выражений не касательно чисел?",
+    "snippet": "print(random.choice(['Hello', 'World', '!']))"
+  },
+  {
+    "question_id": 660939,
+    "parent_answer_post_id": 660365,
+    "intent": "Выбор по css селектору BeautifullSoup",
+    "snippet": "soup.select('span.myclass')"
+  },
+  {
+    "question_id": 660459,
+    "parent_answer_post_id": 660440,
+    "intent": "Аналог функции dpois (язык R) в python (распределение Пуассона)",
+    "snippet": "scipy.stats.poisson.pmf(k, mu, loc)"
+  },
+  {
+    "question_id": 663916,
+    "parent_answer_post_id": 663110,
+    "intent": "Как не декодировать JSON для VkApi?",
+    "snippet": "upload_url = api.photos.getWallUploadServer(group_id=Settings.owner_id)"
+  },
+  {
+    "question_id": 675495,
+    "parent_answer_post_id": 670307,
+    "intent": "Elasticsearch python получение одного поля документа",
+    "snippet": "s = s.params(size=8000)"
+  },
+  {
+    "question_id": 709794,
+    "parent_answer_post_id": 671913,
+    "intent": "Python telegram InlineKeyboardButton",
+    "snippet": "btns.append(types.InlineKeyboardButton(text=i, callback_data=i[0:-10]))"
+  },
+  {
+    "question_id": 672818,
+    "parent_answer_post_id": 672804,
+    "intent": "getopt не распознаёт параметр",
+    "snippet": "opts, args = getopt.getopt(argv, 'ht:a:', ['help', 'target=', 'auth='])"
+  },
+  {
+    "question_id": 673599,
+    "parent_answer_post_id": 673595,
+    "intent": "Сигн для etxt api на Python",
+    "snippet": "sign = md5(params + md5(api_pass + 'api-pass'));"
+  },
+  {
+    "question_id": 678509,
+    "parent_answer_post_id": 678503,
+    "intent": "Как опреобразовать str обратно в python list?",
+    "snippet": "str_a = json.dumps(list_a)"
+  },
+  {
+    "question_id": 682075,
+    "parent_answer_post_id": 682067,
+    "intent": "задачка fizzbuzz для знатоков",
+    "snippet": "print([((not i%3) * 'Fizz' + (not i%5) * 'Buzz') or i for i in range (1, 101)], sep=' ')"
+  },
+  {
+    "question_id": 684324,
+    "parent_answer_post_id": 683924,
+    "intent": "Opencv python конвертация изображения",
+    "snippet": "np.ndarray.astype(np.uint8)"
+  },
+  {
+    "question_id": 690565,
+    "parent_answer_post_id": 690542,
+    "intent": "конвертировать scrapy.Response в объект BeautifulSoup",
+    "snippet": "soup = BeautifulSoup(response.text, 'lxml')"
+  },
+  {
+    "question_id": 690590,
+    "parent_answer_post_id": 690589,
+    "intent": "Смена мест между ключами и их значениями",
+    "snippet": "{v:k for k, v in e2f.items()}"
+  },
+  {
+    "question_id": 691159,
+    "parent_answer_post_id": 691155,
+    "intent": "Ограничить количество символов строки при отображении страницы",
+    "snippet": "return textwrap.shorten(filtering_str, width=filtering_width, placeholder=\"...\")"
+  },
+  {
+    "question_id": 694055,
+    "parent_answer_post_id": 693605,
+    "intent": "Как разобрать условия в sqlalchemy",
+    "snippet": "print(filters_clause.compile(engine, compile_kwargs={\"literal_binds\": True}))"
+  },
+  {
+    "question_id": 694698,
+    "parent_answer_post_id": 694676,
+    "intent": "Python selenium поиск элемента по имени класса и тексту через xpath",
+    "snippet": "browser.find_elements_by_xpath( \"//*[@class='MyClassName' and text()[contains(.,'{}')]]\".format(my_text))"
+  },
+  {
+    "question_id": 694712,
+    "parent_answer_post_id": 694707,
+    "intent": "Python задача в функциональном стиле: есть ли ноль среди данных N чисел",
+    "snippet": "print(0 in [int(input('Введите число:')) for _ in range(int(input('Введите количество чисел:')))])"
+  },
+  {
+    "question_id": 694739,
+    "parent_answer_post_id": 694710,
+    "intent": "Отправка сообщения с вложением",
+    "snippet": "vk.method('messages.send', {'user_id':user_id,'message':message, 'attachment':photo100172_166443618_accessKey})"
+  },
+  {
+    "question_id": 697994,
+    "parent_answer_post_id": 697938,
+    "intent": "команда завершения RDP сеанса",
+    "snippet": "os.system(\"taskkill /f /im mstsc.exe\")"
+  },
+  {
+    "question_id": 701134,
+    "parent_answer_post_id": 701125,
+    "intent": "Python - использование super для добавления параметров в субклассе",
+    "snippet": "return super().get_full_info() + \", {}\".format(self.university)"
+  },
+  {
+    "question_id": 704047,
+    "parent_answer_post_id": 703935,
+    "intent": "модуль requests поддерживает прокси IPv6?",
+    "snippet": "proxies={\"https\":\"http:[<ipv6:address>]:<portnumber>\"}"
+  },
+  {
+    "question_id": 705253,
+    "parent_answer_post_id": 704101,
+    "intent": "Смена раскладки на linux через python",
+    "snippet": "pikapika.hotkey('shift', 'alt')"
+  },
+  {
+    "question_id": 709644,
+    "parent_answer_post_id": 709643,
+    "intent": "Почему оно дозаписывает в файл, а не перезаписывает?",
+    "snippet": "f = open('task_masha.txt', 'w')"
+  },
+  {
+    "question_id": 709840,
+    "parent_answer_post_id": 709820,
+    "intent": "Проблема с отображением кодировки cp1251 в ссылке: программа = %EF%F0%EE%E3%F0%E0%EC%EC%E0",
+    "snippet": "x = quote('программа')"
+  },
+  {
+    "question_id": 713547,
+    "parent_answer_post_id": 713537,
+    "intent": "Как создать список списков, в котором строки и числа с плавающей точкой?",
+    "snippet": "print('\\n\\t\\t'.join(map(str, r_list)))"
+  },
+  {
+    "question_id": 715267,
+    "parent_answer_post_id": 715266,
+    "intent": "Warnings при компиляции TensorFlow",
+    "snippet": "os.environ['TF_CPP_MIN_LOG_LEVEL']='2'"
+  },
+  {
+    "question_id": 715931,
+    "parent_answer_post_id": 715928,
+    "intent": "Ошибка AttributeError: 'module' object has no attribute",
+    "snippet": "url(r'^one_day', views.oneday, name='the_day'),"
+  },
+  {
+    "question_id": 718410,
+    "parent_answer_post_id": 718383,
+    "intent": "Ключи-числа становятся строками в сессии django",
+    "snippet": "SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'"
+  },
+  {
+    "question_id": 721394,
+    "parent_answer_post_id": 721356,
+    "intent": "Сохранить изображение без X на Linux",
+    "snippet": "matplotlib.use('Agg')"
+  },
+  {
+    "question_id": 725174,
+    "parent_answer_post_id": 725116,
+    "intent": "Вызываем бесконечный генератор в Python",
+    "snippet": "result = list(takewhile(lambda x: x < n, erat3()))"
+  },
+  {
+    "question_id": 726660,
+    "parent_answer_post_id": 726627,
+    "intent": "как получить элемент, используя lxml",
+    "snippet": "f=root.find('*/{http://www.iata.org/IATA/EDIST}AirlineOffers')"
+  },
+  {
+    "question_id": 727881,
+    "parent_answer_post_id": 727880,
+    "intent": "Как узнать, какой интерпретатор Python я использую?",
+    "snippet": "platform.python_implementation()"
+  },
+  {
+    "question_id": 729253,
+    "parent_answer_post_id": 729231,
+    "intent": "Сортировка списка строк с числами по значению: '2' &lt; '10'",
+    "snippet": "natsorted(lst)"
+  },
+  {
+    "question_id": 732748,
+    "parent_answer_post_id": 732745,
+    "intent": "Запуск python-скрипта через терминал",
+    "snippet": "file_name = sys.argv[1]"
+  },
+  {
+    "question_id": 733619,
+    "parent_answer_post_id": 733607,
+    "intent": "Задание валидного двумерного массива",
+    "snippet": "L = [['X' for n in range(8)] for n in range(8)]"
+  },
+  {
+    "question_id": 733645,
+    "parent_answer_post_id": 733635,
+    "intent": "Как запустить скрипт на выходе из другого?",
+    "snippet": "imp.reload(spam)"
+  },
+  {
+    "question_id": 737066,
+    "parent_answer_post_id": 737063,
+    "intent": "Функция дублирования текста",
+    "snippet": "return \"bulochka\"*number"
+  },
+  {
+    "question_id": 738705,
+    "parent_answer_post_id": 738704,
+    "intent": "Google App Engine: ошибка Deadline exceeded while waiting for HTTP response from URL",
+    "snippet": "urlfetch.set_default_fetch_deadline(20)"
+  },
+  {
+    "question_id": 738885,
+    "parent_answer_post_id": 738866,
+    "intent": "Не работает reload(sys)",
+    "snippet": "reload(sys) # для python 2.x"
+  },
+  {
+    "question_id": 739179,
+    "parent_answer_post_id": 739166,
+    "intent": "Как сгенерировать индивидуальный пароль для каждого сервера с помощью Ansible",
+    "snippet": "{{ lookup('password', 'creds/' + inventory_hostname + '.pwd length=15') }}"
+  },
+  {
+    "question_id": 740150,
+    "parent_answer_post_id": 740148,
+    "intent": "Ошибка unorderable types: tuple() &lt; int()",
+    "snippet": "a=a+a*1,1"
+  },
+  {
+    "question_id": 741580,
+    "parent_answer_post_id": 741571,
+    "intent": "Ошибка Invalid syntax без видимой причины",
+    "snippet": "a.append ( int(input()) if (a[i] %2 == 0) and (a[1] < min) else something )"
+  },
+  {
+    "question_id": 755082,
+    "parent_answer_post_id": 741765,
+    "intent": "python selenium права на запуск",
+    "snippet": "phantom = r'C:\\phantomjs\\bin\\phantomjs.exe'"
+  },
+  {
+    "question_id": 743439,
+    "parent_answer_post_id": 743436,
+    "intent": "Python. Проблема с кодировкой",
+    "snippet": "urllib.parse.unquote(content).encode('cp1251').decode('utf-8')"
+  },
+  {
+    "question_id": 745609,
+    "parent_answer_post_id": 745586,
+    "intent": "Окно PyQt5 просто закрывается с кодом 1",
+    "snippet": "painter.drawText(3, 3, 294, 294, 0, 'Test line without flags')"
+  },
+  {
+    "question_id": 747255,
+    "parent_answer_post_id": 747218,
+    "intent": "Ошибка при выполнении команд в cmd из скрипта Python",
+    "snippet": "subprocess.check_output('dir', shell=True)"
+  },
+  {
+    "question_id": 749732,
+    "parent_answer_post_id": 749730,
+    "intent": "Что это за знак | а скорее что он делает в python 3.",
+    "snippet": "print (hex(0x55 | 0xAA))"
+  },
+  {
+    "question_id": 750121,
+    "parent_answer_post_id": 750119,
+    "intent": "Получить несколько переменных из функции через return",
+    "snippet": "z1, z2 = func()"
+  },
+  {
+    "question_id": 752822,
+    "parent_answer_post_id": 752821,
+    "intent": "передать контекст из views в template",
+    "snippet": "return render(request, 'myView.html', {'name': 'Romik'})"
+  },
+  {
+    "question_id": 752952,
+    "parent_answer_post_id": 752937,
+    "intent": "python: Проблемы с кодировкой писем из gmail при использовании IMAP",
+    "snippet": "print(base64.b64decode(\"0KLRgNC10LLQvtC20L3QvtC1\").decode(\"UTF-8\"))"
+  },
+  {
+    "question_id": 755615,
+    "parent_answer_post_id": 755607,
+    "intent": "Использование Sorted со своей функцией (key=func)",
+    "snippet": "help(sorted)"
+  },
+  {
+    "question_id": 756591,
+    "parent_answer_post_id": 756452,
+    "intent": "Как мне выделить предложения в [українська] тексте?",
+    "snippet": "re.findall(r'[A-ZА-Я].*?[!?\\.]{1}', text)"
+  },
+  {
+    "question_id": 784322,
+    "parent_answer_post_id": 756838,
+    "intent": "Почему в tkinter возникает ошибка Bad entry index &quot;1.0&quot;?",
+    "snippet": "\"%d.%d\" % (line, column)"
+  },
+  {
+    "question_id": 758684,
+    "parent_answer_post_id": 758647,
+    "intent": "Аналог нуль-коалесцирующего оператора в Питоне",
+    "snippet": "return [HtmlParser(el) for el in (content.select('...') or [])]"
+  },
+  {
+    "question_id": 758750,
+    "parent_answer_post_id": 758697,
+    "intent": "Получение числа вместо строки из словаря ENUM_E_MACHINE",
+    "snippet": "print(ENUM_E_MACHINE[something.elf['e_machine']]) # -> 1"
+  },
+  {
+    "question_id": 761550,
+    "parent_answer_post_id": 761532,
+    "intent": "Авторизация в Google [Python + Selenium]",
+    "snippet": "passwd = webdriver.find_element_by_name('password')"
+  },
+  {
+    "question_id": 765439,
+    "parent_answer_post_id": 765431,
+    "intent": "Первый част кода работает а дальше нет. Не знаю почему. Python",
+    "snippet": "bot.register_next_step_handler(sent, hello)"
+  },
+  {
+    "question_id": 765707,
+    "parent_answer_post_id": 765611,
+    "intent": "Unresolved reference webdriver",
+    "snippet": "browser = webdriver.Chrome()"
+  },
+  {
+    "question_id": 768019,
+    "parent_answer_post_id": 767628,
+    "intent": "Рендер LaTex в Python",
+    "snippet": "sympy.preview(r'$$\\frac{5}{a^{2}}$$', viewer='file', filename='test.png')"
+  },
+  {
+    "question_id": 768816,
+    "parent_answer_post_id": 768783,
+    "intent": "Как узнать координаты точки на экране pyautogui",
+    "snippet": "print (win32api.GetCursorPos())"
+  },
+  {
+    "question_id": 768890,
+    "parent_answer_post_id": 768884,
+    "intent": "Как достать из QuerySet определенный объект",
+    "snippet": "rand_post = Post.objects.get(id=current_post)"
+  },
+  {
+    "question_id": 768915,
+    "parent_answer_post_id": 768894,
+    "intent": "Вывод значений содержащихся в белом списке",
+    "snippet": "white_list[i]"
+  },
+  {
+    "question_id": 773020,
+    "parent_answer_post_id": 772321,
+    "intent": "geckodriver' executable needs to be in PATH",
+    "snippet": "driver = webdriver.Firefox(executable_path='/home/schedude/webdriver/geckodriver')"
+  },
+  {
+    "question_id": 773305,
+    "parent_answer_post_id": 773279,
+    "intent": "Вывод многослойных списков",
+    "snippet": "return '[%s]' % ', '.join(repr(el) for el in l)"
+  },
+  {
+    "question_id": 773410,
+    "parent_answer_post_id": 773396,
+    "intent": "Python re.match не работает",
+    "snippet": "result = re.search('\\>[0-9]*\\,', newpayload)"
+  },
+  {
+    "question_id": 775418,
+    "parent_answer_post_id": 775416,
+    "intent": "Как методом .format добавить в начало каждой строки комментарий с номером этой строки?",
+    "snippet": "newline = \"#{0} {1}\".format(i, line)"
+  },
+  {
+    "question_id": 778528,
+    "parent_answer_post_id": 778522,
+    "intent": "Не отображается нужный цвет фрагмента строки при выводе ANSI кодов в QTextEdit",
+    "snippet": "word = '<font color=\"blue\">{0}</font> {1}'.format(\"-ABC def-\", \"1111\")"
+  },
+  {
+    "question_id": 779726,
+    "parent_answer_post_id": 779717,
+    "intent": "Обработка события, когда &quot;а&quot; содержит два разных значения",
+    "snippet": "if len(a) > 0 and a[0] is not None:..."
+  },
+  {
+    "question_id": 780576,
+    "parent_answer_post_id": 780550,
+    "intent": "Записать в файл 32 случайных цифры",
+    "snippet": "open(\"output.txt\", \"w\").write('\\n'.join(map(lambda _: ''.join(__import__('random').choice('0123456789') for _ in range(32)), range(int(input('n: '))))))"
+  },
+  {
+    "question_id": 781243,
+    "parent_answer_post_id": 781217,
+    "intent": "Python: TypeError: unhashable type: 'slice'",
+    "snippet": "final_data = response.json()"
+  },
+  {
+    "question_id": 782342,
+    "parent_answer_post_id": 782341,
+    "intent": "Как перевернуть строку в python",
+    "snippet": "'123456'[::-1]"
+  },
+  {
+    "question_id": 782978,
+    "parent_answer_post_id": 782926,
+    "intent": "Не импортируется модуль TenserFlow",
+    "snippet": "print(sys.executable)"
+  },
+  {
+    "question_id": 785681,
+    "parent_answer_post_id": 785676,
+    "intent": "Запускаю скрипт,выдаёт TypeError:Cannot Use a string pattern on a bytes-like object",
+    "snippet": "pat = re.compile(rb'.{4}\\xAA\\xEE\\xAA\\x76\\x1B\\xEC\\xBB\\x20\\xF1\\xE6\\x51.{1}\\x78\\x9C')"
+  },
+  {
+    "question_id": 785895,
+    "parent_answer_post_id": 785864,
+    "intent": "ImportError: cannot import name 'Product'",
+    "snippet": "product = models.ForeignKey('Product', related_name='images', on_delete='CASCADE')"
+  },
+  {
+    "question_id": 786495,
+    "parent_answer_post_id": 786186,
+    "intent": "Не работает регулярное выражение с вещественными числами",
+    "snippet": "print(re.findall(r'[0-9]*[.,]?[0-9]+', 'Half Price Was £1.75 Now 87p'))"
+  },
+  {
+    "question_id": 788634,
+    "parent_answer_post_id": 788631,
+    "intent": "Питон: Хочу точнее рисовать линии между датами",
+    "snippet": "plt.plot(x, y, \"bo\", xx, yy, \"r^\")"
+  },
+  {
+    "question_id": 794314,
+    "parent_answer_post_id": 794274,
+    "intent": "Ошибка размерности массива в Python",
+    "snippet": "x = x.reshape(28, 28)"
+  },
+  {
+    "question_id": 797270,
+    "parent_answer_post_id": 797239,
+    "intent": "python3 запись в файл xlsx библиотека openpyxl",
+    "snippet": "sheet.cell(row=i , column = sheet.max_column , value = '+')"
+  },
+  {
+    "question_id": 797845,
+    "parent_answer_post_id": 797763,
+    "intent": "Как правильно создать tar архив?",
+    "snippet": "shutil.make_archive('/sdcard/private', 'gztar', 'data/images')"
+  },
+  {
+    "question_id": 798027,
+    "parent_answer_post_id": 797925,
+    "intent": "Одиночка. Singleton, не проходит проверку типов",
+    "snippet": "Car = Singleton(Car)"
+  },
+  {
+    "question_id": 798675,
+    "parent_answer_post_id": 798669,
+    "intent": "{'date': ['Это поле не может иметь значение NULL.']}",
+    "snippet": "date = models.DateField(\"Date\", default=date.today)"
+  },
+  {
+    "question_id": 801208,
+    "parent_answer_post_id": 801194,
+    "intent": "PYTHON Регулярные выражения: нечётное число-чётное число",
+    "snippet": "print(re.findall(r'\\b(?:[13579][02468])+\\b',string))"
+  },
+  {
+    "question_id": 801219,
+    "parent_answer_post_id": 801214,
+    "intent": "Регулярные выражения &quot;Правильность ввода имени&quot;",
+    "snippet": "re.match(r'[A-Z][a-z]*(?:(?: +|-)[A-Z][a-z]*)? +[A-Z][a-z]*$', name)"
+  },
+  {
+    "question_id": 804694,
+    "parent_answer_post_id": 804691,
+    "intent": "Составить регулярку для парсинга ссылок вида: /path/to/dir",
+    "snippet": "r'(\\/[a-z][a-z]\\/)?([a-z]+)\\/'"
+  },
+  {
+    "question_id": 805144,
+    "parent_answer_post_id": 805118,
+    "intent": "Посчитать кол-во одинаковых элементов в списке, прочитанном из БД",
+    "snippet": "cursor.execute(\"SELECT sex, count(*) as cnt FROM list_of_users GROUP BY sex\")"
+  },
+  {
+    "question_id": 805391,
+    "parent_answer_post_id": 805380,
+    "intent": "ошибка &quot;must be str, not builtin_function_or_method&quot;",
+    "snippet": "print(self.f_name.title() + self.l_name.title() + ' is ' + str(self.age) + ' years old.')"
+  },
+  {
+    "question_id": 806984,
+    "parent_answer_post_id": 806982,
+    "intent": "Генератор списка вида a[i] = a[0] * (i+1)",
+    "snippet": "[i*n for n, i in enumerate(a, start=1)]"
+  },
+  {
+    "question_id": 807451,
+    "parent_answer_post_id": 807336,
+    "intent": "В чем принципиальное различие между инструкцией оператором и операцией?",
+    "snippet": "comp_op: '<'|'>'|'=='|'>='|'<='|'<>'|'!='|'in'|'not' 'in'|'is'|'is' 'not'"
+  },
+  {
+    "question_id": 811113,
+    "parent_answer_post_id": 811099,
+    "intent": "Ошибка 'function' object is not iterable(Django)",
+    "snippet": "path ('', ListView.as_view(queryset=Articles.objects.all().order_by('-date')[:20], template_name='news/post.html'), name='post_news')"
+  },
+  {
+    "question_id": 811723,
+    "parent_answer_post_id": 811722,
+    "intent": "Как заменить в строке символ на пробел в python?",
+    "snippet": "print(text.replace('~', ' '))"
+  },
+  {
+    "question_id": 813386,
+    "parent_answer_post_id": 813383,
+    "intent": "написать генератор для матрицы",
+    "snippet": "[m[i][len(m)-i-1] for i in range(len(m))]"
+  },
+  {
+    "question_id": 813455,
+    "parent_answer_post_id": 813447,
+    "intent": "Python, строка из 0 и 1 в ascii",
+    "snippet": "print(chr(int('01101000',2)))"
+  },
+  {
+    "question_id": 813918,
+    "parent_answer_post_id": 813894,
+    "intent": "Работа с рандомом: победить с вероятностью 95%",
+    "snippet": "player1win = random.random() < (0.05 + 0.9 * int(power1 > power2))"
+  },
+  {
+    "question_id": 814097,
+    "parent_answer_post_id": 814093,
+    "intent": "python замена символа пробела .replace(&quot; &quot;,&quot;&quot;) не срабатывает. Получить '4690' из '4 690¤'",
+    "snippet": "price_new = ''.join(c for c in '4 690¤' if c.isdigit())"
+  },
+  {
+    "question_id": 814420,
+    "parent_answer_post_id": 814390,
+    "intent": "Ошибка генератора ('numpy.ndarray' object has no attribute 'index')",
+    "snippet": "y_batch = y_data[index_batch]"
+  },
+  {
+    "question_id": 815013,
+    "parent_answer_post_id": 815001,
+    "intent": "Ошибка: pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 5, saw 9",
+    "snippet": "pd.read_csv(filename, sep='\\t', comment='#')"
+  },
+  {
+    "question_id": 815696,
+    "parent_answer_post_id": 815682,
+    "intent": "после чтения CSV при помощи pd.read_csv() последний столбец содержит только NaN",
+    "snippet": "df = pd.read_csv('C:\\\\Users\\\\Ilyas\\\\Documents\\\\StrngStuff\\\\dft.csv')"
+  },
+  {
+    "question_id": 816833,
+    "parent_answer_post_id": 815875,
+    "intent": "Программа для парсинга текста с новостных сайтов",
+    "snippet": "url = requests.get(self.var.get())"
+  },
+  {
+    "question_id": 816156,
+    "parent_answer_post_id": 816114,
+    "intent": "Как преобразовать список в Python?",
+    "snippet": "list(str([1234][0]))   //['1', '2', '3', '4']"
+  },
+  {
+    "question_id": 823156,
+    "parent_answer_post_id": 823154,
+    "intent": "Pandas merge объеденение с условием",
+    "snippet": "res = df1.drop('затраты среднее', 1).merge(df2.drop('затраты факт',1))"
+  },
+  {
+    "question_id": 823802,
+    "parent_answer_post_id": 823657,
+    "intent": "Проблема достижения консенсуса в p2p",
+    "snippet": "id = hash(prev_id + record_data)"
+  },
+  {
+    "question_id": 824089,
+    "parent_answer_post_id": 824073,
+    "intent": "Как нарисовать эллипс без черных границ",
+    "snippet": "self.paint.setPen(QColor('#FFFFFF'))"
+  },
+  {
+    "question_id": 826567,
+    "parent_answer_post_id": 826562,
+    "intent": "Как создать список из вложенных списков?",
+    "snippet": "[y.strip() for x in matrix for y in x.split('|')]"
+  },
+  {
+    "question_id": 830476,
+    "parent_answer_post_id": 830405,
+    "intent": "Как сделать Uptime?",
+    "snippet": "uptime = lambda start=psutil.boot_time(): time.time() - start"
+  },
+  {
+    "question_id": 832858,
+    "parent_answer_post_id": 832772,
+    "intent": "Медленная работа DTW при распознавании слов",
+    "snippet": "dist, _, _, _ = fastdtw(test_words, train_words.T, 'euclidean')"
+  },
+  {
+    "question_id": 833260,
+    "parent_answer_post_id": 833253,
+    "intent": "Неправильно передаются параметры subprocess",
+    "snippet": "output = subprocess.check_output(['takeown', '/F', path, '/R', '/A'])"
+  },
+  {
+    "question_id": 833743,
+    "parent_answer_post_id": 833737,
+    "intent": "Как получить все комбинации расстановки N символов?",
+    "snippet": "print(set(combinations('+-'*2, 2)))"
+  },
+  {
+    "question_id": 834097,
+    "parent_answer_post_id": 834056,
+    "intent": "Peewee ORM как можно посмотреть sql-код запроса",
+    "snippet": "MyTable.select().where(column1 == 'value1').order_by(MyTable.name).sql()"
+  },
+  {
+    "question_id": 834709,
+    "parent_answer_post_id": 834701,
+    "intent": "Получить список индексов списка по условию",
+    "snippet": "[i for i, v in enumerate(my_list) if v > 10]"
+  },
+  {
+    "question_id": 835046,
+    "parent_answer_post_id": 834999,
+    "intent": "Построчный итератор в файле через классы",
+    "snippet": "yield from open(self.path)"
+  },
+  {
+    "question_id": 836006,
+    "parent_answer_post_id": 835964,
+    "intent": "Python считывание string с несколькими строками из консоли",
+    "snippet": "text = sys.stdin.read()"
+  },
+  {
+    "question_id": 836386,
+    "parent_answer_post_id": 836359,
+    "intent": "В самодельном OptionMenu tkinter ошибка",
+    "snippet": "self.menu.add_command(label=txt, command=lambda num=int(i), value=value: self.remap_default(num, value))"
+  },
+  {
+    "question_id": 838037,
+    "parent_answer_post_id": 838011,
+    "intent": "Сумма по условию Python",
+    "snippet": "[sum([x * comb.count(mas) for x, comb in zip(X, combs)]) for mas in MAS]"
+  },
+  {
+    "question_id": 841258,
+    "parent_answer_post_id": 841232,
+    "intent": "TypeError: string indices must be integers",
+    "snippet": "ids = [item[\"id\"] for item in data[\"response\"][\"items\"]]"
+  },
+  {
+    "question_id": 841504,
+    "parent_answer_post_id": 841479,
+    "intent": "Открыть и закрыть аудио файл. Ошибка: &quot;wave.Error: file does not start with RIFF id&quot;",
+    "snippet": "answer_file = wave.open(self.get_path(\"winer.mp3\"), \"rb\")"
+  },
+  {
+    "question_id": 844544,
+    "parent_answer_post_id": 844523,
+    "intent": "XPath - получение первого общего родителя узлов",
+    "snippet": "\".//*[contains(text(), 'Hello')]/ancestor-or-self::*[position() <= 3][.//*[contains(text(), 'Bye')]][1]\""
+  },
+  {
+    "question_id": 845893,
+    "parent_answer_post_id": 845870,
+    "intent": "Не работает rsync в fabric/patchwork",
+    "snippet": "c.config.run['replace_env'] = False"
+  },
+  {
+    "question_id": 847236,
+    "parent_answer_post_id": 846512,
+    "intent": "Разделение текста: не разбивать текст дальше первого пробела",
+    "snippet": "t, _, x = '.тест я люблю печеньки'.partition(' ')"
+  },
+  {
+    "question_id": 848056,
+    "parent_answer_post_id": 848055,
+    "intent": "Удалить None значения элементов словаря в Python",
+    "snippet": "dic = {k:v for k, v in dic.items() if v is not None}"
+  },
+  {
+    "question_id": 848420,
+    "parent_answer_post_id": 848414,
+    "intent": "Tkinter | 'str' object has no attribute 'items'",
+    "snippet": "Label(root, text=stats.wins).place(y = 50)"
+  },
+  {
+    "question_id": 848847,
+    "parent_answer_post_id": 848814,
+    "intent": "Django 'bool' object is not callable",
+    "snippet": "on_delete=False"
+  },
+  {
+    "question_id": 849224,
+    "parent_answer_post_id": 849212,
+    "intent": "Модуль os, &quot;TypeError: 'module' object is not callable&quot;",
+    "snippet": "os.system('echo 123')"
+  },
+  {
+    "question_id": 850794,
+    "parent_answer_post_id": 850785,
+    "intent": "Django + exec() не изменяет значение переменной",
+    "snippet": "products = products.filter(**filters_for_model)"
+  },
+  {
+    "question_id": 851708,
+    "parent_answer_post_id": 851704,
+    "intent": "Не получается собрать Python 3.7 из официальных исходников. Ошибка: No module named '_ctypes'",
+    "snippet": "configure --without-ensurepip"
+  },
+  {
+    "question_id": 852488,
+    "parent_answer_post_id": 852484,
+    "intent": "Поворот черепашки на точку (x, y)",
+    "snippet": "angle = math.atan2(y,x) * 180 / math.pi"
+  },
+  {
+    "question_id": 854202,
+    "parent_answer_post_id": 854192,
+    "intent": "Преобразование tuple в аргументы функции",
+    "snippet": "real_func(First, *Other)"
+  },
+  {
+    "question_id": 855919,
+    "parent_answer_post_id": 855906,
+    "intent": "Как заменить букву в словаре?",
+    "snippet": "dictionary = {k.upper():v for k,v in dictionary.items()}"
+  },
+  {
+    "question_id": 859215,
+    "parent_answer_post_id": 859197,
+    "intent": "Создать и вывести список в Python",
+    "snippet": "print(*enumerate(member.full_name for member in Organization.get_members(org1)), sep='\\n')"
+  },
+  {
+    "question_id": 860829,
+    "parent_answer_post_id": 860824,
+    "intent": "Как переименовать папку в python?",
+    "snippet": "os.rename(\"olddir\",\"newdir\")"
+  },
+  {
+    "question_id": 862116,
+    "parent_answer_post_id": 862108,
+    "intent": "Задачка по Питону",
+    "snippet": "print(sum(map(int, sys.argv[1])))"
+  },
+  {
+    "question_id": 862939,
+    "parent_answer_post_id": 862842,
+    "intent": "Перейти по первой ссылке выдачи Yandex и проверить ее на cоответствие",
+    "snippet": "driver.find_element_by_xpath(\"//span[@class='suggest2-item__text suggest2-item__text_type_url']\").text #выдаёт u'www.samsung.com/ru/home/'"
+  },
+  {
+    "question_id": 863712,
+    "parent_answer_post_id": 863707,
+    "intent": "Как получить имя запущенного процесса?",
+    "snippet": "script_name = sys.argv[0]"
+  },
+  {
+    "question_id": 864356,
+    "parent_answer_post_id": 864317,
+    "intent": "стеганография - русские символы",
+    "snippet": "byte = f.read(1)"
+  },
+  {
+    "question_id": 865821,
+    "parent_answer_post_id": 865807,
+    "intent": "Python + Keras. Что делать после того, как обучил модель?",
+    "snippet": "model = load_model('/path/to/saved_model.h5')"
+  },
+  {
+    "question_id": 866196,
+    "parent_answer_post_id": 866187,
+    "intent": "Не читается файл открытый с режимом 'w+'",
+    "snippet": "file.seek(0)"
+  },
+  {
+    "question_id": 867367,
+    "parent_answer_post_id": 867353,
+    "intent": "Запрет переноса строк",
+    "snippet": "print(s1 + j.rstrip() + s2, file=s)"
+  },
+  {
+    "question_id": 868607,
+    "parent_answer_post_id": 868558,
+    "intent": "Как воспроизвести звук в фоне?",
+    "snippet": "winsound.PlaySound(\"filename\", winsound.SND_ASYNC | winsound.SND_ALIAS )"
+  },
+  {
+    "question_id": 868801,
+    "parent_answer_post_id": 868785,
+    "intent": "Регулярные выражения Python - значение из середины текста",
+    "snippet": "re_result = re.search('A.*?bc\\n+(\\d)', text, re.S)"
+  },
+  {
+    "question_id": 868981,
+    "parent_answer_post_id": 868904,
+    "intent": "matplotlib. как отобразить в качестве подписей на оси x все значения из столбца dataframe?",
+    "snippet": "plt.xticks(np.arange(len(df)), df['string'])"
+  },
+  {
+    "question_id": 870825,
+    "parent_answer_post_id": 870760,
+    "intent": "Неверная кодировка при записи в файл",
+    "snippet": "lines = open(file_name, 'r', encoding='utf-8').readlines()"
+  },
+  {
+    "question_id": 871884,
+    "parent_answer_post_id": 871851,
+    "intent": "Получение MAC-адреса клиента внутри локальной сети",
+    "snippet": "system (\"ip ne | grep 'IP-ADDRESS-OF-THE-CLIENT ' | awk '{print $5}'\")"
+  },
+  {
+    "question_id": 872894,
+    "parent_answer_post_id": 872893,
+    "intent": "Метод replace не изменяет строку",
+    "snippet": "t = t.replace(i,r)"
+  },
+  {
+    "question_id": 874462,
+    "parent_answer_post_id": 874424,
+    "intent": "Сериализовать поле модели с null=True",
+    "snippet": "return [float(i) for i in obj.oilstorage_point.address.split(',')] if obj.oilstorage_point else 'None'"
+  },
+  {
+    "question_id": 874509,
+    "parent_answer_post_id": 874478,
+    "intent": "Peewee каскадное удаление",
+    "snippet": "db = SqliteDatabase('storage.db', pragmas={'foreign_keys': 1})"
+  },
+  {
+    "question_id": 879061,
+    "parent_answer_post_id": 878955,
+    "intent": "Преобразование объекта int в list",
+    "snippet": "(j for i in map(lambda x: tuple(zip(*x))[0], cache) for j in i)"
+  },
+  {
+    "question_id": 879224,
+    "parent_answer_post_id": 879109,
+    "intent": "Перебор цифр без создания новой строки",
+    "snippet": "print(i, end='\\r')"
+  },
+  {
+    "question_id": 880177,
+    "parent_answer_post_id": 880149,
+    "intent": "Объясните, пожалуйста почему такой вывод на консоль, булевые выражения",
+    "snippet": "'kk' and ''"
+  },
+  {
+    "question_id": 880717,
+    "parent_answer_post_id": 880678,
+    "intent": "Python: Разделение строк внутри списка",
+    "snippet": "description[0].split(\"#\")[-1]"
+  },
+  {
+    "question_id": 883578,
+    "parent_answer_post_id": 883570,
+    "intent": "Не могу ссылки вытащить",
+    "snippet": "return [x.attrs['href'] for x in root.findAll('a') if 'href' in x.attrs]"
+  },
+  {
+    "question_id": 884420,
+    "parent_answer_post_id": 884417,
+    "intent": "Как запустить функцию один раз через таймер?",
+    "snippet": "Timer(15, some_function).start()"
+  },
+  {
+    "question_id": 884876,
+    "parent_answer_post_id": 884860,
+    "intent": "Отображение картинки в отдельном окне",
+    "snippet": "image = ImageTk.PhotoImage(file=filename, master=c)"
+  },
+  {
+    "question_id": 885625,
+    "parent_answer_post_id": 885585,
+    "intent": "найти число с длиной python?",
+    "snippet": "print([x for x in re.findall('(\\d+)', path) if len(x) == 5])"
+  },
+  {
+    "question_id": 887199,
+    "parent_answer_post_id": 887192,
+    "intent": "Как найти максимальное количество идущих подряд пробелов в строке",
+    "snippet": "print(len(max(findall('\\s+', 'this     is   test string') or [''])))"
+  },
+  {
+    "question_id": 888916,
+    "parent_answer_post_id": 888896,
+    "intent": "Курс по машинному обучению. Нормализация признаков",
+    "snippet": "X_test_scaled = scale.transform(X_test)"
+  },
+  {
+    "question_id": 912991,
+    "parent_answer_post_id": 889875,
+    "intent": "Как отправлять запрос в активное соединение с вебсокетом",
+    "snippet": "reader = asyncio.ensure_future(main_loop(ws), loop=loop)"
+  },
+  {
+    "question_id": 890107,
+    "parent_answer_post_id": 890086,
+    "intent": "Некорректность вывода значения",
+    "snippet": "print(*sorted(set(input('число: ').replace(',', '')) ^ set(map(str, range(10)))))"
+  },
+  {
+    "question_id": 890468,
+    "parent_answer_post_id": 890465,
+    "intent": "Убрать зазор между &quot;subplots&quot; или несколько областей рисования",
+    "snippet": "plt.subplots_adjust(wspace=0, hspace=0)"
+  },
+  {
+    "question_id": 891418,
+    "parent_answer_post_id": 891412,
+    "intent": "Django запрос через orm не могу собрать",
+    "snippet": "Example.objects.using('customers').filter(Q(lesson_id__in=a), Q(user_id__in=b))"
+  },
+  {
+    "question_id": 892857,
+    "parent_answer_post_id": 892855,
+    "intent": "Как из двух списков внести значения в словарь?",
+    "snippet": "dict(zip(s1,s2))"
+  },
+  {
+    "question_id": 895199,
+    "parent_answer_post_id": 894944,
+    "intent": "Python mysql.connector как правильно делать запросы к бд что подключение не падало?",
+    "snippet": "engine = create_engine(\"mysql://scott:tiger@localhost/test\", pool_recycle=3600)"
+  },
+  {
+    "question_id": 895523,
+    "parent_answer_post_id": 895516,
+    "intent": "Как правильно написать маску из трех букв и какая команда лучше",
+    "snippet": "text = text.encode('windows-1251').decode('utf-8')"
+  },
+  {
+    "question_id": 895870,
+    "parent_answer_post_id": 895760,
+    "intent": "urlpatterns, как в регулярке включить ленивую выборку",
+    "snippet": "r'^(?P<slug>[^/]*)/?$'"
+  },
+  {
+    "question_id": 896246,
+    "parent_answer_post_id": 896135,
+    "intent": "Selenium Как спарсить цену",
+    "snippet": "print(br.find_element_by_xpath(\"//div[@class='announcement-price__cost '\").text) # должен вывести €2300.00"
+  },
+  {
+    "question_id": 896617,
+    "parent_answer_post_id": 896609,
+    "intent": "Как узнать, что сработал JavaScript?",
+    "snippet": "console.log(element)"
+  },
+  {
+    "question_id": 897155,
+    "parent_answer_post_id": 897140,
+    "intent": "Удаление столбцов в DataFrame состоящих только из NaN значений",
+    "snippet": "df_balance.dropna(axis='columns',how='all', inplace=True)"
+  },
+  {
+    "question_id": 897397,
+    "parent_answer_post_id": 897378,
+    "intent": "Как отсортировать список объектов класса по полю объекта python?",
+    "snippet": "self.__patients = sorted(args, key=lambda x: x.address)"
+  },
+  {
+    "question_id": 897469,
+    "parent_answer_post_id": 897466,
+    "intent": "Запустить bat файл в новой консоли и вернутся сразу не дожидаясь завершения",
+    "snippet": "os.startfile('1.bat')"
+  },
+  {
+    "question_id": 897880,
+    "parent_answer_post_id": 897541,
+    "intent": "Работа с api, не пойму как реализовать запрос",
+    "snippet": "data = json.dumps({\"proto\":\"http\",\"addr\":\"80\", \"name\": \"tunnel-name\"})"
+  },
+  {
+    "question_id": 898512,
+    "parent_answer_post_id": 898432,
+    "intent": "изъять данные из строки json",
+    "snippet": "confidence = some_json_var['photos'][0]['tags'][0]['uids'][0]['confidence']"
+  },
+  {
+    "question_id": 898533,
+    "parent_answer_post_id": 898532,
+    "intent": "Как в Python получить путь к исполняемому файлу",
+    "snippet": "print(abspath(__file__))"
+  },
+  {
+    "question_id": 898548,
+    "parent_answer_post_id": 898545,
+    "intent": "Получения координат рамки",
+    "snippet": "(x,y),(x+w,y+h)"
+  },
+  {
+    "question_id": 898651,
+    "parent_answer_post_id": 898600,
+    "intent": "Ускорение парсинга данных aiohttp + async",
+    "snippet": "asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())"
+  },
+  {
+    "question_id": 901720,
+    "parent_answer_post_id": 898702,
+    "intent": "Cssselect выбор данных из meta",
+    "snippet": "url = html.cssselect('meta[property=\"og:url\"]')[0].get(\"content\")"
+  },
+  {
+    "question_id": 899467,
+    "parent_answer_post_id": 899465,
+    "intent": "Извлечение из .txt файла чисел и запись этих чисел в переменные",
+    "snippet": "a, b, c = (int(s) for s in q.split())"
+  },
+  {
+    "question_id": 900163,
+    "parent_answer_post_id": 900159,
+    "intent": "Удаление знаков в строке",
+    "snippet": "return Counter(phrase.lower().replace(\",\", \"\").split())"
+  },
+  {
+    "question_id": 900553,
+    "parent_answer_post_id": 900530,
+    "intent": "TypeError: __init__() got an unexpected keyword argument 'pos'",
+    "snippet": "sphere(pos=vector(-5,0,0), radius=0.5, color=color.red)"
+  },
+  {
+    "question_id": 903371,
+    "parent_answer_post_id": 903366,
+    "intent": "Достать определённый параметр из JSON с помощью requests",
+    "snippet": "print('\\n'.join(i['title'] for i in data))"
+  },
+  {
+    "question_id": 905350,
+    "parent_answer_post_id": 905260,
+    "intent": "cUrl запрос в python",
+    "snippet": "r = requests.get('https://api.freelancehunt.com/projects', auth=('api_token', 'signature'))"
+  },
+  {
+    "question_id": 905930,
+    "parent_answer_post_id": 905923,
+    "intent": "SQLAlchemy: выборка по независимому регистру букв",
+    "snippet": "res = Table.query.filter(Table.name.ilike('%' + q + '%'))"
+  },
+  {
+    "question_id": 908126,
+    "parent_answer_post_id": 908114,
+    "intent": "Как сделать срез строки, который убирал бы 1-й и последний символ в этой строке",
+    "snippet": "print(\"Hello World!\"[1:-1])  # ello World"
+  },
+  {
+    "question_id": 909708,
+    "parent_answer_post_id": 909705,
+    "intent": "TensorFlow как сохранить картинку из 4D тензора?",
+    "snippet": "enc = tf.image.encode_jpeg(pred[0])"
+  },
+  {
+    "question_id": 909734,
+    "parent_answer_post_id": 909710,
+    "intent": "Ошибка при попытке использовать переменную из .py в .kv",
+    "snippet": "text: '(%s)'%(root.degree) + u'\\u02DA'"
+  },
+  {
+    "question_id": 909978,
+    "parent_answer_post_id": 909970,
+    "intent": "Если есть несколько кнопок с одинаковыми надписями и все вызывают одну и ту же команду, можно как-то их распознавать?",
+    "snippet": "Button(root, text='Something', command = lambda: show(i))"
+  },
+  {
+    "question_id": 912320,
+    "parent_answer_post_id": 912316,
+    "intent": "SyntaxError: EOL while scanning string literal.",
+    "snippet": "parser.add_argument('-f', \"--File\", action=\"store\", help=\"Файл для проверки\")"
+  },
+  {
+    "question_id": 915360,
+    "parent_answer_post_id": 915358,
+    "intent": "Обращение к полю класса в методе",
+    "snippet": "self.bullets.append(bullet(x, y, bullet_speed))"
+  },
+  {
+    "question_id": 915798,
+    "parent_answer_post_id": 915773,
+    "intent": "потоки в питоне",
+    "snippet": "print(threading.current_thread())"
+  },
+  {
+    "question_id": 916449,
+    "parent_answer_post_id": 916437,
+    "intent": "Получение списка шаблонов, использованных для рендера страницы в Django",
+    "snippet": "response = self.client.get('/overview', data={'player':test_player}, follow=True)"
+  },
+  {
+    "question_id": 917490,
+    "parent_answer_post_id": 917365,
+    "intent": "Python доступ к файлу не зависимо от расположения",
+    "snippet": "script_dir = os.path.dirname(os.path.abspath(__file__))"
+  },
+  {
+    "question_id": 917726,
+    "parent_answer_post_id": 917641,
+    "intent": "Python - функция нахождения файла в папке",
+    "snippet": "os.path.exists('data_base/python.txt')"
+  },
+  {
+    "question_id": 919226,
+    "parent_answer_post_id": 919220,
+    "intent": "Как правильно преобразовать список в словарь?",
+    "snippet": "p_01_dict = dict(map(tuple, p_01_list))"
+  },
+  {
+    "question_id": 920199,
+    "parent_answer_post_id": 920070,
+    "intent": "Работа с файлом xls",
+    "snippet": "dataset = pd.read_csv('Data.csv', sep=';')"
+  },
+  {
+    "question_id": 921301,
+    "parent_answer_post_id": 920181,
+    "intent": "python путаница",
+    "snippet": "file = open(enter.get(), mode = \"w\", encoding='UTF-8')"
+  },
+  {
+    "question_id": 921340,
+    "parent_answer_post_id": 920268,
+    "intent": "Message: no such element: Unable to locate element",
+    "snippet": "browser.find_element_by_xpath('//*[text()=\"98\"]').click()"
+  },
+  {
+    "question_id": 922221,
+    "parent_answer_post_id": 922205,
+    "intent": "Как изменить стиль forms.IntegerField в Django",
+    "snippet": "some_field = forms.IntegerField(label='Some field', widget=forms.TextInput())"
+  },
+  {
+    "question_id": 922861,
+    "parent_answer_post_id": 922857,
+    "intent": "Работа оператора сдвига на число бит, превышающее разрядность переменной",
+    "snippet": "result = c_uint32(a.value << (b.value % 32))"
+  },
+  {
+    "question_id": 922930,
+    "parent_answer_post_id": 922929,
+    "intent": "Как декодировать URL code в Python 3?",
+    "snippet": "print(urllib.parse.unquote_plus('Hello%2C+World%21'))"
+  },
+  {
+    "question_id": 923320,
+    "parent_answer_post_id": 923319,
+    "intent": "Округление в генераторах списков",
+    "snippet": "a = [[k if k <= i else 0 for k in range(n)] for i in range(n)]"
+  },
+  {
+    "question_id": 924123,
+    "parent_answer_post_id": 924107,
+    "intent": "Извлечение из списка определенного количества элементов вложенных списков\\кортежей",
+    "snippet": "list(map(lambda tpl: tpl[:2], list_of_tuples_big))"
+  },
+  {
+    "question_id": 925194,
+    "parent_answer_post_id": 925181,
+    "intent": "Не могу решить проблему с pymem",
+    "snippet": "print('Process Base Address: {}'.format(pm.process_base))"
+  },
+  {
+    "question_id": 926759,
+    "parent_answer_post_id": 926749,
+    "intent": "Python telethon Разбор entity",
+    "snippet": "print(entity.full_chat.id)"
+  },
+  {
+    "question_id": 927444,
+    "parent_answer_post_id": 927443,
+    "intent": "Ошибка TypeError: 'bool' object is not subscriptable",
+    "snippet": "matrix[p].append(False)"
+  },
+  {
+    "question_id": 927675,
+    "parent_answer_post_id": 927661,
+    "intent": "Недействительным аргумент при записи файла",
+    "snippet": "'%d-%m-%Y_%H.%M.%S'"
+  },
+  {
+    "question_id": 928057,
+    "parent_answer_post_id": 928056,
+    "intent": "Вставка в heapq по ключу",
+    "snippet": "heapq.heappush(h, (1, {'x': 1, 'y': 2}))"
+  },
+  {
+    "question_id": 928128,
+    "parent_answer_post_id": 928093,
+    "intent": "Ошибка при шифровании TypeError: object of type 'int' has no len()",
+    "snippet": "print(w3.soliditySha3(['uint128'], [I.int]))"
+  },
+  {
+    "question_id": 929069,
+    "parent_answer_post_id": 929065,
+    "intent": "Выгрузка из sqlite в словарь",
+    "snippet": "userdata = {key: [0]*5 for key in userlist}"
+  },
+  {
+    "question_id": 933796,
+    "parent_answer_post_id": 933795,
+    "intent": "Django Template - Получить значение переменной из URL",
+    "snippet": "{{ request.resolver_match.kwargs.id }}"
+  },
+  {
+    "question_id": 933934,
+    "parent_answer_post_id": 933870,
+    "intent": "Преобразование из socket data в numpy array",
+    "snippet": "img = cv2.imread(io.BytesIO(data))"
+  },
+  {
+    "question_id": 934053,
+    "parent_answer_post_id": 934051,
+    "intent": "Telegram Bot Удалить сообщение бота",
+    "snippet": "bot.delete_message(message.chat.id, message.message_id)"
+  },
+  {
+    "question_id": 934326,
+    "parent_answer_post_id": 934325,
+    "intent": "Python как вывести знак процента при форматировании строки?",
+    "snippet": "print(\"Запас здоровья: %s%%\" % life_count)"
+  },
+  {
+    "question_id": 934402,
+    "parent_answer_post_id": 934397,
+    "intent": "Объединить два DF по условию",
+    "snippet": "res = df1.merge(df2)"
+  },
+  {
+    "question_id": 935940,
+    "parent_answer_post_id": 935928,
+    "intent": "Как передать в конструктор класса список аргументов?",
+    "snippet": "[Ccircle(randint(0, 9)).getDiameter() for _ in range(4)]"
+  },
+  {
+    "question_id": 937289,
+    "parent_answer_post_id": 937288,
+    "intent": "Как в список добавить словарь?",
+    "snippet": "test.append({'name': name, 'number': number})"
+  },
+  {
+    "question_id": 937718,
+    "parent_answer_post_id": 937708,
+    "intent": "Как передать в imap кириллицу через Python?",
+    "snippet": "mail.search('utf-8', \"(ON {0})\".format(num).encode('utf-8'))"
+  },
+  {
+    "question_id": 939102,
+    "parent_answer_post_id": 939097,
+    "intent": "Распаковка списков и словарей в строку",
+    "snippet": "print(*d.values())"
+  },
+  {
+    "question_id": 939184,
+    "parent_answer_post_id": 939177,
+    "intent": "Программа не печатает",
+    "snippet": "fh.close()"
+  },
+  {
+    "question_id": 940390,
+    "parent_answer_post_id": 940374,
+    "intent": "Замена последнего вохождения в строке в dataframe (pandas)",
+    "snippet": "file['Pos'] = file['pos'].str.replace('.', '$', 1).str.rsplit('.', 1).str.join('$')"
+  },
+  {
+    "question_id": 941467,
+    "parent_answer_post_id": 941420,
+    "intent": "Как правильно вызвать процесс из python?",
+    "snippet": "out, err = p.communicate(b'2\\n3\\n10101\\n')"
+  },
+  {
+    "question_id": 941643,
+    "parent_answer_post_id": 941626,
+    "intent": "Как пользоваться координатами в Canvas?",
+    "snippet": "(x1, y1, x2, y2)  # x1, y1 - координаты левого верхнего угла; x2, y2 - правого нижнего"
+  },
+  {
+    "question_id": 941827,
+    "parent_answer_post_id": 941812,
+    "intent": "Создать пустой файл",
+    "snippet": "Path('/tmp/file').touch()"
+  },
+  {
+    "question_id": 942270,
+    "parent_answer_post_id": 942265,
+    "intent": "Как в KivyMD обратиться к id в kv файле",
+    "snippet": "self.root.ids.MainLabalId.text = 'After'"
+  },
+  {
+    "question_id": 942532,
+    "parent_answer_post_id": 942526,
+    "intent": "Can't assign to function call",
+    "snippet": "g['state'] = state_list[2]"
+  },
+  {
+    "question_id": 942604,
+    "parent_answer_post_id": 942601,
+    "intent": "передача аргументов в multiprocessing.Pool",
+    "snippet": "results = pool.starmap(printing, product([username], my_items))"
+  },
+  {
+    "question_id": 942778,
+    "parent_answer_post_id": 942754,
+    "intent": "Парсинг HTML страницы. Unicode в UTF-8",
+    "snippet": "\"\\u0426\\u0435\\u043d\\u0442\\u0440\".decode(\"unicode-escape\")"
+  },
+  {
+    "question_id": 943221,
+    "parent_answer_post_id": 943215,
+    "intent": "Получить максимальное значение глубины директории",
+    "snippet": "max(len(dirs) for _, dirs, _ in os.walk(src))"
+  },
+  {
+    "question_id": 945990,
+    "parent_answer_post_id": 944746,
+    "intent": "Form.is_valid() всегда возвращает false, почему?",
+    "snippet": "super().__init__(*args, **kwargs)"
+  },
+  {
+    "question_id": 944855,
+    "parent_answer_post_id": 944849,
+    "intent": "Как получить доступ к методу другого класса в Python?",
+    "snippet": "self.app.main.myfun()"
+  },
+  {
+    "question_id": 1010127,
+    "parent_answer_post_id": 945880,
+    "intent": "Узнать message_id в Telegram API",
+    "snippet": "message.message_id"
+  },
+  {
+    "question_id": 946874,
+    "parent_answer_post_id": 946860,
+    "intent": "Передача объекта при нажатии на виджет",
+    "snippet": "btn[i].clicked.connect(lambda state, idx=i: right_wgt.slot(btn[idx]))"
+  },
+  {
+    "question_id": 947690,
+    "parent_answer_post_id": 947689,
+    "intent": "Сортировка словаря по значениям через лямбда",
+    "snippet": "sred1 = sorted(dic1.items(), key=lambda value: float(value[1]))"
+  },
+  {
+    "question_id": 949382,
+    "parent_answer_post_id": 949381,
+    "intent": "Посчитать среднее по значениям в столбце в python",
+    "snippet": "df.groupby('Time').mean()"
+  },
+  {
+    "question_id": 949660,
+    "parent_answer_post_id": 949655,
+    "intent": "Decimal/float/int - деление больших чисел",
+    "snippet": "print(Decimal(4 ** 512) / Decimal(5.5 ** 300))"
+  },
+  {
+    "question_id": 949879,
+    "parent_answer_post_id": 949757,
+    "intent": "Выводит SyntaxError: invalid syntax и не могу понять почему",
+    "snippet": "print(\"Итак, тебе %r лет, в тебе %r см роста и %r кг веса.\"  % (age, height, weight))"
+  },
+  {
+    "question_id": 950407,
+    "parent_answer_post_id": 950392,
+    "intent": "Pandas дописывание в конец CSV файла",
+    "snippet": "df.to_csv(..., index=False)"
+  },
+  {
+    "question_id": 951417,
+    "parent_answer_post_id": 951415,
+    "intent": "Python. Подзначение словаря",
+    "snippet": "{item.get('last_name'): item.get('city').get('title') for item in ju['profiles'] if 'city' in item}"
+  },
+  {
+    "question_id": 952473,
+    "parent_answer_post_id": 952441,
+    "intent": "Python @property помогите разобраться",
+    "snippet": "self.power = power"
+  },
+  {
+    "question_id": 952540,
+    "parent_answer_post_id": 952537,
+    "intent": "Как автоматически создать папку для изображений?",
+    "snippet": "return \"{0}/{1}\".format(instance.cpu.slug, filename)"
+  },
+  {
+    "question_id": 952699,
+    "parent_answer_post_id": 952695,
+    "intent": "Помогите составить регулярное выражение для вытакскивания даты из текста",
+    "snippet": "text.split(\" \")[0]"
+  },
+  {
+    "question_id": 952784,
+    "parent_answer_post_id": 952779,
+    "intent": "Tkinter метод insert() у виджета Text",
+    "snippet": "text_1.insert(END, vot_1)"
+  },
+  {
+    "question_id": 953096,
+    "parent_answer_post_id": 953082,
+    "intent": "Формирование значений матрицы на основе другой матрицы",
+    "snippet": "new_matrix = [[int(bottomD[i] < el < topD[i]) for i, el in enumerate(xs)] for xs in matrix]"
+  },
+  {
+    "question_id": 953261,
+    "parent_answer_post_id": 953234,
+    "intent": "Как определить tag у найденного элемента bs4 Python",
+    "snippet": "item.name"
+  },
+  {
+    "question_id": 953306,
+    "parent_answer_post_id": 953244,
+    "intent": "Прямая и обратная перестановка символов в строке по таблице замены",
+    "snippet": "''.join([new_str[table.index(i+1)] for i in range(len(table))])"
+  },
+  {
+    "question_id": 954403,
+    "parent_answer_post_id": 954400,
+    "intent": "Python. TypeError: 'int' object has no attribute '__getitem__'",
+    "snippet": "(not_the_same(friend, other_user) for friend in user['friends'])"
+  },
+  {
+    "question_id": 955052,
+    "parent_answer_post_id": 955018,
+    "intent": "name 'sift_down' is not defined",
+    "snippet": "self.sift_down(idx)"
+  },
+  {
+    "question_id": 955094,
+    "parent_answer_post_id": 955086,
+    "intent": "При записывании отрицательного числа пишет &quot;not all arguments converted during string formatting&quot;",
+    "snippet": "y=3.4*x*x"
+  },
+  {
+    "question_id": 955809,
+    "parent_answer_post_id": 955769,
+    "intent": "Не могу поймать логи в python",
+    "snippet": "subprocess.run(['gcc', 'test.c']).check_returncode()"
+  },
+  {
+    "question_id": 956356,
+    "parent_answer_post_id": 956101,
+    "intent": "Как отправить сразу несколько картинок с помощью messages.send | VK_API Python",
+    "snippet": "attachment = [ 'photo185014513_324290064', 'photo185014513_344406321' ]"
+  },
+  {
+    "question_id": 961616,
+    "parent_answer_post_id": 961611,
+    "intent": "Присоединить один столбец из другого DataFrame",
+    "snippet": "df = df.merge(input_sku[['KEY1','data_column_name']], on='KEY1')"
+  },
+  {
+    "question_id": 962099,
+    "parent_answer_post_id": 961701,
+    "intent": "Как отключить автопросмотр PDF и как скачать файл без подтверждения в Firefox?",
+    "snippet": "profile.set_preference(\"pdfjs.disabled\", True)"
+  },
+  {
+    "question_id": 962260,
+    "parent_answer_post_id": 962241,
+    "intent": "API MoySklad Входящий запрос не соответствует формату JSON",
+    "snippet": "r = requests.post(url, auth=auth, headers=headers, json=body)"
+  },
+  {
+    "question_id": 963162,
+    "parent_answer_post_id": 963155,
+    "intent": "PEP8 Ошибка E712 при отборе через .loc в DataFrame",
+    "snippet": "df.loc[df.biz_id == True, 'biz_id_zak'] = 'b2b'  # noqa: E712"
+  },
+  {
+    "question_id": 966284,
+    "parent_answer_post_id": 966282,
+    "intent": "Сокращение строчки кода",
+    "snippet": "maxn = maxm = a * maxm"
+  },
+  {
+    "question_id": 968477,
+    "parent_answer_post_id": 968460,
+    "intent": "Python Ошибка разбора парсеров",
+    "snippet": "tree.cssselect(\"div.sm.gray\")[0].text_content()"
+  },
+  {
+    "question_id": 969058,
+    "parent_answer_post_id": 969041,
+    "intent": "Excel и массив Python",
+    "snippet": "abc = df.loc[df['Телефон1'] == str(a)]['Долг'].values[0]"
+  },
+  {
+    "question_id": 969414,
+    "parent_answer_post_id": 969408,
+    "intent": "Ломается график при построении касательной к графику функции",
+    "snippet": "plt.ylim(-1, 5)"
+  },
+  {
+    "question_id": 969993,
+    "parent_answer_post_id": 969984,
+    "intent": "Python. Как передать в map() булевую переменную?",
+    "snippet": "string_list = map(lambda x, y: get_string(x, y, True), movie_data_list, ratings_list)"
+  },
+  {
+    "question_id": 970978,
+    "parent_answer_post_id": 970975,
+    "intent": "массив с двоичным кодом",
+    "snippet": "my_list = ['11001010', '100101011', '01010101']"
+  },
+  {
+    "question_id": 971163,
+    "parent_answer_post_id": 971110,
+    "intent": "бот не принимает запросы от telegram",
+    "snippet": "apihelper.proxy = {'http':'http://x.x.x.x:port'}"
+  },
+  {
+    "question_id": 972085,
+    "parent_answer_post_id": 972073,
+    "intent": "Мне нужно из столбца из таблицы вытащить значение, которое встречается чаще остальных",
+    "snippet": "df[номер_нужного_столбца].mode()"
+  },
+  {
+    "question_id": 972274,
+    "parent_answer_post_id": 972245,
+    "intent": "Парсинг одинаковых тэгов BeautifulSoup",
+    "snippet": "appael.find_all('p', class_='appeal-element-bottom')[2]"
+  },
+  {
+    "question_id": 974368,
+    "parent_answer_post_id": 974361,
+    "intent": "Python3 Ошибка присвоения list error",
+    "snippet": "sex = response[0]['sex']"
+  },
+  {
+    "question_id": 975417,
+    "parent_answer_post_id": 975415,
+    "intent": "Работа с несколькими функциями",
+    "snippet": "func3(*func2(*func1(a)))"
+  },
+  {
+    "question_id": 976001,
+    "parent_answer_post_id": 975918,
+    "intent": "Как проверять активность объекта для DetailView в Django?",
+    "snippet": "object = get_object_or_404(Product.objects, slug=slug)"
+  },
+  {
+    "question_id": 977911,
+    "parent_answer_post_id": 977909,
+    "intent": "Как выполнить strip('\\') в Python 3?",
+    "snippet": "path.split('\\\\')"
+  },
+  {
+    "question_id": 978036,
+    "parent_answer_post_id": 978001,
+    "intent": "TypeError: the JSON object must be str, bytes or bytearray, not dict",
+    "snippet": "ru_codes = json.loads(ru_codes)"
+  },
+  {
+    "question_id": 980475,
+    "parent_answer_post_id": 980460,
+    "intent": "Selenium - Проблема с поиском элемента на странице",
+    "snippet": "driver.find_elements_by_xpath(\"//button[contains(text(), 'ещё')]\")"
+  },
+  {
+    "question_id": 981318,
+    "parent_answer_post_id": 981184,
+    "intent": "Ошибка cv2.error",
+    "snippet": "faceCascade = cv2.CascadeClassifier(r'C:\\<full_path_to...>\\Library\\etc\\haarcascades\\haarcascade_frontalface_default.xml')"
+  },
+  {
+    "question_id": 982423,
+    "parent_answer_post_id": 982417,
+    "intent": "Как передать условие в форматную строку?",
+    "snippet": "f\"{(h-1)%12+1}:{m:02d} {'ap'[h>11]}.m.\""
+  },
+  {
+    "question_id": 982455,
+    "parent_answer_post_id": 982453,
+    "intent": "форматирование списка Python 3",
+    "snippet": "print([jira.key for jira in lst])"
+  },
+  {
+    "question_id": 983671,
+    "parent_answer_post_id": 983669,
+    "intent": "Python синтаксис",
+    "snippet": "list1 == list2"
+  },
+  {
+    "question_id": 984869,
+    "parent_answer_post_id": 984866,
+    "intent": "Django. Значение переменной как имя свойства модели",
+    "snippet": "setattr(my_model, prop, new_data)"
+  },
+  {
+    "question_id": 986076,
+    "parent_answer_post_id": 986071,
+    "intent": "Выполнить функции и получить ее ответ на старте приложения Flask",
+    "snippet": "g.bot_cookies = bot_init.get_cookies()"
+  },
+  {
+    "question_id": 986978,
+    "parent_answer_post_id": 986879,
+    "intent": "Какой командой убрать предупреждения python / jupyter_notebook?",
+    "snippet": "warnings.filterwarnings('ignore')"
+  },
+  {
+    "question_id": 987772,
+    "parent_answer_post_id": 987761,
+    "intent": "Проблема с созданием словаря",
+    "snippet": "result = {ip: ip_list.count(ip) for ip in set(ip_list)}"
+  },
+  {
+    "question_id": 988509,
+    "parent_answer_post_id": 988503,
+    "intent": "запросы в бд на джанго",
+    "snippet": "Task.objects.filter(is_completed=True).count()"
+  },
+  {
+    "question_id": 988635,
+    "parent_answer_post_id": 988625,
+    "intent": "PyQT5 как для двух и более QTextBox -ов назначить фильтр событий?",
+    "snippet": "text.setTabChangesFocus(True)"
+  },
+  {
+    "question_id": 989583,
+    "parent_answer_post_id": 989572,
+    "intent": "Не могу разобраться с кодом на PYTHON 3",
+    "snippet": "print(\"Длина гипотенузы равна \" + str(math.hypot(g, h)))  # <----- Забыли закрыть скобку"
+  },
+  {
+    "question_id": 990015,
+    "parent_answer_post_id": 990013,
+    "intent": "Функции под классами",
+    "snippet": "jas = eao()"
+  },
+  {
+    "question_id": 992205,
+    "parent_answer_post_id": 991988,
+    "intent": "Запись в одну строку python",
+    "snippet": "d = out.decode('utf8').rstrip('\\n')"
+  },
+  {
+    "question_id": 992322,
+    "parent_answer_post_id": 992277,
+    "intent": "Как сделать выборку объектов со значениям параметра либо равным переменной, либо пустым?",
+    "snippet": "MyModel.objects.filter(Q(width__isnull=True) | Q(width=123))"
+  },
+  {
+    "question_id": 992887,
+    "parent_answer_post_id": 992880,
+    "intent": "socket.gaierror: [Errno 11001] getaddrinfo failed",
+    "snippet": "app.run('127.0.0.1', port=8200, debug=True)"
+  },
+  {
+    "question_id": 993435,
+    "parent_answer_post_id": 993427,
+    "intent": "Проблема с аргументами",
+    "snippet": "t = threading.Thread(target=json_to_xls, name=value, args=(i, ))"
+  },
+  {
+    "question_id": 994126,
+    "parent_answer_post_id": 993953,
+    "intent": "Как внести изменения в тег XML?",
+    "snippet": "tree.write('output.xml')"
+  },
+  {
+    "question_id": 993957,
+    "parent_answer_post_id": 993954,
+    "intent": "Разделение число на разряды Python",
+    "snippet": "\"{:,}\".format(number)"
+  },
+  {
+    "question_id": 994874,
+    "parent_answer_post_id": 994780,
+    "intent": "Что творится с colorama в линуксе",
+    "snippet": "print(Back.GREEN + Style.BRIGHT + 'Файл ' + id_pic + ' успешно скачан' + Back.BLACK)"
+  },
+  {
+    "question_id": 995028,
+    "parent_answer_post_id": 995019,
+    "intent": "Реализация скрытого пароля на Python",
+    "snippet": "pw = getpass.getpass()"
+  },
+  {
+    "question_id": 995621,
+    "parent_answer_post_id": 995522,
+    "intent": "Как правильно перезаписать dict?",
+    "snippet": "dict_info = {}"
+  },
+  {
+    "question_id": 995837,
+    "parent_answer_post_id": 995835,
+    "intent": "Вставить значение по индексу во вложенном списке",
+    "snippet": "s[0].insert(1, (x,y))"
+  },
+  {
+    "question_id": 996146,
+    "parent_answer_post_id": 996140,
+    "intent": "Редирект на текущую страницу после выполнения View в Django",
+    "snippet": "request.META.get('HTTP_REFERER')"
+  },
+  {
+    "question_id": 997153,
+    "parent_answer_post_id": 997152,
+    "intent": "Как пользоваться командной строкой через код?",
+    "snippet": "subprocess.run([\"ls\", \"-l\"])"
+  },
+  {
+    "question_id": 1008023,
+    "parent_answer_post_id": 997979,
+    "intent": "Как выполнить функцию при нажатии enter?",
+    "snippet": "root.bind('<Return>', lambda event: func(arg1, arg2, ...) )"
+  },
+  {
+    "question_id": 998354,
+    "parent_answer_post_id": 998353,
+    "intent": "Хочу создать лимитированный запрос в SQL SERVER",
+    "snippet": "cursor.execute('SELECT TOP(5) * FROM Students')"
+  },
+  {
+    "question_id": 999357,
+    "parent_answer_post_id": 999349,
+    "intent": "нужно последовательно ввести список целых чисел: a=[int(input(i) for i in range(n))]",
+    "snippet": "a=[int(input(i)) for i in range(n)]"
+  },
+  {
+    "question_id": 999401,
+    "parent_answer_post_id": 999391,
+    "intent": "Объединить два датафрейма по совпадающим столбцам",
+    "snippet": "res = a1.merge(a2, on=[\"id\", \"месяц\"])"
+  },
+  {
+    "question_id": 1000663,
+    "parent_answer_post_id": 1000660,
+    "intent": "Код python не работает?",
+    "snippet": "result = TestCalc.add(10, 5)"
+  },
+  {
+    "question_id": 1001444,
+    "parent_answer_post_id": 1001431,
+    "intent": "Как сделать так, чтобы текст вводился туда, где стоит курсор?",
+    "snippet": "keyboard.write(recognizer())"
+  },
+  {
+    "question_id": 1001479,
+    "parent_answer_post_id": 1001478,
+    "intent": "Фильтрация объектов БД по нескольким значениям одного поля модели Django",
+    "snippet": "entries = Entry.objects.filter(Q(entryType__icontains='МРТ') | Q(entryType__icontains='МСКТ'))"
+  },
+  {
+    "question_id": 1002881,
+    "parent_answer_post_id": 1001855,
+    "intent": "Поиск сообщений от конкретного адресата IMAP.search()",
+    "snippet": "typ, data = con.search(None, 'HEADER FROM \"name.surname@testmail.com\"')"
+  },
+  {
+    "question_id": 1002568,
+    "parent_answer_post_id": 1002550,
+    "intent": "return и переменные в python3(Вопрос чуть сложнее чем кажется)",
+    "snippet": "a, b = upr(1)"
+  },
+  {
+    "question_id": 1002665,
+    "parent_answer_post_id": 1002583,
+    "intent": "Добавление элемента в список на Python",
+    "snippet": "second = [int(item['id']) for item in todos2['response']]"
+  },
+  {
+    "question_id": 1004178,
+    "parent_answer_post_id": 1003741,
+    "intent": "Загрузить аудиофайл vk api",
+    "snippet": "request = requests.post(upload_url, files={'music': open(filename, \"rb\")})"
+  },
+  {
+    "question_id": 1004487,
+    "parent_answer_post_id": 1004486,
+    "intent": "Как преобразовать unicode в utf8?",
+    "snippet": "mail.body.encode('utf-8').decode('unicode-escape')"
+  },
+  {
+    "question_id": 1007404,
+    "parent_answer_post_id": 1005203,
+    "intent": "Как отредактировать сообщение телеграмм спомощью модуля pyTelegramBotAPI(telebot)?",
+    "snippet": "bot.edit_message_text(chat_id, message_id, inline_message_id, text, parse_mode, disable_web_page_preview, reply_markup)"
+  },
+  {
+    "question_id": 1005284,
+    "parent_answer_post_id": 1005278,
+    "intent": "subprocess.check_output для команды из нескольких слов",
+    "snippet": "res=os.popen(command).read()"
+  },
+  {
+    "question_id": 1006002,
+    "parent_answer_post_id": 1005999,
+    "intent": "python разбить строку в масиив",
+    "snippet": "a = np.array(list(test), int).reshape(3, 3)"
+  },
+  {
+    "question_id": 1007168,
+    "parent_answer_post_id": 1007131,
+    "intent": "Не могу получить ответ от asyncio.wait_for",
+    "snippet": "loop.call_soon_threadsafe(future.set_result, 'Yey!')"
+  },
+  {
+    "question_id": 1008475,
+    "parent_answer_post_id": 1008470,
+    "intent": "Найти div-ы, включающие в себя определенный класс. python selenium xpath",
+    "snippet": "search = driver.find_element_by_xpath(\"//div[contains(@class, 'class2')]\")"
+  },
+  {
+    "question_id": 1008883,
+    "parent_answer_post_id": 1008879,
+    "intent": "Замена каждого вхождения на символ",
+    "snippet": "pagetext = re.sub(r'\\(\\d+\\)', lambda match: 'x' * len(match.group()), pagetext)"
+  },
+  {
+    "question_id": 1009708,
+    "parent_answer_post_id": 1009703,
+    "intent": "Есть ДатаСет , &quot; Чёрная Пятница &quot; с kaggle в нём замаскированны данные о товаре, нужно их расшифровать",
+    "snippet": "df[\"sourceURLs\"].to_csv(r\"c:/temp/urls.txt\", index=False, header=False)"
+  },
+  {
+    "question_id": 1009821,
+    "parent_answer_post_id": 1009815,
+    "intent": "Загрузка пользователей в БД. SQLite",
+    "snippet": "Connect.commit()"
+  },
+  {
+    "question_id": 1010555,
+    "parent_answer_post_id": 1010414,
+    "intent": "При извлечении кадра из видео меняется его цвет (OpenCV Python)",
+    "snippet": "texted_image = texted_image[:, :, ::-1]"
+  },
+  {
+    "question_id": 1010476,
+    "parent_answer_post_id": 1010471,
+    "intent": "Ошибка при работу с Xgboost: must be real number, not str",
+    "snippet": "X, y = create_features(data), data['DJIA'].astype(float)"
+  },
+  {
+    "question_id": 1010916,
+    "parent_answer_post_id": 1010894,
+    "intent": "Как найти запись в базе данных по двум значениям django 2.2.2 python3",
+    "snippet": "Dreams.objects.filter(Q(dream_text__icontains=text) | Q(pub_date__icontains=text))"
+  },
+  {
+    "question_id": 1010967,
+    "parent_answer_post_id": 1010964,
+    "intent": "Отделение float и int от символьных знаков",
+    "snippet": "print(re.split('([^\\d.]+)', s))"
+  },
+  {
+    "question_id": 1011649,
+    "parent_answer_post_id": 1011609,
+    "intent": "Как сделать картинку в Python из двухмерного массива чисел?",
+    "snippet": "scipy.misc.imsave('image.jpg', image)"
+  },
+  {
+    "question_id": 1011621,
+    "parent_answer_post_id": 1011615,
+    "intent": "AttributeError 'str' object has no attribute 'as_widget'",
+    "snippet": "return render(request, 'blog/post_create_form.html', context={'form': form})"
+  },
+  {
+    "question_id": 1012734,
+    "parent_answer_post_id": 1012730,
+    "intent": "Регулярные выражения в python",
+    "snippet": "li2 = re.findall(\"\\w+\\.\\w+(?:/\\w+)+\", a)"
+  },
+  {
+    "question_id": 1013592,
+    "parent_answer_post_id": 1013586,
+    "intent": "Возможно ли удалить сообщение пользователя в беседе для всех, с помощью чат-бота в ВК",
+    "snippet": "vk.messages.delete(message_ids='123,456', delete_for_all=1)"
+  },
+  {
+    "question_id": 1014147,
+    "parent_answer_post_id": 1014116,
+    "intent": "Как узнать сколько внутри массива значений python",
+    "snippet": "list_with_len = [len(lst) for lst in lst_lsts]"
+  },
+  {
+    "question_id": 1015826,
+    "parent_answer_post_id": 1014962,
+    "intent": "Не могу написать фильтр",
+    "snippet": "MyModel.objects.annotate(the_delta=F('recommended_prise') + F('delta')).filter(the_delta__gt=F('delta'))"
+  },
+  {
+    "question_id": 1038320,
+    "parent_answer_post_id": 1014993,
+    "intent": "Пространства имён в python3",
+    "snippet": "[i**2 for i in range(20)]"
+  },
+  {
+    "question_id": 1017226,
+    "parent_answer_post_id": 1017216,
+    "intent": "Как узнать который час Phyton",
+    "snippet": "print(moment.hour)"
+  },
+  {
+    "question_id": 1018732,
+    "parent_answer_post_id": 1018731,
+    "intent": "Ошибка при миграции python django",
+    "snippet": "status = models.ForeignKey(Status, on_delete=models.CASCADE)"
+  },
+  {
+    "question_id": 1018889,
+    "parent_answer_post_id": 1018886,
+    "intent": "Аннотация параметра функции в Python, если параметр - файл",
+    "snippet": "return list(...)"
+  },
+  {
+    "question_id": 1019634,
+    "parent_answer_post_id": 1019616,
+    "intent": "После ввода команды выхода программа не завершается",
+    "snippet": "keyName.lower().startswith('вых')"
+  },
+  {
+    "question_id": 1019732,
+    "parent_answer_post_id": 1019730,
+    "intent": "Как оформить в одну строку вывод текста со значениями % format в python",
+    "snippet": "print(\"Пропусков стало: {:.1%}\".format(new.isnull().sum().sum() / df.size))"
+  },
+  {
+    "question_id": 1020226,
+    "parent_answer_post_id": 1020216,
+    "intent": "Как сделать выборку только тех объектов, у которых есть связанные объекты",
+    "snippet": "qs = Parent.objects.filter(child__isnull=False).distinct()"
+  },
+  {
+    "question_id": 1020466,
+    "parent_answer_post_id": 1020462,
+    "intent": "Как использовать обученную нейронную сеть?",
+    "snippet": "Y_predicted = loaded_model.predict(X_tensor)"
+  },
+  {
+    "question_id": 1021389,
+    "parent_answer_post_id": 1021385,
+    "intent": "При компиляции выдает такую ошибку &quot; describe_battery() missing 1 required positional argument: 'self' &quot;.Как исправить?",
+    "snippet": "self.battery = Battery()"
+  },
+  {
+    "question_id": 1021603,
+    "parent_answer_post_id": 1021593,
+    "intent": "AttributeError: 'str' object has no attribute 'is_xml'",
+    "snippet": "soup = BeautifulSoup(item_page, 'lxml')"
+  },
+  {
+    "question_id": 1021940,
+    "parent_answer_post_id": 1021823,
+    "intent": "Python win32 узнать все атрибуты файла",
+    "snippet": "win32file.SetFileAttributes(fileName, win32file.FILE_ATTRIBUTE_READONLY | win32file.FILE_ATTRIBUTE_SYSTEM)"
+  },
+  {
+    "question_id": 1023758,
+    "parent_answer_post_id": 1023752,
+    "intent": "Ошибка в начале цикла",
+    "snippet": "text=str(input('Введите текст: ')).lower()"
+  },
+  {
+    "question_id": 1024567,
+    "parent_answer_post_id": 1024549,
+    "intent": "Как получить сегодняшнюю дату в формате (dd.mm)?",
+    "snippet": "datetime.today().strftime('%d.%m')"
+  },
+  {
+    "question_id": 1025099,
+    "parent_answer_post_id": 1024787,
+    "intent": "Как получить завтрашнюю дату python",
+    "snippet": "tomorrow = pendulum.tomorrow('Europe/Moscow').format('DD.MM')"
+  },
+  {
+    "question_id": 1025160,
+    "parent_answer_post_id": 1025157,
+    "intent": "Как правильно использовать hashlib.shake_256()?",
+    "snippet": "sha = hashlib.shake_256(my_string).hexdigest(255)"
+  },
+  {
+    "question_id": 1025617,
+    "parent_answer_post_id": 1025603,
+    "intent": "Как сократить код в nparray при подвыборке с условием?",
+    "snippet": "z0 = X4[y4==0, 0]"
+  },
+  {
+    "question_id": 1025639,
+    "parent_answer_post_id": 1025614,
+    "intent": "Код в одну строчку. Подскажите синтаксис",
+    "snippet": "print((lambda a, b, c: a + b + c + (a**2 + b**2 + c**2)**0.5)(int(input()), int(input()), int(input())))"
+  },
+  {
+    "question_id": 1025705,
+    "parent_answer_post_id": 1025693,
+    "intent": "Выпадающий список 10 000 городов с поиском",
+    "snippet": "City.objects.filter(title__icontains=city).all()[:10]"
+  },
+  {
+    "question_id": 1025709,
+    "parent_answer_post_id": 1025707,
+    "intent": "Ошибка &quot;TypeError: 'zip' object is not subscriptable&quot;",
+    "snippet": "matrix = list(zip(*matrix))"
+  },
+  {
+    "question_id": 1026879,
+    "parent_answer_post_id": 1026878,
+    "intent": "Не работает программа для резервного копирования файлов",
+    "snippet": "\"C:\\Program Files\\7-Zip\\7z.exe a -tzip {0} {1}\".format(target, ' '.join(source))"
+  },
+  {
+    "question_id": 1027419,
+    "parent_answer_post_id": 1026958,
+    "intent": "Вывод переменной через текст в PyGame",
+    "snippet": "text2 = font.render(str(score), True, red)"
+  },
+  {
+    "question_id": 1027004,
+    "parent_answer_post_id": 1026990,
+    "intent": "Странная сортировка",
+    "snippet": "a.sort(key=lambda x:float(x[0]))"
+  },
+  {
+    "question_id": 1027736,
+    "parent_answer_post_id": 1027711,
+    "intent": "Проблема с юниттестами",
+    "snippet": "return self.x == other.x and self.y == other.y and self.z == other.z"
+  },
+  {
+    "question_id": 1029523,
+    "parent_answer_post_id": 1029521,
+    "intent": "аналог конструкции &quot;? :&quot; (java) на python-3.x",
+    "snippet": "r = \"under\" if random.random() > 0.5 else \"below\""
+  },
+  {
+    "question_id": 1031425,
+    "parent_answer_post_id": 1031423,
+    "intent": "Ошибка при разыменовании кортежа в Python. SyntaxError: can't use starred expression here",
+    "snippet": "a, b = res"
+  },
+  {
+    "question_id": 1031592,
+    "parent_answer_post_id": 1031589,
+    "intent": "TypeError: can only concatenate str (not &quot;int&quot;) to str",
+    "snippet": "next_link = f'{part_of_link_1}{part_of_link_2}{part_of_link_3}{part_of_link_4}{part_of_link_5}{part_of_link_6}'"
+  },
+  {
+    "question_id": 1031605,
+    "parent_answer_post_id": 1031602,
+    "intent": "Соеденить два текста в один",
+    "snippet": "msg += \" + {0}\".format(attachment)"
+  },
+  {
+    "question_id": 1033415,
+    "parent_answer_post_id": 1033399,
+    "intent": "Как можно заменить последний элемент в строке?",
+    "snippet": "res=text[:-1] + (lambda x: x if x not in ['!','?'] else '.')(text[-1])"
+  },
+  {
+    "question_id": 1033641,
+    "parent_answer_post_id": 1033637,
+    "intent": "Как изменить CSV file",
+    "snippet": "output.to_csv('submission.csv', index=False, header=False)"
+  },
+  {
+    "question_id": 1035323,
+    "parent_answer_post_id": 1035322,
+    "intent": "Замена буквы по шаблону в регулярном выражении",
+    "snippet": "df['name'] = df['name'].str.replace(r'(\\d+)х(\\d+)х(\\d+)', r'\\1x\\2x\\3', case=False)"
+  },
+  {
+    "question_id": 1035685,
+    "parent_answer_post_id": 1035674,
+    "intent": "Помогите исправить синтаксическую ошибку cv.smooth",
+    "snippet": "blur = cv2.GaussianBlur(img,(5,5),0)"
+  },
+  {
+    "question_id": 1035933,
+    "parent_answer_post_id": 1035926,
+    "intent": "Python Ошибка при чтении файла",
+    "snippet": "ra = open(\"user_name\", \"r\", encoding=\"utf8\")"
+  },
+  {
+    "question_id": 1036525,
+    "parent_answer_post_id": 1036523,
+    "intent": "python pandas DataFrame аналог partition",
+    "snippet": "df.sort_values(['name','sum'], ascending = [True,False]).groupby('name').head(3)"
+  },
+  {
+    "question_id": 1036998,
+    "parent_answer_post_id": 1036997,
+    "intent": "заменить значение заголовков pandas",
+    "snippet": "df.columns = df.iloc[1]"
+  },
+  {
+    "question_id": 1037627,
+    "parent_answer_post_id": 1037619,
+    "intent": "Python средняя относительная ошибка аппроксимации регрессии",
+    "snippet": "mape = mean_absolute_error(y_test, y_predicted) / y_test.abs().sum()"
+  },
+  {
+    "question_id": 1039652,
+    "parent_answer_post_id": 1039008,
+    "intent": "Kivy. Linux Ubuntu. Python 3",
+    "snippet": "return Button()"
+  },
+  {
+    "question_id": 1040419,
+    "parent_answer_post_id": 1040413,
+    "intent": "Помогите исправить ошибки в программе, строящей параболу",
+    "snippet": "a = float(input())"
+  },
+  {
+    "question_id": 1042520,
+    "parent_answer_post_id": 1042492,
+    "intent": "Можно ли получить имя класса, с которым связано поле модели Django?",
+    "snippet": "some_value_class = some_object._meta.get_field('some_value').target_field.model"
+  },
+  {
+    "question_id": 1044818,
+    "parent_answer_post_id": 1044802,
+    "intent": "Как получить цвет элемента QLabel (или любого другого) в PyQt5?",
+    "snippet": "label.palette().color(QPalette.Window)"
+  },
+  {
+    "question_id": 1045889,
+    "parent_answer_post_id": 1045866,
+    "intent": "Как помощью pandas перевести все поля DataFrame в строковый тип данных?",
+    "snippet": "X = X.astype(str)"
+  },
+  {
+    "question_id": 1047515,
+    "parent_answer_post_id": 1046579,
+    "intent": "Вывод инфо о Mikrotik через routeros api Python",
+    "snippet": "list_address = api.get_resource('/system/health')"
+  },
+  {
+    "question_id": 1046641,
+    "parent_answer_post_id": 1046633,
+    "intent": "display(self, str): argument 1 has unexpected type 'win'",
+    "snippet": "self.ui.lcdNumber.display(self.ui.lcdNumber.value()+\"+\")"
+  },
+  {
+    "question_id": 1046706,
+    "parent_answer_post_id": 1046704,
+    "intent": "Как выбрать выбрать определенные столбцы DataFrame в pandas, используя список булевых переменных?",
+    "snippet": "df.loc[:, boolean_list]"
+  },
+  {
+    "question_id": 1046985,
+    "parent_answer_post_id": 1046984,
+    "intent": "Удаление слов, начинающихся на букву &quot;М&quot;",
+    "snippet": "print(' '.join(w for w in st.split(' ') if not w.startswith('м')))"
+  },
+  {
+    "question_id": 1047959,
+    "parent_answer_post_id": 1047934,
+    "intent": "Как создать множественный input?",
+    "snippet": "print(sum([int(input()) for i in range(int(input()))]))"
+  },
+  {
+    "question_id": 1048858,
+    "parent_answer_post_id": 1048843,
+    "intent": "Python, как цикл for переделать в генератор списка?",
+    "snippet": "A = [sum(1 for row in lst for x in row if x != 0) for lst in C]"
+  },
+  {
+    "question_id": 1050223,
+    "parent_answer_post_id": 1050078,
+    "intent": "Как убрать полосу загрузки при скачивании файла с помощью wget на Python?",
+    "snippet": "f = wget.download('https://www.python.org/ftp/python/3.5.9/Python-3.5.9.tar.xz', bar=None)"
+  },
+  {
+    "question_id": 1050558,
+    "parent_answer_post_id": 1050482,
+    "intent": "Задача tkinter. Не выводится ответ",
+    "snippet": "pole1.bind('<Return>', Raschet)"
+  },
+  {
+    "question_id": 1050684,
+    "parent_answer_post_id": 1050681,
+    "intent": "cursor.fetchall() возвращает пустой список",
+    "snippet": "cursor.execute(\"SELECT ... FROM ...\")"
+  },
+  {
+    "question_id": 1050783,
+    "parent_answer_post_id": 1050780,
+    "intent": "Проблема с добавлением записи в json конфиг",
+    "snippet": "data['config']['новая характеристика'] = 'ее содержимое'"
+  },
+  {
+    "question_id": 1050852,
+    "parent_answer_post_id": 1050848,
+    "intent": "Как исключить выполнение двух (одного и того же) Python скриптов одновременно?",
+    "snippet": "me = singleton.SingleInstance()"
+  },
+  {
+    "question_id": 1051412,
+    "parent_answer_post_id": 1051407,
+    "intent": "Нужно сделать задержку (таймер) к функциям на Python 3.7",
+    "snippet": "time.sleep(10)"
+  },
+  {
+    "question_id": 1052037,
+    "parent_answer_post_id": 1052036,
+    "intent": "Проблема с вычислением",
+    "snippet": "bn = float(b1) * (float(q) ** (int(n) - 1))"
+  }
+]
